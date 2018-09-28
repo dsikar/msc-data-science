@@ -4,7 +4,7 @@ General notes and code for the part time MSc Data Science, City University of Lo
 
 ## INM430 Principles of Data Science
 
-[Lab code](INM430/src)
+[Lab code](INM430)
 
 ## INM433 Visual Analytics 
 
