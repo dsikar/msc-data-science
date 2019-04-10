@@ -1,0 +1,2 @@
+1. Create loop to train models with different parameters.
+2. Grep accuracy from output
