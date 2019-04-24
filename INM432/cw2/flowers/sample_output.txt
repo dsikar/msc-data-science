@@ -1,0 +1,42 @@
+daniel_sikar@cloudshell:~/cw2/cloudml-samples/flowers (inm432-cw2)$ . flowers_train.sh
+Training with 0.4 dropout...
+Job [flowers_daniel_sikar_20190421_110518] submitted successfully.
+INFO    2019-04-21 11:13:23 +0100       service         Validating job requirements...
+INFO    2019-04-21 11:13:23 +0100       service         Job creation request has been successfully validated.
+INFO    2019-04-21 11:13:23 +0100       service         Job flowers_daniel_sikar_20190421_110518 is queued.
+INFO    2019-04-21 11:13:24 +0100       service         Waiting for job to be provisioned.
+INFO    2019-04-21 11:13:26 +0100       service         Waiting for training program to start.
+INFO    2019-04-21 11:14:07 +0100       master-replica-0                Running task with arguments: --cluster={"master": ["127.0.0.1:2222"]} --task={"type": "master", "index": 0} --job={  "package_uris": ["gs://inm432-cw2-dsikar/flowers_daniel_sikar_20190421_110518/6807c945ed2305135ee4232cb069b6edad69be46e6b8b8959d570077a51c54ae/trainer-0.1.tar.gz"],  "python_module": "trainer.task",  "args": ["--output_path", "gs://inm432-cw2-dsikar/flowers/training/04_dropout", "--eval_data_paths", "gs://inm432-cw2-dsikar/flowers/preproc/eval*", "--train_data_paths", "gs://inm432-cw2-dsikar/flowers/preproc/train*", "--dropout\u003d0.4"],  "region": "us-central1",  "runtime_version": "1.10",  "run_on_raw_vm": true}
+(...)
+INFO    2019-04-21 11:19:43 +0100       master-replica-0                - on train set 0.027, 0.997
+INFO    2019-04-21 11:19:43 +0100       master-replica-0                -- on eval set 0.344, 0.907
+INFO    2019-04-21 11:19:45 +0100       master-replica-0                Train [master/0], step 806 (258.642 sec) 1.6 global steps/s, 1.6 local steps/s
+INFO    2019-04-21 11:19:47 +0100       master-replica-0                Train [master/0], step 824 (260.958 sec) 7.8 global steps/s, 7.8 local steps/s
+INFO    2019-04-21 11:19:56 +0100       master-replica-0                Train [master/0], step 872 (269.663 sec) 5.0 global steps/s, 5.0 local steps/s
+INFO    2019-04-21 11:19:58 +0100       master-replica-0                Train [master/0], step 881 (271.688 sec) 4.4 global steps/s, 4.4 local steps/s
+INFO    2019-04-21 11:20:00 +0100       master-replica-0                Train [master/0], step 892 (273.770 sec) 5.3 global steps/s, 5.3 local steps/s
+INFO    2019-04-21 11:20:08 +0100       master-replica-0                Train [master/0], step 930 (281.094 sec) 6.2 global steps/s, 6.2 local steps/s
+INFO    2019-04-21 11:20:19 +0100       master-replica-0                Eval, step 930:
+INFO    2019-04-21 11:20:19 +0100       master-replica-0                - on train set 0.017, 0.997
+INFO    2019-04-21 11:20:19 +0100       master-replica-0                -- on eval set 0.366, 0.907
+INFO    2019-04-21 11:20:21 +0100       master-replica-0                Train [master/0], step 948 (294.932 sec) 1.3 global steps/s, 1.3 local steps/s
+INFO    2019-04-21 11:20:23 +0100       master-replica-0                Train [master/0], step 960 (296.977 sec) 5.9 global steps/s, 5.9 local steps/s
+INFO    2019-04-21 11:20:26 +0100       master-replica-0                Train [master/0], step 973 (299.431 sec) 5.3 global steps/s, 5.3 local steps/s
+INFO    2019-04-21 11:20:28 +0100       master-replica-0                Train [master/0], step 985 (301.536 sec) 5.7 global steps/s, 5.7 local steps/s
+INFO    2019-04-21 11:20:30 +0100       master-replica-0                Train [master/0], step 1000 (303.791 sec) 6.7 global steps/s, 6.7 local steps/s
+INFO    2019-04-21 11:20:42 +0100       master-replica-0                Eval, step 1000:
+INFO    2019-04-21 11:20:42 +0100       master-replica-0                - on train set 0.013, 0.997
+INFO    2019-04-21 11:20:42 +0100       master-replica-0                -- on eval set 0.370, 0.903
+INFO    2019-04-21 11:20:42 +0100       master-replica-0                Exporting prediction graph to gs://inm432-cw2-dsikar/flowers/training/04_dropout/model
+INFO    2019-04-21 11:21:26 +0100       master-replica-0                global_step/sec: 2.03339
+INFO    2019-04-21 11:21:50 +0100       master-replica-0                No assets to save.
+INFO    2019-04-21 11:21:50 +0100       master-replica-0                No assets to write.
+INFO    2019-04-21 11:21:58 +0100       master-replica-0                SavedModel written to: gs://inm432-cw2-dsikar/flowers/training/04_dropout/model/saved_model.pb
+INFO    2019-04-21 11:21:59 +0100       master-replica-0                Module completed; cleaning up.
+INFO    2019-04-21 11:21:59 +0100       master-replica-0                Clean up finished.
+INFO    2019-04-21 11:21:59 +0100       master-replica-0                Task completed successfully.
+INFO    2019-04-21 11:25:51 +0100       service         Job completed successfully.
+endTime: '2019-04-21T11:25:51'
+jobId: flowers_daniel_sikar_20190421_110518
+startTime: '2019-04-21T11:14:08'
+state: SUCCEEDED
