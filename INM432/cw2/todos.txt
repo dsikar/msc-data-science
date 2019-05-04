@@ -1,0 +1,11 @@
+1. Separate process into
+1.1 Pre-processing
+1.2 Training
+1.3 Post-processing
+
+2. Loop through training stage, changing dropout from 0.1 to 0.9 to evaluate effect - change  
+debug mode to suit - i.e. verbose to grep accuracy and loss.  
+  
+3. wrap all scripts into single run
+
+4. Pipe all output to log file.

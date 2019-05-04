@@ -45,8 +45,9 @@ def fixExtensionCase():
                 file_fixed.write("%s\r\n" % line)
             else:
                 file_fixed.write("%s,%s\r\n" % (realLine, line.split(",")[1]))
-                #print("%s,%s" % (realLine, line.split(",")[1])) 
+                #print("%s,%s" % (realLine, line.split(",")[1]))
+                
     file_fixed.close()            
     file.close()
-# call function
+    
 fixExtensionCase()  
