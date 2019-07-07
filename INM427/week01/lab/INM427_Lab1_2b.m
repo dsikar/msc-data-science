@@ -47,7 +47,13 @@ epochs = 4;
 for i = 1:epochs
     weights = epoch_weights(weights, inputs, targets, learning_rate);
     % plot line so we can see how it is being adjusted by the learning
-    % algorithm
+    % algorithm. As the classes (pass, fail) are linearly separable, the
+    % learning algorithm will adjust (move) the classification boundary 
+    % (line) defined by weights (bias, w1 and w2), by changing the weights,
+    % until it "converges", that is to say until the weights no longer
+    % change. 
+    % The resulting plot will shows 3 lines, out of 5 lines plotted, where
+    % two lines are similar or identical to other plotted lines.
     plot_classification_boundary(weights, x)
 end
         
