@@ -2,6 +2,8 @@
 % Building a neural net with one hidden layer to train an XOR function
 %
 % This is actually the wrong approach, as weights are known already
+% XOR gate with one hidden layer e.g. one AND, one NAND and one OR
+% gate 
 
 % Clear workspace
 clear
