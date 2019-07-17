@@ -1,3 +1,4 @@
+% close all windows, clear all variables, clear command prompt
 close all; clear all; clc;
 
 [folder, name, ext] = fileparts(which('nnTrain'));
@@ -15,11 +16,11 @@ X = csvread([file '.csv'], 0, 0);
 % size(X) returns size of array X
 % 106   229
 % i.e. 106 rows and 229 columns, which could also be expressed as
-% size(X, 1) - number of rows in array X
-% size(X, 2) - number of columns in array X
-% The expression X(:,size(X,2)) says; w.r.t. array X, given me all the rows
-% this is the colon on left of comma for the last column, that is to say
-% column indexed by index size(X,2) ~ 229
+% size(X, 1) - number of rows (dim 1) in array X
+% size(X, 2) - number of columns (dim 2) in array X
+% The expression X(:,size(X,2)) says; w.r.t. array X, give me rows from 
+% the first till the last, this is the colon on left of comma, for column
+% indexed by size(X,2) ~ 229, or X(1:106,229)
 % We could also say X(1:1,size(X,2)) to get the first row of the last
 % column or X(1:2,1:2) to get the first two rows of the first two columns
 t = X(:,size(X,2));
@@ -28,7 +29,7 @@ t = X(:,size(X,2));
 X(:,size(X,2)) = [];
 % Now size(X,2)is 228, So we have an input vector X, with 116 rows and 228
 % columns, and a target vector t with 116 rows and 1 column.
-% size(t) - 106     1 , size(X) 106   228
+% size(t)  106     1 , size(X) 106   228
 Type = 'scaling';
 
 %This function normalizes each column of an array  using the standard score or feature scaling.
