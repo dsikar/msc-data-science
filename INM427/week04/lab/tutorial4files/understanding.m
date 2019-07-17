@@ -1,6 +1,6 @@
 close all;
 clear all;
-clc all;
+clc;
 
 % Understanding matrix normalization
 

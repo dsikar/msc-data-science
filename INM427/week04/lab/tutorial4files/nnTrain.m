@@ -31,10 +31,19 @@ X(:,size(X,2)) = [];
 % columns, and a target vector t with 116 rows and 1 column.
 % size(t)  106     1 , size(X) 106   228
 Type = 'scaling';
-
+% make copy to compare methods
+X1 = X;
 %This function normalizes each column of an array  using the standard score or feature scaling.
 X = StatisticalNormaliz(X,Type);
+% Compare standard normalisation - subtract mean, divide by std i.e. zero
+% centered
+Type = 'standard';
+X1 = StatisticalNormaliz(X1,Type);
+% this seems to be doing the same as zero centering
 X = (X * 2) - 1; 
+% check if that is the case
+compare = isequal(X, X1); % No, and in this case in would not make sense to use
+% mean divided by standard deviation because values are not continuous
 X = X';
 
 E = 1;
@@ -43,7 +52,8 @@ classes = [1 -1];
 
 % Get generator
 st = rand('state');
-                                                                                                                                                         
+% st = rng; % syntax above is deprecated, this line contains recommended replacement
+% which is a struct, not and array, so probably needs extra plumbing
 % Network Init
 K = 2; % Number of Layers
 etaInit = 0.01; % Learning Rate Initial Value
