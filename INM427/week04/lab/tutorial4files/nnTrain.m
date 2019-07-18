@@ -191,7 +191,7 @@ for m = 1:M,
         L(k).vb = zeros(size(L(k).b));
         L(k).vW = zeros(size(L(k).W));
     end;
-    % STOPPED HERE
+    % STOPPED HERE 17.07.2019
     % Sequential Error Backpropagation Training
     n = 1; i = 1; finish = 0; eta = etaInit;
     round = 1; A(m,round) = 0;
