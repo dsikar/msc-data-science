@@ -141,3 +141,33 @@ Y=Y./repmat(std(X,0,1),N,1); % std(A,0,1) returns a row vector containing the st
 %    -1    -1    -1
 %     0     0     0
 %     1     1     1
+
+
+% Adding noise
+
+% Given MxN training data matrix X where last column are targets
+
+% X = [X ; t' ; randn(1,numExamples)]';
+
+close all;
+clear all;
+clc;
+
+% training data; examples x attributes
+X = repmat([1 2 3 4 3 2 1 16], 6, 1);
+% target - last column
+t = X(:,size(X,2));
+% training data minus target column
+X(:,size(X,2)) = [];
+% store magnitudes 
+[numExamples, numAttr] = size(X);
+% transpose X
+X = X';
+% concatenate and transpose
+X = [X ; t' ; randn(1,numExamples)]'; % randn(1,numExamples) - row of random numbers
+
+X = sortrows(X,numAttr+2)'; % need to transpose to sort by (random number) row 
+% note we exclude the random numbers with index numAttr+1, where random
+% number index is numAttr+2
+t = X(numAttr+1,:); % from row number = numAttr+1 (last row), get all columns
+X = X(1:numAttr,:); % from row number 1 to row number = numAttr, get all columns

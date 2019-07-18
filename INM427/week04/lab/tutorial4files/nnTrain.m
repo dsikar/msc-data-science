@@ -44,6 +44,10 @@ X = (X * 2) - 1;
 % check if that is the case
 compare = isequal(X, X1); % No, and in this case in would not make sense to use
 % mean divided by standard deviation because values are not continuous
+% NB We are transposing the matrix, and later we will see
+% [numAttr,numExamples] = size(X); 
+% Had the matrix not been transposed, size would return number of rows
+% (examples) and number of columns (attributes).
 X = X';
 
 E = 1;
@@ -60,7 +64,7 @@ etaInit = 0.01; % Learning Rate Initial Value
 Delta = 0.1; % Stop Criterion #1
 theta = 0.01; % Stop Criterion #2
 numUpdates = 10000; % Max number of epochs
-N = size(X,2); % Number of Input Vectors
+N = size(X,2); % Number of Input Vectors - NB dimension 2 because matrix is transposed
 h = 11; % Number of Hidden Neurons
 alpha = 0.999; % Learning Rate Decay Factor
 mu = 0.1; % Momentum constant;
@@ -83,6 +87,9 @@ fprintf('Dataset: %s\n', file);
 % Setting SMOTE up
 oldInputSize = N;
 if(smote),
+    % concatenate matrix X with t transpose (X has been transposed
+    % previously) then transpose back - did X need transposing in the first
+    % place?
     data = [X ; t']';
 
     data2arff(data, file);
@@ -127,13 +134,18 @@ fprintf('Data balancing? %s\n\n', smoteStr);
 
 % Shuffling data
 if (shuffle),
+    % Concatenate X(transpose), t transpose and a row of random numbers,
+    % then transpose
     X = [X ; t' ; randn(1,numExamples)]';
+    % sort by row (now column) or random numbers, then transpose back
     X = sortrows(X,numAttr+2)';
-    t = X(numAttr+1,:); 
-    X = X(1:numAttr,:);
+    % get target and example vectors
+    t = X(numAttr+1,:); % from row number = numAttr+1 (last row), get all columns
+    X = X(1:numAttr,:); % from row number 1 to row number = numAttr, get all columns
+    % we now have two 
 end;
 
-% M-fold cross validation
+% M-fold cross validation - STOPPED HERE
 answer = zeros(M, floor(N/M));
 target = zeros(M, floor(N/M));
 
