@@ -171,3 +171,4 @@ X = sortrows(X,numAttr+2)'; % need to transpose to sort by (random number) row
 % number index is numAttr+2
 t = X(numAttr+1,:); % from row number = numAttr+1 (last row), get all columns
 X = X(1:numAttr,:); % from row number 1 to row number = numAttr, get all columns
+

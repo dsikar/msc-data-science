@@ -145,10 +145,11 @@ if (shuffle),
     % we now have two 
 end;
 
-% M-fold cross validation - STOPPED HERE
+% M-fold cross validation
+% Create two 10x10 matrices
 answer = zeros(M, floor(N/M));
 target = zeros(M, floor(N/M));
-
+% Create 5 1x10 vectors
 tp = zeros(1, M);
 fp = zeros(1, M);
 tn = zeros(1, M);
@@ -156,7 +157,7 @@ fn = zeros(1, M);
 acc = zeros(1, M);
 
 avgAcc = 0;
-
+% for 1 t0 10
 for m = 1:M,
     
     if(smote && m <= oldInputSize),
@@ -169,16 +170,28 @@ for m = 1:M,
     
     % Layers initialization - for multi-class learning, this should be
     % changed
+    % Note this is a matlab struct
+    % rand(h,numAttr) - return a h (10) x numAttr (228) matrix of 
+    % uniformly distributed random number in the interval (0,1)
+    % (rand(h,1)-0.5)*0.2 - center at 0 (mean) and scale by 1/5, making
+    % value range -0.1 0.1
+    % Layer 1 weights will be a 11 (hidden neurons) rows by 228 (attributes) columns matrix
     L(1).W = (rand(h,numAttr)-0.5)*0.2;
-    L(1).b = (rand(h,1)-0.5)*0.2;
+    % Layer 1 biases will be a 11 (hidden neurons) rows by 1 column matrix
+    L(1).b = (rand(h,1)-0.5)*0.2; 
+    % Layer 2 weights will be 1 x 11 (hidden neurons) columns matrix
     L(2).W = (rand(1,h)-0.5)*0.2;
+    % Layer 2 bias is a 1 x 1 zero centered, -0.1 0.1 scaled value
     L(2).b = (rand(1,1)-0.5)*0.2;
 
-    for k = 1:K,
+    % Add zero value matrices to our L (layer) struct, with the same
+    % dimension as the corresponding initialised weight and bias matrices,
+    % for layers one and two (K = 2)
+    for k = 1:K, % K = Number of Layers
         L(k).vb = zeros(size(L(k).b));
         L(k).vW = zeros(size(L(k).W));
     end;
-
+    % STOPPED HERE
     % Sequential Error Backpropagation Training
     n = 1; i = 1; finish = 0; eta = etaInit;
     round = 1; A(m,round) = 0;
