@@ -50,7 +50,7 @@ compare = isequal(X, X1); % No, and in this case in would not make sense to use
 % (examples) and number of columns (attributes).
 X = X';
 
-E = 1;
+E = 1; % what is E?
 originalInputSize = size(X,2);
 classes = [1 -1];
 
@@ -191,10 +191,12 @@ for m = 1:M,
         L(k).vb = zeros(size(L(k).b));
         L(k).vW = zeros(size(L(k).W));
     end;
-    % STOPPED HERE 17.07.2019
+
     % Sequential Error Backpropagation Training
+    % n = counter to count up to number of examples, eta = learning rate
     n = 1; i = 1; finish = 0; eta = etaInit;
-    round = 1; A(m,round) = 0;
+    % what are round and A?
+    round = 1; A(m,round) = 0; % m = learning loop counter
     while not(finish),
         
         % Checking if it is a fold example
@@ -208,7 +210,7 @@ for m = 1:M,
         end;
         
         J(m, i) = 0;
-        if(~ignoreTraining),
+        if(~ignoreTraining), % if ignoreTraining == false, reset weights and biases
             for(k = 1:K),
                 L(k).db = zeros(size(L(k).b));
                 L(k).dW = zeros(size(L(k).W));
