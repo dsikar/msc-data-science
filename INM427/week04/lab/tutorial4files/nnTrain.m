@@ -232,8 +232,8 @@ for m = 1:M, % M = number of folds
             end;
             
             % Feed-Forward         
-            L(1).x = X(:,ep);
-            for k = 1:K,
+            L(1).x = X(:,ep); % 
+            for k = 1:K, % we get here at n = 11, e.g. first 10 examples where not used
                 L(k).u = L(k).W * L(k).x + L(k).b;
                 L(k).o = tanh(L(k).u);
                 L(k+1).x = L(k).o;
@@ -269,7 +269,7 @@ for m = 1:M, % M = number of folds
         end;
             
         % Stop criterion
-        if ((i > 1) && (n == N)),
+        if ((i > 1) && (n == N)), 
             if (((A(m,round) < Delta) && ((round > 2) && (abs(A(m,round-2)-A(m,round-1) < theta) && (abs(A(m,round-1)-A(m,round)) < theta)))) || (i > numUpdates)),
                 finish = 1;
             end;
@@ -281,7 +281,7 @@ for m = 1:M, % M = number of folds
                 round = round + 1;
                 A(m,round) = 0;
             end; 
-            eta = eta*alpha;
+            eta = eta*alpha; % no training/learning has been done, eta is being incremented?
         end;
 
     end;
