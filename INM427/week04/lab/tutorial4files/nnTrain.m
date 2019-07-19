@@ -50,7 +50,7 @@ compare = isequal(X, X1); % No, and in this case in would not make sense to use
 % (examples) and number of columns (attributes).
 X = X';
 
-E = 1; % what is E?
+E = 1; % what is E? Does not seem to be doing anything in this code
 originalInputSize = size(X,2);
 classes = [1 -1];
 
@@ -158,7 +158,7 @@ acc = zeros(1, M);
 
 avgAcc = 0;
 % for 1 t0 10
-for m = 1:M,
+for m = 1:M, % M = number of folds
     
     if(smote && m <= oldInputSize),
         fprintf('Training fold %d/%d...\n', m, oldInputSize);
@@ -200,8 +200,12 @@ for m = 1:M,
     while not(finish),
         
         % Checking if it is a fold example
-        ignoreTraining = 0; ignoreTesting = 0;
-        if ((n > ((m-1)*floor(N/M))) && (n <= (m*floor(N/M)))),
+        ignoreTraining = 0; ignoreTesting = 0; % NB ignoreTraining means just that, do not train on this example
+        % n with count up to N + 1 ~ 107 (106 examples + 1), then it will
+        % reset to 1
+        if ((n > ((m-1)*floor(N/M))) && (n <= (m*floor(N/M)))), 
+        % when m  = 0, first expression evaluates to true (n > 0)
+        % second expression evaluates to 
            ignoreTraining = 1;
            if((n > N) && ~shuffle),
                ignoreTesting = 1;
@@ -217,9 +221,13 @@ for m = 1:M,
             end;
         end;
 
-        for(ep = n:(n+E-1)),
+        for(ep = n:(n+E-1)), % E = 1, constant, this is to say, go around this for loop once 
             
-            if((ep > N) || ignoreTraining),
+            if((ep > N) || ignoreTraining), % ep > N will never be true? n is incremented past this point, and immediately checked if > N,
+                                            % and set to one if it is > N.
+                                            % TODO CHECK with breakpoint NB
+                                            % ignoreTraining will be true
+                                            % at times
                 break;
             end;
             
@@ -257,7 +265,7 @@ for m = 1:M,
 
         if(~ignoreTraining),
             A(m,round) = A(m,round) + (J(m, i)/(N-1));
-            J(m, i) = J(m, i)/E;
+            J(m, i) = J(m, i)/E; % E = 1, constant
         end;
             
         % Stop criterion
