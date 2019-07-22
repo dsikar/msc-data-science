@@ -202,7 +202,9 @@ for m = 1:M, % M = number of folds
         % Checking if it is a fold example
         ignoreTraining = 0; ignoreTesting = 0; % NB ignoreTraining means just that, do not train on this example
         % n with count up to N + 1 ~ 107 (106 examples + 1), then it will
-        % reset to 1
+        % reset to 1. When we n > 10, we will have counted through our 10
+        % testing examples, and from the 11th onwards, we start training
+        % the network
         if ((n > ((m-1)*floor(N/M))) && (n <= (m*floor(N/M)))), 
         % when m  = 0, first expression evaluates to true (n > 0)
         % second expression evaluates to 
@@ -213,42 +215,49 @@ for m = 1:M, % M = number of folds
             end;
         end;
         
-        J(m, i) = 0;
-        if(~ignoreTraining), % if ignoreTraining == false, reset weights and biases
-            for(k = 1:K),
-                L(k).db = zeros(size(L(k).b));
-                L(k).dW = zeros(size(L(k).W));
+        J(m, i) = 0; % What is J? J is error vector
+        if(~ignoreTraining), % if ignoreTraining == false, we are training, add delta bias and weight fields to struct
+            for(k = 1:K),    % In layer 1 (hidden) we have 11 neurons, in layer 2 (output) we have 1 neuron
+                L(k).db = zeros(size(L(k).b)); % So this will look like either a 11 row one column vector of of zeros
+                L(k).dW = zeros(size(L(k).W)); % Or a one row, one column vector of zeros
             end;
         end;
-
-        for(ep = n:(n+E-1)), % E = 1, constant, this is to say, go around this for loop once 
+        % ep assumed epoch. We are only going through this loop once
+        for(ep = n:(n+E-1)), % E = 1, constant, this is to say, go around this for loop once, why is E used?
             
-            if((ep > N) || ignoreTraining), % ep > N will never be true? n is incremented past this point, and immediately checked if > N,
-                                            % and set to one if it is > N.
-                                            % TODO CHECK with breakpoint NB
-                                            % ignoreTraining will be true
-                                            % at times
+            if((ep > N) || ignoreTraining), % Basically what this says ep must be greater than 10 AND less or equal to 106 
+                                            % examples (indexed 1 to 10 
+                                            % and picked at random)
+                                            % Otherwise, break
+                                            %  
+                                            %  
                 break;
             end;
             
             % Feed-Forward         
-            L(1).x = X(:,ep); % 
-            for k = 1:K, % we get here at n = 11, e.g. first 10 examples where not used
-                L(k).u = L(k).W * L(k).x + L(k).b;
-                L(k).o = tanh(L(k).u);
-                L(k+1).x = L(k).o;
+            L(1).x = X(:,ep); % Assign 228 attributes to L(1).x
+            for k = 1:K, % we get here at n = 11, i.e. first 10 examples where not used
+                % Size of layer 1 weight matrix L(1).W is 11 rows x 228 cols, size of input matrix L(1).x is 228 rows x 1 col
+                % size of layer 1 bias matrix L(1).b is 11 rows x 1 col, size of resulting input potential matrix 
+                % L(1).u is 11 x 1
+                % Matrix multiplication recap, for A * B, Number of A columns must match number of B rows, resulting matrix will be
+                % of dimension A rows x B columns 
+                L(k).u = L(k).W * L(k).x + L(k).b; % Calculate input potential, with weights and biases initialised previously
+                % Note weights and inputs result in 11 x 1 matrix which can be added to bias matrix
+                L(k).o = tanh(L(k).u); % activations, using the hyperbolic tangent function, notice is will be 11 x 1 also for hidden layer
+                L(k+1).x = L(k).o; % inputs to next layer (k+1), are the activations of previous layer
             end; 
-            e = t(n) - L(K).o;
-            J(m,i) = J(m,i) + (e'*e)/2;
-
+            e = t(n) - L(K).o; % we are indexing the layer we a variable that tells us how many layers the network has, good practice?
+            J(m,i) = J(m,i) + (e'*e)/2; % mean square error, note transpose matrix multiplication - probably for more than one output node
+            % Looks like we'll keep increaing the size of J columns as we go
             % Error Backpropagation
-            L(K+1).alpha = e; 
-            L(K+1).W = eye(length(e));
-            for k = fliplr(1:K),
-                L(k).M = eye(length(L(k).o)) - diag(L(k).o)^2;
-                L(k).alpha = L(k).M*L(k+1).W'*L(k+1).alpha;
-                L(k).db = L(k).db + L(k).alpha;
-                L(k).dW = L(k).dW + kron(L(k).x',L(k).alpha);
+            L(K+1).alpha = e; % note we use the error proper, not MSE, and call it alpha for some reason
+            L(K+1).W = eye(length(e)); % create identity matrix the size of output layer
+            for k = fliplr(1:K), % fliplr ~ flip array left to right, iterate starting from 2 then one i.e. decrement
+                L(k).M = eye(length(L(k).o)) - diag(L(k).o)^2; % eye - identity matrix, diag - diagonal matrix - What is M?
+                L(k).alpha = L(k).M*L(k+1).W'*L(k+1).alpha; % This would probably be best understood in the context of multiple outputs
+                L(k).db = L(k).db + L(k).alpha; % delta bias - learning rate * weight (bias) * input.
+                L(k).dW = L(k).dW + kron(L(k).x',L(k).alpha); % kron ~ Kroneker Tensor Product
             end;
         end;
 
