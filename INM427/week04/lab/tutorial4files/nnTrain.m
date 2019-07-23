@@ -265,10 +265,29 @@ for m = 1:M, % M = number of folds
                 %          = h'    * W       * error = di (slope)
                 % Store d, which we need to update weights and biases, it
                 % seems like the sum is redundant, as on every fold L(k).db is initialised as matrix of zeros 
-                % see L(k).db = zeros(size(L(k).b)); further back - TBC 
-                L(k).db = L(k).db + L(k).alpha; % delta bias - learning rate * weight (bias) * input.
-                % Next mystery, why are we using this function kron ?
-                L(k).dW = L(k).dW + kron(L(k).x',L(k).alpha); % kron ~ Kroneker Tensor Product
+                % see L(k).db = zeros(size(L(k).b)); further back  
+                L(k).db = L(k).db + L(k).alpha; % store gradient
+                % kron(L(k).x',L(k).alpha) produces same output as L(k).x' * L(k).alpha between output layer and hidden layer
+                % for 1 output neuron, for more neurons between layers the general form ((L(k).x * L(k).alpha')')
+                
+                % This is the slope at output neuron times output of hidden layer which we will use to compute delta W e.g. dk * Oj
+                L(k).dW = L(k).dW + kron(L(k).x',L(k).alpha); % kron ~ Kronecker Tensor Product
+                % If A is an m-by-n matrix and B is a p-by-q matrix, then the Kronecker tensor product of matrices A and B. If A is 
+                % an m-by-n matrix and B is a p-by-q matrix, then kron(A,B) is an m*p-by-n*q matrix formed by taking all possible 
+                % products between the elements of A and the matrix B.
+                % for synaptic weights between input neurons and hidden neurons, size(L(k).x') = 1 (m)   228 (n), 
+                % size(L(k).alpha) = 11 (p)  1 (q), size(kron(L(k).x',L(k).alpha)) = 11   228 
+                % m*p-by-n*q ~ 1*11x228*1 ~ 11 x 228
+                % Alternatively, we can multiply L(k).x (228x1) by L(k).alpha'(1x11) to have a 228x11, then transpose it to get a 228x11
+                % matrix, size((L(k).x * L(k).alpha')') ~ 228 x 11 which is equal to the Kronecker Tensor Product matrix. 
+                % in other words, we make sure number of columns if first matrix matches number of rows in second matrix,
+                % if we test for equality:
+                % isequal((L(k).x * L(k).alpha')', kron(L(k).x',L(k).alpha)) 
+                % ans =  logical  1
+                % NB isequal(kron(L(k).alpha, L(k).x'), kron(L(k).alpha, L(k).x')) ans =  logical  1
+                % NB isequal(kron(L(k).alpha, L(k).x'), kron(L(k).x', L(k).alpha)) ans =  logical  1
+                % NB isequal((L(k).x' .* L(k).alpha), (L(k).alpha .* L(k).x')) ans =  logical  1
+                % Looks like kron in this case performs the equivalent of an element wise multiplication (.*)
             end;
         end;
 
