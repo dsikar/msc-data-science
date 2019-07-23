@@ -264,7 +264,8 @@ for m = 1:M, % M = number of folds
                 L(k).alpha = L(k).M*L(k+1).W'*L(k+1).alpha; % This would probably be best understood in the context of multiple outputs
                 %          = h'    * W       * error = di (slope)
                 % Store d, which we need to update weights and biases, it
-                % seems like the sum is redundant - TBC 
+                % seems like the sum is redundant, as on every fold L(k).db is initialised as matrix of zeros 
+                % see L(k).db = zeros(size(L(k).b)); further back - TBC 
                 L(k).db = L(k).db + L(k).alpha; % delta bias - learning rate * weight (bias) * input.
                 % Next mystery, why are we using this function kron ?
                 L(k).dW = L(k).dW + kron(L(k).x',L(k).alpha); % kron ~ Kroneker Tensor Product
