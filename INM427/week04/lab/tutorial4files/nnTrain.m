@@ -251,12 +251,22 @@ for m = 1:M, % M = number of folds
             J(m,i) = J(m,i) + (e'*e)/2; % mean square error, note transpose matrix multiplication - probably for more than one output node
             % Looks like we'll keep increaing the size of J columns as we go
             % Error Backpropagation
-            L(K+1).alpha = e; % note we use the error proper, not MSE, and call it alpha for some reason
+            % We are assigning error to a field in a struct (L(K+1).alpha) that will be
+            % used as d ~ the gradient, which for the output neuron will be e (error) * tanh'(x) (derivative of activation function), 
+            % stored in struct filed L(k).M, and for a hidden node will be d * W * tanh'(x)
+            L(K+1).alpha = e; % error stored in .alpha field for convenience
             L(K+1).W = eye(length(e)); % create identity matrix the size of output layer
             for k = fliplr(1:K), % fliplr ~ flip array left to right, iterate starting from 2 then one i.e. decrement
-                L(k).M = eye(length(L(k).o)) - diag(L(k).o)^2; % eye - identity matrix, diag - diagonal matrix - What is M?
+                L(k).M = eye(length(L(k).o)) - diag(L(k).o)^2; % eye - identity matrix, diag - diagonal matrix - M is the derivative of hyperbolic tangent function
+                % https://theclevermachine.wordpress.com/2014/09/08/derivation-derivatives-for-common-neural-network-activation-functions/
+                % tanh'(x) = 1 - tanh^2(x)
+                % L(k).M = tanh'(x) , L(k+1).alpha = error (or slope d), M * alpha = slope , L(k+1).W = weight , slope * weight = error 
                 L(k).alpha = L(k).M*L(k+1).W'*L(k+1).alpha; % This would probably be best understood in the context of multiple outputs
+                %          = h'    * W       * error = di (slope)
+                % Store d, which we need to update weights and biases, it
+                % seems like the sum is redundant - TBC 
                 L(k).db = L(k).db + L(k).alpha; % delta bias - learning rate * weight (bias) * input.
+                % Next mystery, why are we using this function kron ?
                 L(k).dW = L(k).dW + kron(L(k).x',L(k).alpha); % kron ~ Kroneker Tensor Product
             end;
         end;
