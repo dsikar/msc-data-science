@@ -259,18 +259,30 @@ for m = 1:M, % M = number of folds
             for k = fliplr(1:K), % fliplr ~ flip array left to right, iterate starting from 2 then one i.e. decrement
                 L(k).M = eye(length(L(k).o)) - diag(L(k).o)^2; % eye - identity matrix, diag - diagonal matrix - M is the derivative of hyperbolic tangent function
                 % https://theclevermachine.wordpress.com/2014/09/08/derivation-derivatives-for-common-neural-network-activation-functions/
-                % tanh'(x) = 1 - tanh^2(x)
+                % tanh'(x) = 1 - tanh^2(x) note this is the matrix matlab idiom, we need to perform the operation on values storeda column vector (11x1) L(k).o  
+                % That is to say, for each value in L(k).o, square it and subtract it from one, however we can only square a square matrix, 
+                % hence first transform activations L(k).o into a square matrix with diag(L(k).o) then square itit
+                % then we need to subtract the values in diagonal from one, and we do that by creating another diagonal matrix with ones, of the same length
+                % of the activation (outputs of previous layer) matrix, that is eye(length(L(k).o)), then we are good to subtract and obtain our derivative
+                % function output, which are held in the resulting diagonal matrix, to compute slope db, error gradient alpha.
                 % L(k).M = tanh'(x) , L(k+1).alpha = error (or slope d), M * alpha = slope , L(k+1).W = weight , slope * weight = error 
-                L(k).alpha = L(k).M*L(k+1).W'*L(k+1).alpha; % This would probably be best understood in the context of multiple outputs
-                %          = h'    * W       * error = di (slope)
-                % Store d, which we need to update weights and biases, it
+                L(k).alpha = L(k).M * L(k+1).W' * L(k+1).alpha; % This would probably be best understood in the context of multiple outputs
+                %          = h'    * W       * error = di (slope, local grandient)
+                % ej = Wkj . dok ~ L(k+1).W *  L(k+1).alpha 
+                % dj = ej . h'(Uj) ~ ej = Wkj * dk, so if we represent  dj = h' * W * dk, then L(k).M*L(k+1).W'*L(k+1).alpha makes sense where L(k).alpha is 
+                % equivalent to dj, as discussed in class. So in matlab, our h' is in a diagonal matrix L(k).M we multiply by the weights, which is a 1 x 11 matrix
+                % To multiply vectors A*B, the number of A columns must be the same of number of B rows, and we end up with a matrix size A rows, B columns, so
+                % we transpose L(k+1).W and then multiply by our h' matrix and end up with a 11 x 1 matrix, which we then multiply by the previous "alpha", which
+                % for the output neuron was error * h'.
+                % the .alpha field stores d, which we need to update weights and biases, it
                 % seems like the sum is redundant, as on every fold L(k).db is initialised as matrix of zeros 
                 % see L(k).db = zeros(size(L(k).b)); further back  
-                L(k).db = L(k).db + L(k).alpha; % store gradient
+                L(k).db = L(k).db + L(k).alpha; % store error gradient TODO see haykin terminology for these terms
                 % kron(L(k).x',L(k).alpha) produces same output as L(k).x' * L(k).alpha between output layer and hidden layer
                 % for 1 output neuron, for more neurons between layers the general form ((L(k).x * L(k).alpha')')
                 
                 % This is the slope at output neuron times output of hidden layer which we will use to compute delta W e.g. dk * Oj
+                % NB dk * Oj = gradient error
                 L(k).dW = L(k).dW + kron(L(k).x',L(k).alpha); % kron ~ Kronecker Tensor Product
                 % If A is an m-by-n matrix and B is a p-by-q matrix, then the Kronecker tensor product of matrices A and B. If A is 
                 % an m-by-n matrix and B is a p-by-q matrix, then kron(A,B) is an m*p-by-n*q matrix formed by taking all possible 
@@ -286,33 +298,38 @@ for m = 1:M, % M = number of folds
                 % ans =  logical  1
                 % NB isequal(kron(L(k).alpha, L(k).x'), kron(L(k).alpha, L(k).x')) ans =  logical  1
                 % NB isequal(kron(L(k).alpha, L(k).x'), kron(L(k).x', L(k).alpha)) ans =  logical  1
+                % Alternatively element-wise multiplication .*  
                 % NB isequal((L(k).x' .* L(k).alpha), (L(k).alpha .* L(k).x')) ans =  logical  1
-                % Looks like kron in this case performs the equivalent of an element wise multiplication (.*)
+                % Other equivalent forms isequal((L(k).x' .* L(k).alpha), (L(k).x .* L(k).alpha')')
+                % Looks like kron function in this case performs the equivalent of an element wise multiplication (.*)
+                % Whichever way we choose to do it, as long as we end up with a matrix sized rows (number of hidden neurons) x columns (number of inputs) 
+                % we are good to go.
             end;
         end;
 
-        % Updates
+        % Update weights and biases, adding momentum in the form mu*L(k).vW or mu*L(k).vb  
         for k = 1:K,
+            % Don't show test data to network
             if(ignoreTraining), 
                 break; 
             end;
-            L(k).vb = eta*L(k).db + mu*L(k).vb;
-            L(k).b = L(k).b + L(k).vb;
-            L(k).vW = eta*L(k).dW + mu*L(k).vW;
-            L(k).W = L(k).W + L(k).vW;
+            L(k).vb = eta*L(k).db + mu*L(k).vb; % delta bias
+            L(k).b = L(k).b + L(k).vb; % new bias
+            L(k).vW = eta*L(k).dW + mu*L(k).vW; % delta Weights
+            L(k).W = L(k).W + L(k).vW; % new Weights
         end;
 
         if(~ignoreTraining),
-            A(m,round) = A(m,round) + (J(m, i)/(N-1));
+            A(m,round) = A(m,round) + (J(m, i)/(N-1)); % J ~ error vec
             J(m, i) = J(m, i)/E; % E = 1, constant
         end;
             
         % Stop criterion
-        if ((i > 1) && (n == N)), 
+        if ((i > 1) && (n == N)), % If the error is less than Delta and we are passed round 2, or error is less than theta for any give round etc, stop
             if (((A(m,round) < Delta) && ((round > 2) && (abs(A(m,round-2)-A(m,round-1) < theta) && (abs(A(m,round-1)-A(m,round)) < theta)))) || (i > numUpdates)),
                 finish = 1;
             end;
-        end;
+        end; % otherwise, keep going in search of the holy grail
         if not(finish)
             i = i+1; n = n+1; 
             if n > N, 
