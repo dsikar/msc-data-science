@@ -210,7 +210,7 @@ for m = 1:M, % M = number of folds
         % second expression evaluates to 
            ignoreTraining = 1;
            if((n > N) && ~shuffle),
-               ignoreTesting = 1;
+               ignoreTesting = 1; % NB we keep the last set of weights 
                break;
             end;
         end;
@@ -282,7 +282,7 @@ for m = 1:M, % M = number of folds
                 % for 1 output neuron, for more neurons between layers the general form ((L(k).x * L(k).alpha')')
                 
                 % This is the slope at output neuron times output of hidden layer which we will use to compute delta W e.g. dk * Oj
-                % NB dk * Oj = gradient error
+                % NB dk * Oj = error gradient a.k.a. gradient of the cost function
                 L(k).dW = L(k).dW + kron(L(k).x',L(k).alpha); % kron ~ Kronecker Tensor Product
                 % If A is an m-by-n matrix and B is a p-by-q matrix, then the Kronecker tensor product of matrices A and B. If A is 
                 % an m-by-n matrix and B is a p-by-q matrix, then kron(A,B) is an m*p-by-n*q matrix formed by taking all possible 
