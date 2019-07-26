@@ -66,7 +66,7 @@ theta = 0.01; % Stop Criterion #2
 numUpdates = 10000; % Max number of epochs
 N = size(X,2); % Number of Input Vectors - NB dimension 2 because matrix is transposed
 h = 11; % Number of Hidden Neurons
-alpha = 0.999; % Learning Rate Decay Factor
+alpha = 0.999; % Learning Rate Decay Factor, perhaps this would be best named eta_decay, as there is a .alpha field
 mu = 0.1; % Momentum constant;
 M = 10; % Number of Folds (N = leave-one-out)
 shuffle = 1; % Shuffle control (turn it off for reproductibility)
@@ -315,13 +315,13 @@ for m = 1:M, % M = number of folds
             end;
             L(k).vb = eta*L(k).db + mu*L(k).vb; % delta bias
             L(k).b = L(k).b + L(k).vb; % new bias
-            L(k).vW = eta*L(k).dW + mu*L(k).vW; % delta Weights
+            L(k).vW = eta*L(k).dW + mu*L(k).vW; % delta Weights plus momentum 
             L(k).W = L(k).W + L(k).vW; % new Weights
         end;
 
         if(~ignoreTraining),
             A(m,round) = A(m,round) + (J(m, i)/(N-1)); % J ~ error vec
-            J(m, i) = J(m, i)/E; % E = 1, constant
+            J(m, i) = J(m, i)/E; % E = 1, constant, one output neuron?
         end;
             
         % Stop criterion
