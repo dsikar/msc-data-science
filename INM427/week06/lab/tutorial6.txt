@@ -1,0 +1,27 @@
+Tutorial 6
+
+This tutorial is dedicated to discussing and providing you with feedback on your coursework choices of dataset and models. It is also an opportunity for those who didn't finish tutorials 1 to 5, or who would like to ask questions about tutorials 1 to 5, to do so (including discussing about the last exercise of tutorial 5, which is a list of relevant questions).
+
+In the tutorial, please tell us what you've been planning and doing for the coursework, as well as any issues or problems encountered so far. The main issues raised already by your colleagues at previous tutorials and office hours are: 
+
+(1) What is an ppropriate size and level of complexity of the dataset?
+
+(2) What are good models to choose and what counts as a new model?
+
+(3) How to use time series as a dataset, recurrent (deep) networks and convolutional nets?
+
+(4) How to use cross-validation or bootstrapping with early-stopping, reporting average performance or re-training the best model on the entire data set?
+
+
+In relation to (1), it's preferable to choose a manageable problem than a very complex one – leave the big data for the big data module. Of course, choose ideally a dataset that you're interested in. If it's too easy a dataset (that is, you get very good accuracies quickly no matter how you change the model or add noise to the dataset) then consider alternatives, because you will need to be able to evaluate results critically (c.f. marking scheme). If you can't break it, you won't have varied graphs and interesting results to evaluate the neural network critically. 
+
+In relation to (2), the most popular choices are: perceptrons vs backprop (i.e. multilayer perceptrons), backprop vs SVMs, SOMs vs Hopfield nets or Boltzmann machines, including RBMs. 
+
+Make sure you do not choose to compare models that are incomparable, e.g. backprop (supervised) and Hopfield nets (unsupervised). You can use, e.g. SOMs as pre-processing for a network trained with backprop, but this counts more as a variation of a model. Convolutional nets can be evaluated in comparison with backprop as two models. We will only cover convolutional neural networks and recurrent networks briefly at the end, but as an extension of backprop (including backprop through time), those interested in such models can experiment with them without risking too much in the coursework. Just run e.g. a simple perceptron too! The above is true for LSTMs too, although we won't cover LSTMs at all. You can study them in the MSc project if interested.
+
+For those using time series (item (3) above), consider backprop with a sliding window approach vs. backprop through time (BPTT) or the NARX model (which has a matlab implementation), or even a standard recurrent network. Again, we'll only study recurrent and deep nets towards the end of the module, so that you'd have to get started by yourself on such models. The extra effort should pay off because learning of time series is an interesting and relevant problem to tackle. This work has scope to continue as part of your MSc dissertation. The same is true for deep networks (e.g a stack of Restricted Boltzmann machines with a softmax layer or an SVM on top). You can equally start with backprop applied to multiple hidden layers, as done in the lab for the MNIST dataset. Here, you can investigate the effect of the vanishing gradients problem, for example.
+
+You can use cross-validation (with or without early-stopping) to improve your estimate of the model's generalization performance. In this case, report the average training and validation performances and use a network ensemble as your final model. If you are doing model selection, the model hyper-parameters giving the lowest average validation performance should be chosen. It is common in this case to re-train a single network with those hyper-parameters on the entire data set instead of using an ensemble. Training can be stopped when this network's training set performance reaches the best average performance from earlier. With larger data sets, instead of using cross-validation, it is common that the data will be split already into a training set, a validation set also known as a development (dev) set, and a test set. In this case, early-stopping and boostrapping can also be used for model selection.
+
+I hope the above serves as useful formative feedback to all, but please talk to us about your coursework choice at the tutorials, after the lectures, or at office hours.
+
