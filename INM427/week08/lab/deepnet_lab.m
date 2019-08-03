@@ -10,9 +10,9 @@ clc;
 clear;
 addpath(genpath('.'));
 
-% Define the network and load the data files
+% Define the network - one input, three hiddenlayers and one output layer 
 conf.hidNum = [20 40 30];
-
+% Load the data files
 trn_dat_file = 'mnist_train_dat_5k.mat';
 trn_lab_file = 'mnist_train_lab_5k.mat';
 vld_dat_file = 'mnist_vld_dat_10k.mat';
