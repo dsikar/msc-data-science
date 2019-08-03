@@ -24,7 +24,7 @@ tst_lab_file = 'mnist_test_lab_10k.mat';
 %% Pre-training
 mkdir('../MOD');
 depth = size(conf.hidNum,2);
-pre_train = {'rbm','ae','rbm'}; % The pre-training of each layer: rbm or ae; rbm with softmax must be at the top
+pre_train = {'rbm','ae','rbm'}; % The pre-training method of each layer: rbm or ae; rbm with softmax must be at the top
 learning_rates = [0.5,0.5,0.3]; % The learning rates for each of the above
 momentums      = [0.01,0.005,0.001]; % The momentum for the above
 weight_decays = [0.00002,0.001,0.002]; % The weight decay parameters
