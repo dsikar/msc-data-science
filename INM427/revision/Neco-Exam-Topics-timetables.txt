@@ -5,14 +5,14 @@ Re-sit examination period: 12-23 August 2019 - resit date published July 19th 17
 Topic											Lecture	Covered
 
 Model of Neuron (Haykin, 2nd edition, p.10-23)  						OK
-Perceptron (Haykin, p.117-120) 
-Perceptron’s learning algorithm (Haykin, p.135-143, 175-178) 
-Multilayer perceptron (feedforward nets) (Haykin, p.156-161) 
-Backpropagation (Haykin, p.161-175, 226-232) 
-Problem of local minimum, adding momentum, etc. (Haykin, p.191-198) 
+Perceptron (Haykin, p.117-120) 									OK
+Perceptron’s learning algorithm (Haykin, p.135-143, 175-178) 					OK
+Multilayer perceptron (feedforward nets) (Haykin, p.156-161)					OK 
+Backpropagation (Haykin, p.161-175, 226-232) 							OK
+Problem of local minimum, adding momentum, etc. (Haykin, p.191-198) 				OK
 Regularization (Haykin, p.218-222) 
-Learning evaluation and generalization (Haykin, p.205-209, 213-218) 
-Self-organising maps (Haykin, p.443-466) 						5								
+Learning evaluation and generalization (Haykin, p.205-209, 213-218)				STOPPED HERE 
+Self-organising maps (Haykin, p.443-466) 						5	OK								
 Support Vector Machines (Haykin, p.318-324, 329-339, lecture notes, A. Ng notes) 	6
 Hopfield networks (Haykin, p.50-66, 680-696) 						5
 Gibbs sampling (Haykin, p.545-550, 561-562) 						6
