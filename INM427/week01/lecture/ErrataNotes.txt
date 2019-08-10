@@ -20,3 +20,9 @@ ej(n) = dj(n) - yj(n)
 
 where e is the error signal at neuron j at iteration n, d is the desired response of neuron j at iteration n and y is function signal appearing at output of neuron j.
 
+3. Lecture 5 1:24:40
+
+W.r.t. co-operative learning "So the distance is actually in the high dimensional space" AAG
+
+Haykin pg. 450 "For cooperation among neighboring neurons to hold, it is necessary that topological neighbourhod hj,i be dependand on lateral distance dj,i, between wining neural i and excited neuron j in the output space rather than on some distance measure in the original input space." see (9.5).
+
