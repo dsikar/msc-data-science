@@ -1,5 +1,4 @@
 Neural Computing
-
 Re-sit examination period: 12-23 August 2019 - resit date published July 19th 17:00h
 
 Topic											Lecture	Covered
@@ -12,7 +11,7 @@ Backpropagation (Haykin, p.161-175, 226-232)
 Problem of local minimum, adding momentum, etc. (Haykin, p.191-198) 
 Regularization (Haykin, p.218-222) 
 Learning evaluation and generalization (Haykin, p.205-209, 213-218) 
-Self-organising maps (Haykin, p.443-466) 						5								
+Self-organising maps (Haykin, p.443-466) 						5			
 Support Vector Machines (Haykin, p.318-324, 329-339, lecture notes, A. Ng notes) 	6
 Hopfield networks (Haykin, p.50-66, 680-696) 						5
 Gibbs sampling (Haykin, p.545-550, 561-562) 						6
@@ -24,3 +23,4 @@ Recurrent networks (Haykin, p.732-741)							7
 Convolutional nets (lecture notes)							7 
 Autoencoders (lecture notes) 								7
 Backpropagation through Time (Haykin, p. 751-756, lecture notes)			7
+
