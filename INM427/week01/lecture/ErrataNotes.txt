@@ -1,0 +1,28 @@
+1. PG. 26
+
+Local error gradient computation: dhi= h’(Ui)SUMk(Wki.dok)
+
+Previous examples show local error gradient d computed by multiplying error gradient in next layer, by synaptic weights, by derivative of activation function.
+
+The indexing in example given on pg. 26 suggest that summation is being made over previous layer. Perhaps it should be:
+
+dhi= h’(Uj)SUMk(Wkj.dok)
+
+NB The error gradient may be different for every synapse.
+
+2. PG 25 
+
+Error is given as: ek = ok–tk
+
+Haykin (1999 - pg 161) gives the error as:
+
+ej(n) = dj(n) - yj(n)
+
+where e is the error signal at neuron j at iteration n, d is the desired response of neuron j at iteration n and y is function signal appearing at output of neuron j.
+
+3. Lecture 5 1:24:40
+
+W.r.t. co-operative learning "So the distance is actually in the high dimensional space" AAG
+
+Haykin pg. 450 "For cooperation among neighboring neurons to hold, it is necessary that topological neighbourhod hj,i be dependand on lateral distance dj,i, between wining neural i and excited neuron j in the output space rather than on some distance measure in the original input space." see (9.5).
+

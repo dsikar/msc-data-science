@@ -1,19 +1,24 @@
 Neural Computing
 Re-sit examination period: 12-23 August 2019 - resit date published July 19th 17:00h
+August 2019 Examination Timetable (published 09:30 02/08/2019)
+https://studenthub.city.ac.uk/__data/assets/excel_doc/0003/476715/2018-9-PRDR-Exam-Timetable-published-V3-02.08.2019.xlsx
+INM427	Neural Computing	Wed 21/08/2019	10:00	02:00	 D222
+
+
 
 Topic											Lecture	Covered
 
 Model of Neuron (Haykin, 2nd edition, p.10-23)  						OK
-Perceptron (Haykin, p.117-120) 
-Perceptron’s learning algorithm (Haykin, p.135-143, 175-178) 
-Multilayer perceptron (feedforward nets) (Haykin, p.156-161) 
-Backpropagation (Haykin, p.161-175, 226-232) 
-Problem of local minimum, adding momentum, etc. (Haykin, p.191-198) 
-Regularization (Haykin, p.218-222) 
-Learning evaluation and generalization (Haykin, p.205-209, 213-218) 
-Self-organising maps (Haykin, p.443-466) 						5			
+Perceptron (Haykin, p.117-120) 									OK
+Perceptron’s learning algorithm (Haykin, p.135-143, 175-178) 					OK
+Multilayer perceptron (feedforward nets) (Haykin, p.156-161)					OK 
+Backpropagation (Haykin, p.161-175, 226-232) 							OK
+Problem of local minimum, adding momentum, etc. (Haykin, p.191-198) 				OK
+Regularization (Haykin, p.218-222) 								OK
+Learning evaluation and generalization (Haykin, p.205-209, 213-218)				OK 
+Self-organising maps (Haykin, p.443-466) 						5	OK							
 Support Vector Machines (Haykin, p.318-324, 329-339, lecture notes, A. Ng notes) 	6
-Hopfield networks (Haykin, p.50-66, 680-696) 						5
+Hopfield networks (Haykin, p.50-66, 680-696) 						5	OK
 Gibbs sampling (Haykin, p.545-550, 561-562) 						6
 Boltzmann machines, Generative models (Haykin, p.558-560, 562-574) 			6
 Restricted Boltzmann machines (Lecture notes)						6, 7
