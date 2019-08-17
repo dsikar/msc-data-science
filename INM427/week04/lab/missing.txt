@@ -1,0 +1,4 @@
+1. "Inspect the weight vectors at each network layer. Can you spot if your network suers from the problem
+of vanishing gradients?"
+
+2. "Implement the Early Stopping criteria and compare with your previous results."

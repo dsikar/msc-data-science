@@ -1,0 +1,111 @@
+EXERCISE 15 Think about the following questions:
+
+	* What is a neural network (NN)?
+
+A neural network is a distributed parallel processor made up of simple units (neurons) and resembles the brain in two respects:
+1. Knowledge is acquired from the environment through a learning process
+2. Inter-neuron connection strength, known as synaptic weights, as used to store the acquired knowledge
+
+	* What can you do with an NN and what not?
+
+Some applications of Neural networks:
+
+Multilayer feed-forward nets - classification
+Hopfield Networks - Associative Memory
+SOMs - Clustering
+SVMs - pattern recognition
+Recurrent Neural Nets - Sequence Learning
+
+Neural Nets cannot be used for reasoning tasks.
+
+	* What are some applications of NNs?
+
+Neural networks have been applied in finance, engineering, security, transport, etc.
+
+	* What is backpropagation?
+
+A computationaly efficient method for training multilayer perceptrons.
+
+	* How does backpropagation work?
+
+It computes an estimate of the gradient of an error function (Ew) w.r.t. a set of weights W.
+
+1. An input vector is imposed on the network
+2. Input potentials, activations and derivatives are computed. 
+3. An output error is computed and back-propagated through network by:
+1. Computing an error gradient
+2. Computing a delta W
+3. Updating weights (including biases) by adding delta W to the initial weight.
+
+The aim is to minimise the network error.
+
+	* What learning rate should be used for backpropagation?
+	Small learning rates are slow and safer e.g. n = 0.001, large learning rates are fast and risky e.g. n = 0.9.	
+
+	* How should categories be coded?
+	Category coding is determined by data. Binary patterns may be used when there are two classes, for more classes, they may coded as vectors, such as a target vector.
+
+	* Why use a bias/threshold?
+	A bias, or threshold, may be used to adjust the input potential, such that the network may learn (encode) a desired representation.	
+
+	* Why use activation functions?
+	Activation functions determine the output signal of a hidden and/or output neuron, the may be used to adjust the output, such that the network may learn (encode) a desired representation. Activation functions may be linear. semi-linear (step function), non-linear (sigmoid function), etc.
+
+	* What does unsupervised learning learn?
+	With an unsupervised learning task, a neural network learns, based on statistical regularities of input data, to form internal representations for encoding features of the input and thereby to create new classes automatically (Becker, 1991).
+
+ Should I normalise/standardise/rescale the data?
+
+* What are the main objectives of Self-Organising Maps?
+	
+ How do Self-Organising Maps work?
+
+	* How is generalisation possible?
+	By training a network with a data set, minus a validation data set, and testing the network with the validation set, unseen by the network during the training phase, it is possible to generalise the network to predict unseen examples.	
+
+	* How does noise aect generalisation?
+	The learning algorithm cannot distinguish signal from noise, hence when trying to learn it will try to smooth the function to include the noise. 
+	In doing so, the network is overfitting, which will impact the generalisation error.	
+	If the training set contains noise, the training set error must not be zero.
+
+	* What is overfitting and how can I avoid it?
+	Overfitting can be observed when a network performs well with the training data set and poorly with a test data set.
+	It can be caused by not enough training examples or too many neurons in the hidden layer.
+
+	* How many hidden layers should I use?
+	What if there are many hidden layers? Vanishing gradients
+	The number of hidden layers may be determined empirically, and is determined by the function being approximated.
+	Too few and the underlying function cannot be approximated, too many and there could be a problem with vanishing gradients.
+
+	* How many hidden units should I use?
+	The number of hidden neurons may be determined empirically, too few and the underlying function cannot be approximated, too many and the network will overfit the training data. 
+
+	* How can generalisation error be estimated?
+
+By computing the network error on a validation data set, that was not seen by the network during the training (learning) phase.
+
+	* What are cross-validation and bootstrapping?
+
+They are methods used to improve the generalisation error and also to perform model selection.
+
+With cross-validation, the set is divided into n subsets E1, E2, ... , En
+For each Ei (1 =< i =< n), a network is trained with E - Ei and tested with Ei.
+The averaged training set and validation set error are then calculated.
+(E / m)-fold cross validation.
+
+With bootstrapping k (pseudo) sets of examples E1, E2, ... , Ek are crated by randomly selecting |E| elements with replacement from E
+For each Ei (1 =< i =< k) the network is trained with E - Ei and tested with Ei.
+The averaged training and test set errors are then calculated.
+
+	* What are attractor nets?
+
+An attractor net is a type of recurrent network that evolves to a stable pattern over time.
+Attractor nets are used to model neuronal processes such as associative memory.
+A Hopfield Network is an implementation of an attractor network.
+
+	* What are stable states? How does the energy relate to stable states?
+
+Stable states refer to a state of a Hopfield Network (retrieval phase), where an N-dimensional vector of activations Ksi sub p is imposed on the network. Each neuron in the network is updated, one at a time, to A(t+1) until a time invariant (stable state) vector of activations Ksi sub s is found where A(t+1) = A(t)	for all neurons in the network.
+
+The stable state being the lowest energy state, according to the Hopfield network energy function. 
+

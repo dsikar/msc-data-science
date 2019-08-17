@@ -1,8 +1,10 @@
+	** Errata - Neco Part 1 **
+
 1. PG. 26
 
 Local error gradient computation: dhi= h’(Ui)SUMk(Wki.dok)
 
-Previous examples show local error gradient d computed by multiplying error gradient in next layer, by synaptic weights, by derivative of activation function.
+Previous examples show local error gradient d computed by multiplying error gradient in next layer, by synaptic weights, by derivative of activation function in layer where error gradient is being computed.
 
 The indexing in example given on pg. 26 suggest that summation is being made over previous layer. Perhaps it should be:
 
