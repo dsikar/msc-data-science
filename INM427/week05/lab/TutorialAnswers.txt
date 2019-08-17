@@ -24,7 +24,7 @@ Neural networks have been applied in finance, engineering, security, transport, 
 
 	* What is backpropagation?
 
-A computationaly efficient method for training multilayer perceptrons.
+A computationaly efficient method for training multilayer perceptrons, whereby the network error is minimised with respect to the network weights.
 
 	* How does backpropagation work?
 
@@ -56,9 +56,28 @@ The aim is to minimise the network error.
 
  Should I normalise/standardise/rescale the data?
 
-* What are the main objectives of Self-Organising Maps?
+	* What are the main objectives of Self-Organising Maps?
+	1. Dimensionality reduction - to transform an input pattern of arbitrary dimension into a one or two dimension discrete map
+	2. Feature extraction - given data from an input space with a nonlinear distribution, the self-organising map is able to select the best set of features for approximating the distribution
+	3. Topological ordering
+	The feature map computed by the self-organising network is topologically ordered in the sense that the spacial location of a neuron in the lattice corresponds to a particular domain or feature of the input patterns
 	
- How do Self-Organising Maps work?
+	* How do Self-Organising Maps work?
+	Self-Organising Maps work by creating a one or two-dimensional representation of the input data, which may be in an arbitrary dimensional space.
+	The representation contains a number of neurons equal to the dimensionality of the data. An input will be connected to all the neurons, each neuron being associated to a weight vector.
+	The learning is comprised of three phases:
+	1. Competition - where a winning neuron is determined
+	i(x) = arg min sub j || x - Wj ||^2
+	where i is the winning neuron, x is the input vector and Wj is the weight vector for the winning neuron
+	2. Cooperative process (Cooperation)
+	A neighbourhood function centred on the winnning neuron determines a factor of how much nearby neurons move close to winner neuron:
+	h sub ji = exp (- dji ^ 2 / 2 sigma ^ 2)
+	3. Adaptation
+	Neuron weight vectors are ajusted following
+	Delta Wj = n * hji(x) * (x - Wj)
+	It has the effect of moving the weight vector Wi of winning neuron i towards the input vector x, and the neighbouring neurons Wj also towards x but less that Wi (with discount hji).
+	Upon repeated presentation of training data, the weight vectors follow the distribution of the input vectors.
+	
 
 	* How is generalisation possible?
 	By training a network with a data set, minus a validation data set, and testing the network with the validation set, unseen by the network during the training phase, it is possible to generalise the network to predict unseen examples.	

@@ -17,7 +17,7 @@ Problem of local minimum, adding momentum, etc. (Haykin, p.191-198) 				OK
 Regularization (Haykin, p.218-222) 								OK
 Learning evaluation and generalization (Haykin, p.205-209, 213-218)				OK 
 Self-organising maps (Haykin, p.443-466) 						5	OK							
-Support Vector Machines (Haykin, p.318-324, 329-339, lecture notes, A. Ng notes) 	6
+Support Vector Machines (Haykin, p.318-324, 329-339, lecture notes, A. Ng notes) 	6	OK ish	
 Hopfield networks (Haykin, p.50-66, 680-696) 						5	OK
 Gibbs sampling (Haykin, p.545-550, 561-562) 						6
 Boltzmann machines, Generative models (Haykin, p.558-560, 562-574) 			6
