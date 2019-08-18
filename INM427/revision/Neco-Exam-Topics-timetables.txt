@@ -19,9 +19,9 @@ Learning evaluation and generalization (Haykin, p.205-209, 213-218)				OK
 Self-organising maps (Haykin, p.443-466) 						5	OK							
 Support Vector Machines (Haykin, p.318-324, 329-339, lecture notes, A. Ng notes) 	6	OK ish	
 Hopfield networks (Haykin, p.50-66, 680-696) 						5	OK
-Gibbs sampling (Haykin, p.545-550, 561-562) 						6
-Boltzmann machines, Generative models (Haykin, p.558-560, 562-574) 			6
-Restricted Boltzmann machines (Lecture notes)						6, 7
+Gibbs sampling (Haykin, p.545-550, 561-562) 						6	OK
+Boltzmann machines, Generative models (Haykin, p.558-560, 562-574) 			6	OK
+Restricted Boltzmann machines (Lecture notes)						6, 7	OK
 Contrastive Divergence (Lecture notes) 							7
 Deep learning (Lecture notes) 								7
 Recurrent networks (Haykin, p.732-741)							7 
