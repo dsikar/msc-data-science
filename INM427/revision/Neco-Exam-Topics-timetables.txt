@@ -21,9 +21,9 @@ Support Vector Machines (Haykin, p.318-324, 329-339, lecture notes, A. Ng notes)
 Hopfield networks (Haykin, p.50-66, 680-696) 						5	OK
 Gibbs sampling (Haykin, p.545-550, 561-562) 						6	OK
 Boltzmann machines, Generative models (Haykin, p.558-560, 562-574) 			6	OK
-Restricted Boltzmann machines (Lecture notes)						6, 7	OK
-Contrastive Divergence (Lecture notes) 							7
-Deep learning (Lecture notes) 								7
+Restricted Boltzmann machines (Lecture notes)						6, 7	OK	
+Contrastive Divergence (Lecture notes) 							7	OK	
+Deep learning (Lecture notes) 								7	OK
 Recurrent networks (Haykin, p.732-741)							7 
 Convolutional nets (lecture notes)							7 
 Autoencoders (lecture notes) 								7

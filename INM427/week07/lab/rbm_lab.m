@@ -21,11 +21,13 @@ conf.params(4) = 0.05;%0.00002; % Weight decay
 
 conf.sparsity = 'EMIN';
 conf.lambda    = 5;    % Sparsity penalty
-conf.p         = 0 .0001;% Sparsity constraint
+conf.p         = 0.0001;% Sparsity constraint
 
 conf.E_STOP_LR_REDUCE = 50;
 conf.E_STOP = 5;
-conf.gen  = 0;
+conf.gen  = 0; % = 0 Reconstruction Error 0.23199 ,   = 1, Reconstruction Error 0.03375
+% in class_rbm_train.m
+% conf.dis = 1-conf.gen; % Discriminative or generative learning
 
 conf.plot = 1; % Show plots
 
