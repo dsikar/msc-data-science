@@ -29,3 +29,49 @@ Convolutional nets (lecture notes)							7
 Autoencoders (lecture notes) 								7
 Backpropagation through Time (Haykin, p. 751-756, lecture notes)			7
 
+
+	* Self-organising maps - Key equations
+
+1. Competition phase
+
+In the competition phase, the neuron with weight vector closest (minimum distance) to input vector wins the competition.
+
+i(x) =  arg minj || x - Wj ||^2 
+
+2. cooperative phase
+
+* Neighbourhood concept
+
+hi,j = (di,j^2/2*sigma)
+
+
+3. Adaptation phase
+
+deltaWji = n * hi,j ( SUMj 
+
+
+	* Support Vector Machines - Key equations
+
+
+	* Hopfield networks - key equations
+
+1. Storage phase
+
+2. Energy function
+
+
+	* Contrastive Divergence - key equations
+
+
+
+	* Gibbs Sampling - key equations 
+
+
+
+
+
+
+
+
+
+
