@@ -55,9 +55,16 @@ deltaWji = n * hi,j ( SUMj
 
 	* Hopfield networks - key equations
 
-1. Storage phase
+1. Storage phase - one shot learning
+
+Wij = 1/N * SUM as mu goes from 1 to M of Ksi index MU i times Ksi index Mu j
+
+Where M is the number of memories and N is the size of memory vector.
+
 
 2. Energy function
+
+E = -1/2 SUM as i goes from one to N times SUM as j goes from 1 to N of Weight index i, j times activation of i times activation of j.
 
 
 	* Contrastive Divergence - key equations
