@@ -20,7 +20,7 @@ trainingSums = varfun(@sum,trainingData,'GroupingVariable','iris_class');
 trainingSums(:,1:2);
 testingSums = varfun(@sum,testData,'GroupingVariable','iris_class');
 testingSums(:,1:2);
-ctree = fitctree(trainingData, 'iris_class');
+ctree = fitctree(trainingData, 'iris_class'); % doc fitctree
 view(ctree,'Mode','graph');
 predictedLabel = predict(ctree, testData);
 testDataLabels = testData(:,5);
