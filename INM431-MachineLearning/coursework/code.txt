@@ -1,0 +1,5 @@
+Code: 
+
+syntactic correctness (5%), 
+organization and clarity of comments (10%), 
+appropriate use and sophistication of methods (10%)
