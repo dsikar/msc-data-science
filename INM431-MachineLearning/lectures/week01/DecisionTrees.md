@@ -19,27 +19,51 @@ As an example of what a decision tree can do, let's look at a set of attributes 
 |10.|Y|L|Y|Y|Y|N|
 
 Our input is a set of properties, our output is the classification. We build a tree where the nodes are the attributes, the branches are the attribute values we are testing and the end nodes, or leaves, are the classifications.  
-We could build something like this:
+We could build something like this, we choose attribute *Prior commitment* as a node, and the attribute values *Y* and *N* as branches:
 ```
-  +------------------+
-  | Prior Commitment |
-  +-----+--------+---+
-      Y |        | N
-+-------+        +------+
-|                       |
-v                       v
-                   +----+---+
-N                  | Friend |
-                   +-+----+-+
-                   N |    | Y
-                 +---+    +---+
-                 |            |
-                 v            v
+              +------------------+
+              | Prior Commitment |
+              +-----+--------+---+
+                  Y |        | N  
+            +-------+        +------+
+            |                       |
+            v                       v
+```
+We can then add the row numbers, with a sign to indicate the output.
+```
+              +------------------+
+              | Prior Commitment |
+              +-----+--------+---+
+  -1,-7,-8,-9,-10 Y |        | N -2,+3,-4,+5,+6
+            +-------+        +------+
+            |                       |
+            v                       v
 
-                 N            Y
+            N
+```
+
+We see that for rows 1, 7, 8, 9 and 10, which have attribute values *Y*, that is to say, a prior commitment, have a classification value of *N*, so will not be attending the party. We add a leaf to that case, as no more tests are required, and move onto the other branch, which has a test for attribute value *N*. The rows 2, 3, 4, 5 and 6 have difference classifications, so we need to choose another node, that is, another attribute to test. We choose *Friend*:
+```
+              +------------------+
+              | Prior Commitment |
+              +-----+--------+---+
+  -1,-7,-8,-9,-10 Y |        | N -2,+3,-4,+5,+6
+            +-------+        +------+
+            |                       |
+            v                       v
+                               +----+---+
+            N                  | Friend |
+                               +-+----+-+
+                         -2,-4 N |    | Y +3,+5,+6
+                             +---+    +---+
+                             |            |
+                             v            v
+
+                             N            Y
 
 ```
-That is not the only solution, we could have starting with another attribute.
+We see that rows 2 and 4 are not friends of the host, so will not go to the party. We add a leaf and move onto the next branch.  We see that testing for *Y* results in a single classification of *Y*, so we add another leaf, and no further tests are required.  
+That is not the only solution, we could have started with another attribute.
 Intuitively, we would want the simplest possible model that would find the answer, that would translate into the shortest tree.  
-We pick an attribute that will separate the data as much as possible, that is, will give us the most amount of information. In computing science this is known as *information gain* or *enthropy*:
-![equation](http://latex.codecogs.com/gif.latex?O_t%3D%5Ctext%20%7B%20Onset%20event%20at%20time%20bin%20%7D%20t)
+We pick an attribute that will separate the data as much as possible, that is, will give us the most amount of information. In computing science this is known as *information gain* or *entropy*:    
+**TODO**: Add entropy calculation
