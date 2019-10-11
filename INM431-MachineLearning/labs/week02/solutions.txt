@@ -1,0 +1,31 @@
+
+% 3. X-factor viewers from 3 towns took part in a survey about how they voted: 
+
+P(VB) = 0.46 % 46% of those surveyed were from Bury, 
+P(VC) = 0.38 % 38% from Croydon
+P(VD) = 0.16 % 16% from Dover
+
+% The poll showed that 
+P(W|VB) = 0.61 % 61% of Bury viewers, 		- given Bury viewers, percentage of winning votes 
+P(W|VC) = 0.88 % 88% of Croydon viewers and 	- given Croydon viewers, percentage of winning votes 
+P(W|VD) = 0.51 % 51% of Dover viewers 		- given Dover viewers, percentage of winning votes
+
+% voted for the eventual winner of X-factor.
+
+What is the probability that a vote for the winner was cast by a viewer from Dover?
+
+% P(VD|W) - given a winning vote (prior), probability it was cast by a Dover viewer?
+
+% Bayes' Theorem
+P(VD|W) = P(W|VD)P(VD)/P(W)
+
+% Sum rule - sum of all joint probabilities of winning votes:
+P(W) = P(W|VD)*P(VD)+P(W|VC)*P(VC)+P(W|VB)*P(VB)
+
+P(VD|W) = P(W|VD)P(VD)/P(W|VD)*P(VD)+P(W|VC)*P(VC)+P(W|VB)*P(VB)
+
+P(VD|W) = (0.51 * 0.16) / (0.51 * 0.16 + 0.88 * 0.38 + 0.61 * 0.46) 
+
+P(VD|W) = 0.0816 / ( 0.0816 + 0.3344 + 0.2806 )
+
+P(VD|W) = 0.11714 ~ 12%
