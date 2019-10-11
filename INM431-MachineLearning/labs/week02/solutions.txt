@@ -65,3 +65,48 @@ P(NN) = 	0.03 +
 		0.0.08
 
 P(NN) = 	0.51 ~ 51%
+
+5. You have a bag containing 1000 coins. 999 are genuine, but one of them is fake, with a ‘head’ on both sides. 
+You pick one of the 1000 coins at random, and flip it 10 times. 
+All ten times it falls ‘heads’. What is the probability that this coin is the fake one?
+
+p(G) = 0.999
+p(~G) = 0.001
+P(Hx10|G) = 1/1024 % 1/2^10
+p(Hx10|~G) = 1
+
+p(~G|HX10) = ?
+
+p(~G|HX10) = p(Hx10|~G) * p(~G) / p(Hx10|~G) * p(~G) + p(Hx10|G) * p(G) 
+
+p(~G|HX10) = 1 * 0.001 / 1 * 0.001 + 1/1024 * 0.999
+
+p(~G|HX10) = 51%
+
+Extension: All ten times it falls ‘heads’. What is the probability that this coin is genuine?
+
+P(G|HX10) = P(HX10|G) * G / P(HX10)
+P(G|HX10) = P(HX10|G) * G / P(HX10|G) * G + P(HX10|~G) * ~G
+P(G|HX10) = 1/1024 * 0.999 / 1/1024 * 0.999 + 1 * 0.001
+P(G|HX10) = 1/1024 * 0.999 / 1/1024 * 0.999 + 1 * 0.001
+P(G|HX10) = 0.00097559 / (0.00097559 + 0.999)
+P(G|HX10) = 0.49 ~ 49%
+
+6. 
+
+0 = No Confession					 
+1 = Confession					
+W1 = You
+W2 = John
+
+W1 W2	Sentence W1 Sentence W2
+0  0	1	    1
+0  1	6	    0
+1  0	0	    6
+1  1 	3	    3
+
+Prison sentences for W1 & W2
+Turn witness 	   - average sentence = 1.5 years
+Don't turn witness - average sentence = 3.5 years
+
+To minimize jail sentence, best to turn witness.
