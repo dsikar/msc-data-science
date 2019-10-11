@@ -29,3 +29,39 @@ P(VD|W) = (0.51 * 0.16) / (0.51 * 0.16 + 0.88 * 0.38 + 0.61 * 0.46)
 P(VD|W) = 0.0816 / ( 0.0816 + 0.3344 + 0.2806 )
 
 P(VD|W) = 0.11714 ~ 12%
+
+4. You don’t know if your friend George knows about neural networks. 
+You think that he studied Artificial Intelligence, but are not completely sure; 
+let’s say you’re 50% sure. 
+Maybe he did Computer Science; you’re only 20% sure of that. What are the chances that George knows what a neural network is? 
+You can assume that 80% of people who study AI know what a neural network is, 
+40% of people who study CS know what a neural network is, and 
+10% of the rest of the population know what a neural network is.
+
+P(GG | AI) = 0.50 % probability George studied AI
+P(GG | CS) = 0.20 % probability George studied CS
+P(GG | NS) = 0.30 % probability George did not study AI or CS
+
+P(NN) = ?    % probability that George, knows what a neural network is
+
+P(AI) = 0.8 
+P(CS) = 0.4
+P(G) = 0.1
+
+Using the sum rule to determine the probability if George knows what AI is, the sum of all probabilities of the knowlege of NN
+
+
+P(NN) = 	P(GG | NS) * P(NS) +
+		P(GG | AI) * P(AI) + 
+		P(GG | CS) * P(CS) 
+		
+P(NN) = 	0.30 * 0.10 +
+		0.50 * 0.80 +
+		0.20 * 0.4
+
+
+P(NN) = 	0.03 +
+		0.4 +
+		0.0.08
+
+P(NN) = 	0.51 ~ 51%
