@@ -1,112 +1,190 @@
+2. Cannabis 
 
-% 3. X-factor viewers from 3 towns took part in a survey about how they voted: 
+A - presence of cannabis
+B - positive test
 
-P(VB) = 0.46 % 46% of those surveyed were from Bury, 
-P(VC) = 0.38 % 38% from Croydon
-P(VD) = 0.16 % 16% from Dover
+P(B|A) = 0.9	% positive test given the presence of cannabis
+P(B|~A) = 0.1	% positive test given the absence of cannabis
+P(A) = 0.2	% presence of cannabis - general driving population
+P(~A) = 0.8	% absence of cannabis - general driving population
 
-% The poll showed that 
-P(W|VB) = 0.61 % 61% of Bury viewers, 		- given Bury viewers, percentage of winning votes 
-P(W|VC) = 0.88 % 88% of Croydon viewers and 	- given Croydon viewers, percentage of winning votes 
-P(W|VD) = 0.51 % 51% of Dover viewers 		- given Dover viewers, percentage of winning votes
+i. What is the probability that a driver has smoked cannabis in the last 72 hours if they have tested positive?
 
-% voted for the eventual winner of X-factor.
+P(A|B)	% probability of presence of cannabis given a positive test
+
+% Bayes' Theorem
+P(A|B) = P(B|A) * P(A) / P(B)
+
+% Sum rule - sum of joint probabilities P(B,A) and P(B,~A)
+P(B) = P(B|A) * P(A) + P(B|~A) * P(~A)
+
+% In plain English, probability of a positive test is equal to
+% the probability of a positive test given the presence of cannabis times presence of 
+% cannabis, **plus** the probability of a positive test given the absence of cannabis times
+% absence of cannabis 
+
+P(A|B) = (0.9 * 0.2) / (0.9 * 0.2 + 0.1 * 0.8)
+P(A|B) = 0.6923076923 ~ 69%
+
+ii. What is the probability that someone smoked cannabis in the last 72 hours if they have not tested positive?
+
+P(A|~B)	% probability of presence of cannabis given a negative test result
+
+New information: 
+
+P(B|A) = 0.999	% positive test in the presence of cannabis
+P(B|~A) = 0.2	% positive test in the absence of cannabis
+
+% Bayes' Theorem
+P(A|~B) = P(~B|A) * (A) / P(~B)
+% Sum rule - all negative test cases, for presence and absence of cannabis
+P(~B) = P(~B|A) * (A) + P(~B|~A) * (~A)  
+
+We need P(~B|A) and P(~B|~A): 
+P(B|A) = 0.999	% true positive
+P(~B|A) = 0.001 % false negative, negative test in the presence of cannabis 
+P(B|~A) = 0.2	% false positive, positive test in the absence of cannabis
+P(~B|~A) = 0.8	% true negative, negative test in the absence of cannabis
+
+P(A|~B) = (P(~B|A) * (A)) / (P(~B|A) * (A) + P(~B|~A) * (~A)) 
+P(A|~B) = (0.001 * 0.2) / (0.001 * 0.2 + 0.8 * 0.8)
+P(A|~B) = 0.00031240237 % 0.003% ~ 3 cases in 1k, 31 cases in 10k - inhaled?
+
+3. X-factor
 
 What is the probability that a vote for the winner was cast by a viewer from Dover?
 
-% P(VD|W) - given a winning vote (prior), probability it was cast by a Dover viewer?
+P(B) = 0.46 	% from Bury, 
+P(C) = 0.38	% from Croydon
+P(D) = 0.16	% from Dover
+NB Proportion sum = 1.
+
+% The poll showed that 
+P(W|B) = 0.61 	% given Bury viewers, percentage of winning votes 
+P(W|C) = 0.88	% given Croydon viewers, percentage of winning votes 
+P(W|D) = 0.51	% given Dover viewers, percentage of winning votes
+NB Proportion sum ~= 1.
+
+% P(D|W) - given a winning vote (prior), probability it was cast by a Dover viewer?
+
+Question for Artur, is P(W|D) the likelihood and P(D|W) the posterior?
 
 % Bayes' Theorem
-P(VD|W) = P(W|VD)P(VD)/P(W)
+P(D|W) = P(W|D) * P(D) / P(W)
+P(W|D), P(D) are known.
+P(W) unknown.
 
-% Sum rule - sum of all joint probabilities of winning votes:
-P(W) = P(W|VD)*P(VD)+P(W|VC)*P(VC)+P(W|VB)*P(VB)
+% Sum rule - sum of all joint probabilities:
+P(W) = P(W,B) + P(W,C) + P(W,D)
+P(W) = P(W|B) * P(B) + P(W|C) * P(C) + P(W|D) * P(D)
+P(D|W) = (P(W|D) * P(D)) / (P(W|B) * P(B) + P(W|C) * P(C) + P(W|D) * P(D))
+P(D|W) = (0.51 * 0.16) / (0.61 * 0.46 + 0.88 * 0.38 + 0.51 * 0.16) 
+P(D|W) = 0.11714039621 ~ 12%
 
-P(VD|W) = P(W|VD)P(VD)/P(W|VD)*P(VD)+P(W|VC)*P(VC)+P(W|VB)*P(VB)
+Expansion - kind of helps with problem 4
+What was the voting ratio P(W):P(~W)?
 
-P(VD|W) = (0.51 * 0.16) / (0.51 * 0.16 + 0.88 * 0.38 + 0.61 * 0.46) 
+% From poll it can be inferred: 
+P(~W|B) = 0.39	% given Bury viewers, percentage of losing votes 
+P(~W|C) = 0.12	% given Croydon viewers, percentage of losing votes 
+P(~W|D) = 0.49	% given Dover viewers, percentage of losing votes
 
-P(VD|W) = 0.0816 / ( 0.0816 + 0.3344 + 0.2806 )
+City	Winning votes	Losing votes
+Bury	P(W|VB) = 0.61	P(~W|VB) = 0.39	
+Croydon	P(W|VC) = 0.88	P(~W|VC) = 0.12
+Dover	P(W|VD) = 0.51	P(~W|VD) = 0.49
 
-P(VD|W) = 0.11714 ~ 12%
+% Sum rule
+P(W) = P(W,B) + P(W,C) + P(W,D)
+P(W) = P(W|B) * P(B) + P(W|C) * P(C) + P(W|D) * P(D)
+P(W) = 0.61 * 0.46 + 0.88 * 0.38 + 0.51 * 0.16
+P(W) = 0.6966 - 70%
+P(~W) = P(~W,B) + P(~W,C) + P(~W,D)
+P(~W) = P(~W|B) * P(B) + P(~W|C) * P(C) + P(~W|D) * P(D)
+P(~W) = 0.39 * 0.46 + 0.12 * 0.38 + 0.49 * 0.16
+P(~W) = 0.3034 ~ 30% 
+P(W):P(~W) = 0.7:0.3
 
-4. You don’t know if your friend George knows about neural networks. 
-You think that he studied Artificial Intelligence, but are not completely sure; 
-let’s say you’re 50% sure. 
-Maybe he did Computer Science; you’re only 20% sure of that. What are the chances that George knows what a neural network is? 
-You can assume that 80% of people who study AI know what a neural network is, 
-40% of people who study CS know what a neural network is, and 
-10% of the rest of the population know what a neural network is.
+P(W) + P(~W) = 1
+P(~W) = 1 - P(W)
 
-P(GG | AI) = 0.50 % probability George studied AI
-P(GG | CS) = 0.20 % probability George studied CS
-P(GG | NS) = 0.30 % probability George did not study AI or CS
+What the computation shows:
+Had we taken a member of the voting population at random, there is a 70% probability the
+voter would have cast a winning vote and a 30% probability the voter would
+have cast a losing vote.
 
-P(NN) = ?    % probability that George, knows what a neural network is
+4. Neural Networks
 
-P(AI) = 0.8 
-P(CS) = 0.4
-P(G) = 0.1
+What are the chances that George knows what a neural network is?
 
-Using the sum rule to determine the probability if George knows what AI is, the sum of all probabilities of the knowlege of NN
+P(G|AI) = 0.5	% probability George studied AI, given AI course, did George take AI - course exists (prior)
+P(G|CS) = 0.2	% probability George studied CS
+P(G|NS) = 0.3	% probability George did not study AI or CS - NS (no CS or AI studies - rest of population)
 
+P(AI) = 0.8	% ratio AI students that know what a neural network is 
+P(CS) = 0.4	% ratio of CS students that know what a neural network is  
+P(NS) = 0.1	% ratio of NS students (rest of population) that know what a neural network is
 
-P(NN) = 	P(GG | NS) * P(NS) +
-		P(GG | AI) * P(AI) + 
-		P(GG | CS) * P(CS) 
-		
-P(NN) = 	0.30 * 0.10 +
-		0.50 * 0.80 +
-		0.20 * 0.4
+P(G) % probability that George knows what a neural network is
 
+% Sum rule 
+P(G) = 	P(G|AI) * P(AI) + P(G|CS) * P(CS) + P(G|NS) * P(NS) 	
+P(G) = 	0.5 * 0.8 + 0.2 * 0.4 + 0.3 * 0.1
+P(G) = 	0.51 ~ 51% - conversely P(~G) = 49%
 
-P(NN) = 	0.03 +
-		0.4 +
-		0.0.08
+This is similar to problem 4 in that, if we chose at random a member of the population being
+considered, there is a 51% change that member knows what a neural network is.
 
-P(NN) = 	0.51 ~ 51%
+5. Fake coin
 
-5. You have a bag containing 1000 coins. 999 are genuine, but one of them is fake, with a ‘head’ on both sides. 
-You pick one of the 1000 coins at random, and flip it 10 times. 
-All ten times it falls ‘heads’. What is the probability that this coin is the fake one?
+P(G) = 0.999		% probability of picking a genuine coin
+P(~G) = 0.001		% probability of picking a fake coin
+P(Hx10|G) = 1/1024	% given a genuine coin, probability of flipping ten consecutive heads (1/2)^10
+P(Hx10|~G) = 1		% given a fake coin, probability of flipping ten consecutive heads
 
-p(G) = 0.999
-p(~G) = 0.001
-P(Hx10|G) = 1/1024 % 1/2^10
-p(Hx10|~G) = 1
+P(~G|HX10) 		% given 10 consecutive heads, probability of coin being fake
 
-p(~G|HX10) = ?
+% Bayes' Theorem
+P(~G|HX10) = P(Hx10|~G) * P(~G) / P(Hx10)
 
-p(~G|HX10) = p(Hx10|~G) * p(~G) / p(Hx10|~G) * p(~G) + p(Hx10|G) * p(G) 
+% Sum rule
+P(Hx10) = P(Hx10|~G) * P(~G) + P(Hx10|G) * P(G)
+ 
+% In plain English, probability of ten consecutive heads is equal to
+% the probability of flipping ten consecutive heads given a fake coin, times the 
+% probability of picking a fake coin, **plus** the probability of flipping ten consecutive
+% heads given a genuine coin, times the probability of picking a genuine coin.
 
-p(~G|HX10) = 1 * 0.001 / 1 * 0.001 + 1/1024 * 0.999
+P(~G|HX10) = (P(Hx10|~G) * P(~G)) / (P(Hx10|~G) * P(~G) + P(Hx10|G) * P(G))
+P(~G|HX10) = (1 * 0.001) / (1 * 0.001 + 1/1024 * 0.999)
+P(~G|HX10) = 0.50617894216 ~ 51%
 
-p(~G|HX10) = 51%
-
-Extension: All ten times it falls ‘heads’. What is the probability that this coin is genuine?
+Extension: All ten times fall ‘heads’. What is the probability that this coin is genuine?
 
 P(G|HX10) = P(HX10|G) * G / P(HX10)
 P(G|HX10) = P(HX10|G) * G / P(HX10|G) * G + P(HX10|~G) * ~G
-P(G|HX10) = 1/1024 * 0.999 / 1/1024 * 0.999 + 1 * 0.001
-P(G|HX10) = 1/1024 * 0.999 / 1/1024 * 0.999 + 1 * 0.001
-P(G|HX10) = 0.00097559 / (0.00097559 + 0.999)
-P(G|HX10) = 0.49 ~ 49%
+P(G|HX10) = (1/1024 * 0.999) / (1/1024 * 0.999 + 1 * 0.001)
+P(G|HX10) = 0.49382105783 ~ 49%
 
-6. 
+So it follows:
+P(G|HX10) + P(~G|HX10) = 1
+
+6. Prisoner's dilemma
 
 0 = No Confession					 
 1 = Confession					
 W1 = You
 W2 = John
 
-W1 W2	Sentence W1 Sentence W2
+W1 W2	W1 sentence W2 sentence 
 0  0	1	    1
 0  1	6	    0
 1  0	0	    6
 1  1 	3	    3
 
 Prison sentences for W1 & W2
-Turn witness 	   - average sentence = 1.5 years
-Don't turn witness - average sentence = 3.5 years
+Turn witness 	   - average sentence 0 + 3 = 1.5 years
+Don't turn witness - average sentence 1 + 6 = 3.5 years
 
-To minimize jail sentence, best to turn witness.
+To minimize jail sentence, best turn witness.
+To maximize jail sentence, best not turn witness.
