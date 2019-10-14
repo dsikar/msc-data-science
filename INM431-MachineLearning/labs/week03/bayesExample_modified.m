@@ -6,7 +6,7 @@ x = linspace(0,10,1000);
 % x = ones(1,1000,1);
 figure; hold on; axis([0 10 0 1]);
 
- % Prior distribution - replace distribution to uniformly distruted prior
+% Prior distribution - replace distribution to uniformly distruted prior
 pm = 5; % Prior mean
 ps2 = 4; % Prior variance
 % Slide 3, lecture 2
@@ -34,13 +34,13 @@ for i = 1:10,
     % Lecture 2 page 3
     posterior = (2*pi*Ps2)^(-0.5)*exp(-0.5*(x-Pm).^2/Ps2);
     plotPost = plot(x, posterior, 'r'); % Plot 3: product distribution
-    leg = legend('prior', 'measurement', 'likelihood', 'posterior');
+    leg = legend('prior', 'measurement', 'likelihood', 'posterior'); % doc legend
     
     if(i < 10),
     
         pause(1);
 
-        delete(get(leg, 'Children'));
+        delete(get(leg, 'Children')); % doc get, >> get(leg) Children: [0×0 GraphicsPlaceholder]
 
         delete(plotPrior);
         delete(plotLike);

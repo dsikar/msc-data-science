@@ -125,16 +125,17 @@ P(AI) = 0.8	% ratio AI students that know what a neural network is
 P(CS) = 0.4	% ratio of CS students that know what a neural network is  
 P(NS) = 0.1	% ratio of NS students (rest of population) that know what a neural network is
 
-P(G) % probability that George knows what a neural network is
+P(G) 	% probability that George knows what a neural network is
+	% notation not ideal, room for improvement
 
 % Sum rule - sum of all joint probabilities
-PG = P(G,AI) + P(G,CS) + P(G,NS)
+P(G) = P(G,AI) + P(G,CS) + P(G,NS)
 P(G) = 	P(G|AI) * P(AI) + P(G|CS) * P(CS) + P(G|NS) * P(NS) 	
 P(G) = 	0.5 * 0.8 + 0.2 * 0.4 + 0.3 * 0.1
 P(G) = 	0.51 ~ 51% - conversely P(~G) = 49%
 
-This is similar to problem 4 in that, if we chose at random a member of the population being
-considered, there is a 51% change that member knows what a neural network is.
+This is similar to problem 4 in that, if we chose at random a member of the sample, 
+there is a 51% change that member knows what a neural network is.
 
 5. Fake coin
 
