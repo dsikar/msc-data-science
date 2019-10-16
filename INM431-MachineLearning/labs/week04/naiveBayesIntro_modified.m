@@ -15,10 +15,17 @@ X = [ 0 0 1 1 0 ;
 1 0 0 0 1 ];
 
 Y = X(:,5);
-X = X(:,1:4)'; % X in proper format now.
+X = X(:,1:4)'; % X in proper format now. See ctranspose, ' - Complex conjugate transpos, 
+
 % class priors - Lecture 2 - pg 5, two priors, 
-pS = sum (Y)/size(Y,1);     % all rows with Y = 1 - pg 5
-pE = sum(1 - Y)/size(Y,1);  % all rows with Y = 0
+
+% A class prior may be calculated by assuming equiprobable classes: prior = 1 / (number of classes), 
+% or by calculating an estimate for the class probability from the training set: 
+% class prior = (number of samples in the class) / (total number of samples)
+
+pS = sum (Y)/size(Y,1);     % all rows with Y = 1 - probability of Scottish
+pE = sum(1 - Y)/size(Y,1);  % all rows with Y = 0 - probability of English
+
 % Lecture 2, pg 19 - same idea of max log likelihood
 % mu parameter
 phiS = X * Y / sum(Y);  % all instances for which attrib phi(i) and Y are both 1
