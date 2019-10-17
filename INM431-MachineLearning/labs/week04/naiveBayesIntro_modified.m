@@ -69,8 +69,8 @@ pE = sum(1 - Y)/size(Y,1);  % all rows with Y = 0 - probability of English
 %     1
 %     1
 
-% So basically we sum the products of all the elements, to better
-% visualise we transpose Y:
+% So basically we sum the products of all the elements,
+% to better visualise, we transpose Y:
 
 % X(1,:)  0     1     1     1     0     0     1     1     1     1     1     1     1
 % Y(:,1)' 0     0     0     0     0     0     1     1     1     1     1     1     1
@@ -88,7 +88,8 @@ pE = sum(1 - Y)/size(Y,1);  % all rows with Y = 0 - probability of English
 % X(1,:)*(1-Y) = 3
 
 % etc...
-
+% STOPPED HERE - what is phiS???
+s
 phiS = X * Y / sum(Y);  % all instances for which attrib phi(i) and Y are both 1
                         % P (X/Y=1)
 % mu parameter              
@@ -103,7 +104,15 @@ x=[1 0 1 0]';  % test point - porridge yes, lager no, watches england yes, etc
 % a probability. 
 % Then prod can be used to multiply all the values in x, as follows: 
 pxS = prod(phiS.^x.*(1-phiS).^(1-x));
-pxE = prod(phiE.^x.*(1-phiE).^(1-x));
+%    phiS       x   phiS.^x     1-phiS  1-x (1-phiS).^(1-x) phiS.^x.*(1-phiS).^(1-x)     
+%    1.0000     1   1.0000      0       0   1.0000          1.0000
+%    0.5714     0   1.0000      0.4286  1   0.4286          0.4286
+%    0.7143     1   0.7143      0.2857  0   1.0000          0.7143
+%    0.4286     0   1.0000      0.5714  1   0.5714          0.5714
+% prod(phiS.^x.*(1-phiS).^(1-x)) = 1 * 0.4286 * 0.7143 * 0.5714 = 0.1749 
+pxE = prod(phiE.^x.*(1-phiE).^(1-x)); % doc prod - Product of array elements
 % Bayesian formula
-pxSF = (pxS * pS ) / (pxS * pS + pxE * pE) %P(Y=1|X)
+% p(S, x) = p(x|S)*p(S)/p(x|S)*p(S) + p(x|E)*p(E)
+pxSF = (pxS * pS ) / (pxS * pS + pxE * pE) %P(Y=1|X) 
+% p(E, x) = p(x|E)*p(E)/p(x|E)*p(E) + p(x|S)*p(S)
 pxEF = (pxE * pE ) / (pxS * pS + pxE * pE) %P(Y=0|X) 
