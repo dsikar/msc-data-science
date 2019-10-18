@@ -130,6 +130,7 @@ x=[1 0 1 0]';  % test point - shortbread yes, lager no, porridge yes, watches en
 % phiS.^x.*(1-phiS).^(1-x) below will yield a vector with each element being 
 % a probability. 
 % Then prod can be used to multiply all the values in x, as follows: 
+% Probability of observing test point vector, given class label scottish
 pxS = prod(phiS.^x.*(1-phiS).^(1-x)); % NB exponentiation with order 4x1 base and exponent vectors
 %    phiS       x   phiS.^x     1-phiS  1-x (1-phiS).^(1-x) phiS.^x.*(1-phiS).^(1-x)     
 %    1.0000     1   1.0000      0       0   1.0000          1.0000
@@ -138,7 +139,7 @@ pxS = prod(phiS.^x.*(1-phiS).^(1-x)); % NB exponentiation with order 4x1 base an
 %    0.4286     0   1.0000      0.5714  1   0.5714          0.5714
 % prod(phiS.^x.*(1-phiS).^(1-x)) = 1 * 0.4286 * 0.7143 * 0.5714 = 0.1749 
 % pxS = 0.1749 
-
+% probability of observing test point vector, given class label english
 pxE = prod(phiE.^x.*(1-phiE).^(1-x)); % doc prod - Product of array elements
 % Same again for pxE with some vector manipulation to save copy and paste
 % mymtrx = phiE; mymtrx(:,2) = x; mymtrx(:,3) = phiE.^x; mymtrx(:,4) = 1-phiE; 
@@ -153,13 +154,14 @@ pxE = prod(phiE.^x.*(1-phiE).^(1-x)); % doc prod - Product of array elements
 % pxE = 0.0625 
 
 % Bayesian formula
-% probability of observing test point vector x, given S
+% probability of observing class label scottish, given test point vector
 % p(x|S) = p(x|S)*p(S)/p(x|S)*p(S) + p(x|E)*p(E)
 pxSF = (pxS * pS ) / (pxS * pS + pxE * pE); %P(Y=1|X) 
-% probability of observing test point vector x, given E
+% pxSF = 0.76555 
+% probability of observing class label english, given test point vector
 % p(E, x) = p(x|E)*p(E)/p(x|E)*p(E) + p(x|S)*p(S)
 pxEF = (pxE * pE ) / (pxS * pS + pxE * pE); %P(Y=0|X) 
-
+% psEF = 0.23445
 % A loop to check out all possibilities
 
 % for i = 0:15 % get all combinations
@@ -267,6 +269,7 @@ end;
 %     0     0     1     0 - porridge - english
 
 x=[0 0 1 0]'; % test point
+% pxSF = 0, psEF = 1
 
 pxS = prod(phiS.^x.*(1-phiS).^(1-x));
 % mymtrx = phiS; mymtrx(:,2) = x; mymtrx(:,3) = phiS.^x; mymtrx(:,4) = 1-phiS; 
@@ -295,3 +298,10 @@ pxE = prod(phiE.^x.*(1-phiE).^(1-x));
 % england        0.5000         0    1.0000    0.5000    1.0000    0.5000    		0.5000			probability of english watching england		equivalent to 3/6 ~ 0.5
 % prod(0.5 * 0.5 * 0.5 * 0.5) = 0.0625
 pxEF = (pxE * pE) / (pxE * pE + pxS * pS)
+
+% We see that because the probability scottish eats shortbread = 1, the probability of the test point given the
+% class label scottish is = 0 (all scottish eat shortbread), so the product of test point probabilities will also be = 0, and P(Y=1|X)
+% will also be = 0.
+% While class label english has probability of every attribute value = 0.5.
+% We see that the Bernoulli distribution is doing a clever computation by selecting the probabilities of the attribute
+% values in test point vector. If the attribute value is equal to one, will are left with the value of the mean, as 1 - x will mean exponent 0, so 1 - mean raise to exponent zero will be equal to 1. If the attribute value is equal to zero, the first part will be equal to one, so we will be left with the second part TODO expand and clarify.
