@@ -1,0 +1,15 @@
+Reference managers' evaluations
+
+1. Mendeley
+
+Awkward. Imports .bib bibtex files but cannot extract citations. Hard work.
+
+2. Zotero
+
+Does a better job of importing .bibtex files and extracting individual citations. 
+Does not de-duplicate re-imported entries.
+Does not do a good job exporting citation lists. Creates new entries for duplicates, seems to create dummy entries.
+
+Conclusion
+
+Better stick to latex and manage .bib file.
