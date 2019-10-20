@@ -1,0 +1,4 @@
+# compressed files
+*.zip
+# vim swap files
+*.swp
