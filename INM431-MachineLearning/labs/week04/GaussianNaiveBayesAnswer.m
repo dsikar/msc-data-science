@@ -37,8 +37,8 @@ aF = cdf('Normal',xt+n,meansF,stdsF);
 bF = cdf('Normal',xt-n,meansF,stdsF);
 areaF = aF - bF; 
 
-pxtM = pM*prod(areaM); % P(xt,M)
-pxtF = pF*prod(areaF); % P(xt,F)
+pxtM = pM*prod(areaM); % P(xt,M) % **DEBUG** DS - Is this not P(C|x1,...,xn) ? NO - see Lecture 3, pg. 3, but this also looks weird
+pxtF = pF*prod(areaF); % P(xt,F) % **DEBUG** need to dig deeper
 
 pMxt = pxtM/(pxtM+pxtF) % P(M|xt) probability that xt is female 
 pFxt = pxtF/(pxtF+pxtM) % P(F|xt) probability that xt is male
