@@ -3,4 +3,4 @@
 # vim swap files
 *.swp
 # matlab binary files
-.asv
+*.asv
