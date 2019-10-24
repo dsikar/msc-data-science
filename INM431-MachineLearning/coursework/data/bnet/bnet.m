@@ -1,3 +1,6 @@
+% original
+% https://uk.mathworks.com/matlabcentral/fileexchange/23273-k2-algorithm-for-learning-dag-structure-in-bayesian-network
+
 %%%%%%%%%%%%%%%%%%
 %% bnet adapted %%
 %% student data %%
