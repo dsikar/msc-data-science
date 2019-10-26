@@ -1,0 +1,46 @@
+#get working directory
+getwd()
+
+# set working directory
+setwd("new working directory")
+
+# Clear console
+CTRL + L
+
+# Assignment
+wd <- getwd()
+
+# Get type
+typeof(wd)
+
+# concatenation
+wd <- paste(wd,"/git/msc-data-science/INM431-MachineLearning/coursework/data/student", sep = "")
+
+
+# List files
+list.files(wd)
+
+# online help
+help(merge)
+
+# Debug
+# Set breakpoint and 
+CTRL+Shift+S
+
+# Step
+F10
+
+# reading files - NB last line must be a zero-length empty line
+d1=read.table("student-mat-3-rows.csv",sep=";",header=TRUE)
+
+# show duplicates
+duplicated(d3)
+
+# Install package
+install.packages("plyr")
+
+# Group duplicates using plyr library "count" function
+count(duplicated(d2))
+
+
+
