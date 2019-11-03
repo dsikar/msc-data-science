@@ -69,7 +69,11 @@ for k = 1:size(isCategoricalPredictor, 1),
         disp(validationAccuracy);
         disp(testAccuracy);
         disp('*******');
+        % Todo
+        % 1. Save results and hyperparameters to grid
+        % 2. Define best result with training and testing accuracies
+        % 3. Save best model
     end;
 end;
-    
+
 %[trainedClassifier, validationAccuracy] = trainNaiveBayesModel(trainingData);
