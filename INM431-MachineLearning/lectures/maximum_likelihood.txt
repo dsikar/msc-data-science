@@ -1,0 +1,9 @@
+Maximum likelihood:
+
+Slides week05 from Bishop pg. 142.
+
+Also:
+
+* Murphy pg. 220
+
+* De Freitas https://www.youtube.com/watch?v=fd6kQQEbq2Q&t=60m32s 
