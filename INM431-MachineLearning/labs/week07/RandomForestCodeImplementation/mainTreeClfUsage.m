@@ -1,3 +1,9 @@
+% from whatsapp chat:
+% regression - try fitrensamble (over treebagger) ~ easier to implement
+% kfold
+% ROC matworks plotroc.html
+
+
 close all
 clear all
 clc
