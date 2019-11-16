@@ -1,3 +1,5 @@
+% To test the Regression Forest run: mainTreeUsage.m
+
 close all
 clear all
 clc
@@ -50,3 +52,9 @@ hold on;
 plot(outX, outY, 'ro');
 plot(outX, outY+sqrt(outC), 'g.');
 plot(outX, outY-sqrt(outC), 'g.');
+
+% Challenge: Calculate the mean and variance of each leaf node. 
+% This is given in RTree.makeLeaf 
+% Plot a sum of Gaussians which can be a measure of the forest’s final regression result.
+
+

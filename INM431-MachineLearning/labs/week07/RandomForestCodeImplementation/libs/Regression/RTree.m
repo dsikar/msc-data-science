@@ -116,9 +116,7 @@ classdef RTree < handle
             else
                 fprintf('Could not find the best split, making leaf....\n');
                 RT = RT.makeLeaf( inData, inLabel, node);
-            end
-            
-            
+            end 
         end
         
         % function to create a leafnode
@@ -129,6 +127,10 @@ classdef RTree < handle
             RT.m_leaves( RT.m_numLeaves).m_mean = mean(inLabel');
             
             RT.m_numLeaves = RT.m_numLeaves + 1;
+            
+            % Task 5, part 1:
+            % Challenge: Calculate the mean and variance of each leaf node.
+            
         end
         
         % function to optimise the given test at each split node
