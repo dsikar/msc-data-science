@@ -87,6 +87,13 @@ ylabel('X Attribute 2'); % y-axis label
 zlabel('Y'); % z-axis label
 legend('Labels', 'Testing Classification');
 
-confusionmat(testingLabel, pL)
+hold off;
+% need to use keyword (function?) figure before generating confusion
+% matrix
+figure
+cm = confusionchart(testingLabel,pL, ...
+    'Title','My Title', ...
+    'RowSummary','row-normalized', ...
+    'ColumnSummary','column-normalized');
 
 
