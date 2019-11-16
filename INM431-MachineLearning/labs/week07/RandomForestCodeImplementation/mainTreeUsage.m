@@ -56,5 +56,5 @@ plot(outX, outY-sqrt(outC), 'g.');
 % Challenge: Calculate the mean and variance of each leaf node. 
 % This is given in RTree.makeLeaf 
 % Plot a sum of Gaussians which can be a measure of the forest’s final regression result.
-
+% see https://uk.mathworks.com/matlabcentral/answers/83283-the-sum-of-the-two-gaussian-distributions
 
