@@ -2,5 +2,5 @@ http://vishnumenon.com/2012/12/25/linear-regression-through-least-squares--a-tut
 
 http://tutorial.math.lamar.edu/Classes/CalcI/DerivativeIntro.aspx
 
-# Second order derivative test:
+# Second order derivative test (NB Has inconsistensies):
 http://www-users.math.umn.edu/~chand409/documents/teaching_math2373/MATH2373_LeastSquaresRegression.pdf
