@@ -7,6 +7,7 @@ classdef leafNodeHist
     end
     
     methods
+        % Challenge: Calculate the mean and variance of each leaf node
     end
     
 end
