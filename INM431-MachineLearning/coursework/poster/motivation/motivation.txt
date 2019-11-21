@@ -1,0 +1,18 @@
+Motivation and problem description
+
+Studies in Europe and the US have shown the fiscal and social costs of early school leaving, which typically reduces lifetime earnings and leads to higher unemployment incidence and duration, while the benefits of education include gain in net earnings and wealth, improved health status / life expectancy, lower reliance on government health and welfare programs and reduced expenditures on criminal justice [1][2][3].
+
+One important problem is to automatically detect students that are going to do poorly in a course early enough to be able to take remedial actions [4]. A number of Machine Learning algorithms have been used in student grade prediction. We base our study on prior work [5], using <machine learning model 1> and <machine learning model 2> applied to secondary school student performance data.
+
+
+
+[1] Belfield, C. (2008) Cost of Early School-Leaving and School Failure (p. 48). New York: Economics department, City University of New York
+[2] Brunello, G. & Paola, M.D. 2014, "The costs of early school leaving in Europe", IZA Journal of Labor Policy, vol. 3, no. 1, pp. 1-31.
+[3] Fernandez-Gutierrez, M. & Martinez, J. 2014, "THE NON-MONETARY COSTS OF EARLY SCHOOL LEAVING: ESTIMATION IN TERMS OF YEARS OF GOOD HEALTH", EDUCACION XX1, vol. 17, no. 2, pp. 241-263.
+[4] Meier, Y., Xu, J., Atan, O. & van der Schaar, M. 2016;2015;, "Predicting Grades", IEEE Transactions on Signal Processing, vol. 64, no. 4, pp. 959-972.
+[5] P. Cortez and A. Silva. Using Data Mining to Predict Secondary School Student Performance. In A. Brito and J. Teixeira Eds., Proceedings of 5th FUture BUsiness TEChnology Conference (FUBUTEC 2008) pp. 5-12, Porto, Portugal, April, 2008, EUROSIS, ISBN 978-9077381-39-7.
+
+
+
+
+
