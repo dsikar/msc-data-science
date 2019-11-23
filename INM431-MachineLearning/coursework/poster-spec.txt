@@ -1,5 +1,7 @@
 A1 Poster: 
 
+The A1 size print measures 59.4 x 84.1cm (https://www.stephenwiltshire.co.uk/paper_sizes.aspx)
+
 brief description and motivation of the problem (5%), 
 initial analysis of the data set including basic statistics (10%), 
 brief summary of the two ML models with their pros and cons (10%), 

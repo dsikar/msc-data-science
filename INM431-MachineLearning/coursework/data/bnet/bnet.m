@@ -1,5 +1,7 @@
-% original
+% original algorithm
 % https://uk.mathworks.com/matlabcentral/fileexchange/23273-k2-algorithm-for-learning-dag-structure-in-bayesian-network
+% student data
+% https://archive.ics.uci.edu/ml/datasets/student+performance
 
 %%%%%%%%%%%%%%%%%%
 %% bnet adapted %%
@@ -12,11 +14,7 @@ close all; clear all; clc;
 % student-mat.csv
 % student-por.csv
 
-% There are some duplicates across both sets. The authors supplied an R
-% script do deal with it - student-merge.R
-% For the time being we'll just
-% manipulate the data and start looking at it.
-
+% Initial investigation
 T = readtable('../student/student-mat.csv');
 % select 10 numeric rows, ideally binary, to run a test
 % first we select column names and number them, to make it easier to choose
@@ -53,14 +51,14 @@ stIndexedColNames = [stColNames; string(nCols)];
 % rows
 
 % sample = csvread('sample.csv');
-T_numeric = T(2:end,[3 7 8 13 14 15 24 25 26 27]);
+T_numeric = T(1:end,[33 32 31 30 14 15 22 18 6 13]);
 sample = table2array(T_numeric)
 % Sample is a variable that saves our training database.
 LGObj = ConstructLGObj(sample); % construct an object
 
 % This might be where we need some domain knowlege, i.e., the grades should
 % be at the top of our network
-Order = [3 4 1 2 5 8 7 10 9 6]; % Order is the ordering of the input in K2 algorithm
+Order = [1 2 3 4 5 6 7 8 9 10]; % Order is the ordering of the input in K2 algorithm
 
 u = 4; % n = u+1 where n is the maximum number of parents.
 

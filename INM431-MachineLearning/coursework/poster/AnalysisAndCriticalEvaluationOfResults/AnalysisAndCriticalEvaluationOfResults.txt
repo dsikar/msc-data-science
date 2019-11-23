@@ -1,0 +1,10 @@
+Transcript from model posters
+
+* The Naive Bayes model could be considered to be a high bias, low variance model. In our results the high bias leads to a high error in validation set comporaed to RF. There is a very small difference in test/train error indicating the low variance. 
+* The power of RF could be described as its ability to manage the bias/variance trade off to produce strong results. This is achieved using vairous techniques such as bagging and random feature selection which seek to achieve low bias without undue variance. in our results there is higher variance for the random forest shown by an appreciable test/train error difference. However, the prediction error is much lower, the low bias far outweighing the variance. 
+* In terms of the optimality of the RF Breiman describes generalization in terms of miniming c/x^2 where c = correlation between trees and s = the strength of the trees. Our best solution split on 1 feature. The implication of this is that where trees splitting on more than 1 feature were produced, the additional correlation between trees was higher than the gain in strenth^2.
+* The work on binning implied that the binning of the data had a significant effect on the accuracy of the model because small changes in binning did make significant changes to the predictions. Is also implied information as to the importance of a given feature.
+* Our results showed that RF can be more computational involved - the longest training run on NB was c. 10 minutes whereas RF was c. 8 hours. However, given the size of the dataset, the number of features and the circumstances of the project this did not prove an obstacle.
+* NB can overfit or exhibit high variance when training set is small and/or features are high. Our experimental result showed that for 500 training items there was a significant test/train error hence variance/overfitting but by 5000 items the variance was negligible.
+
+

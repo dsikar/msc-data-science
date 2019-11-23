@@ -1,0 +1,15 @@
+** Coursework Todos - 02.11.2019 **
+
+1. Create general README.txt
+
+2. Create data pre-processing README.txt
+
+3. Create data pre-processing directory will all related files
+
+4. Zip 3. - this will be part of the final coursework code.
+
+5. Incorporate EDA to write-up
+
+6. Generate heatmap
+
+
