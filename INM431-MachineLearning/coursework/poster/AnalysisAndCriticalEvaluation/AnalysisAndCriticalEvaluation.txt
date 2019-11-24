@@ -1,0 +1,16 @@
+The Decision Tree (DT) is a branching structure that represents a set of rules, distinguishing
+values in a hierarchical form (Breiman et al.
+1984). This representation can translated into a set of
+IF-THEN rules, which are easy to understand by humans.
+
+The Random Forest (RF) (Breiman 2001) is an
+ensemble of T unpruned DT. Each tree is based in a random
+feature selection from bootstrap training samples
+and the RF predictions are built by averaging the outputs
+of the T trees.
+
+The RF is more difficult to interpret
+when compared with the single DT, although it is still
+possible to provide explanatory knowledge in terms of
+its input variable relevance.
+
