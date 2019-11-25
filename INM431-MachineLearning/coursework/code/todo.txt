@@ -1,1 +1,0 @@
-1. Convert all categorical data to numeric to deal with random forests

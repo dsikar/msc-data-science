@@ -1,0 +1,8 @@
+Turnit in submission checklist
+
+1. .zip file containing 
+	1.1 subdirectory code
+	1.2 README.txt
+	1.3 poster A1 size in pdf format
+
+2. self/peer-assessment txt file
