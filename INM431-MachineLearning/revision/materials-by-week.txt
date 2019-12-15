@@ -1,0 +1,44 @@
+Content
+
+From slides week 01:
+
+Probabilities (Bishop, Ch1, Ch2), Curve fitting (Bishop, Ch1)
+Decision Trees (Mitchell, Ch3)
+Bayesian inference (Bishop, Ch2), Bayes Theorem (Bishop, Ch2)
+Expectation and covariance (Bishop, Ch2)
+Gaussian maximum likelihood (Bishop, Ch2, Ch3)
+Regression with least squares (Bishop, Ch3)
+Naive Bayes (Bishop, Ch4, Ch8)
+Bayesian networks and K2 algorithm (lecture notes)
+Random Forests for classification and regression (lecture notes)
+K-means (Bishop, Ch. 9)
+Mixture models and Expectation Maximization (Bishop Ch2, Ch.9)
+Hidden Markov models (Bishop Ch.13)
+PCA (Bishop Ch.12)
+K-nearest neighbours (Bishop, Ch2)
+
+From revision info:
+
+Probabilities and Curve fitting (Bishop, Ch1)						Week 01
+Bayesian framework (Bishop, Ch2), Bayes Theorem (Bishop, Ch2)				Week 02
+Expectation and covariance (Bishop, Ch2)						Week 02
+Gaussian maximum likelihood (Bishop, Ch2, Ch3)						Week 05
+Regression with least squares (Bishop, Ch3)						Week 05
+Naive Bayes (lecture notes)								Week 03
+Bayesian networks and K2 algorithm (Bishop, Ch.8, lecture notes)			Week 04
+Random Forests including Decision Trees, Entropy and Information Gain (lecture Notes)	week 06
+Probabilistic Graphical Models (Bishop, Ch.8)						??
+K-means (Bishop, Ch. 9)									Week 08
+Mixture models and Expectation Maximization (Bishop Ch2, Ch.9)				Week 08
+K-nearest neighbours and Kernel density estimation (Bishop, Ch2)			Week 07
+**Hidden Markov models (Bishop Ch.13)** - WILL NOT BE ASKED
+
+Week 01 - Generalization, Curve fitting, Overfitting and Model Selection, Decision Trees, Learning algorithm, Probability Theory, The Rules of Probability, Bayes’ Theorem
+Week 02 - Expectation and co-variance, The Gaussian Distribution, Gaussian Mean and Variance, Gaussian Parameter Estimation, Semi-supervised learning, Data normalization, Estimating Generalisation Error, n-fold Cross-Validation, Bootstrapping, Model Selection, Stopping criteria, Evaluation metrics, F measure and ROC curves, The Bayesian framework, Density estimation, Maximizing Log Likelihood, Choosing a prior
+Week 03 - Naïve Bayes classifier, Gaussian naïve Bayes, Regularization, Continuous and discrete data
+Week 04 - Bayesian Networks, K2 Algorithm, Directed Graphical Models
+Week 05 - Regression models, Linear models for regression, Linear regression, Maximum Likelihood and Least Squares
+Week 06 - Information Theory applied to Decision Trees, Random Forests for regression and classification, Information theory for decision tree learning, Random Forests, Random Forest Training, Random Forest Prediction
+Week 07 - Curse of Dimensionality, Kernel Density Estimation, K-nearest neighbours
+Week 08 - Gaussian Mixture Models (GMM), K-means, Expectation-Maximization (EM), DGM, Latent Variable Models, K-means clustering (we have been asked by AG to compute example on pg. 8)
+
