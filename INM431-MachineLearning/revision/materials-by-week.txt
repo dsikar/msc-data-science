@@ -31,7 +31,7 @@ Probabilistic Graphical Models (Bishop, Ch.8)						??
 K-means (Bishop, Ch. 9)									Week 08
 Mixture models and Expectation Maximization (Bishop Ch2, Ch.9)				Week 08
 K-nearest neighbours and Kernel density estimation (Bishop, Ch2)			Week 07
-**Hidden Markov models (Bishop Ch.13)** - WILL NOT BE ASKED
+**Hidden Markov models (Bishop Ch.13)** - WILL NOT BE ASKED				Week 09
 
 Week 01 - Generalization, Curve fitting, Overfitting and Model Selection, Decision Trees, Learning algorithm, Probability Theory, The Rules of Probability, Bayes’ Theorem
 Week 02 - Expectation and co-variance, The Gaussian Distribution, Gaussian Mean and Variance, Gaussian Parameter Estimation, Semi-supervised learning, Data normalization, Estimating Generalisation Error, n-fold Cross-Validation, Bootstrapping, Model Selection, Stopping criteria, Evaluation metrics, F measure and ROC curves, The Bayesian framework, Density estimation, Maximizing Log Likelihood, Choosing a prior
