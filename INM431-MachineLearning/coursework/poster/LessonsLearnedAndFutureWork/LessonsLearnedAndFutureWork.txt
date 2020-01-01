@@ -1,0 +1,20 @@
+Transcripts (From models)
+
+* The small size of the dataset complicated the analysis, and made it difficult to estimate robust metrics of the test data. Using methods like SMOTE or ADASYN to rebalance the classes without losing observations by creating synthetic data could significantly improve the performance of both classifiers, and allow us to obtain more robust metrics from the performance of the classifiers on the test set.
+* Both Naive Bayes and Random Forests perform well without much preprocessing. However, a higher accuracy can be obtained by NB by selecting the right distributional assumptions for the features, and by log-normalising the features that are assumed to be Normally distributed.
+* While RF can be expected to achieve a better accuracy, there is a significant variation in performance across datasets. In our study NB performed better. Furthermore, RF takes significantly longer to train, anc can overfit when using small datasets.
+* NB performed well without much tuning even though the CIA wasn't likely to hold in our case.
+* NB is as quick and straightforward model that doesn't required much tuning, but can only achieve limited accuracy. RF is more computationally intense and requires more hyperparameter tuning, but can achieve significantly higher accuracy, although it didn't in this study.
+
+* Optimising Naive bayes involves more data manipulation, whereas Random Forests lend themselves more to hyperparameter optimisation
+* Future work on Naive Bayes - binning based upon equal frequency and other approaches such a entropy which can yield significant performance improvements according to Dougherty et al, 1995.
+* Future work on Random Forests - investigate tree depth as another hyperparameter and the impact of reducing the number of training features to see if excluding the less important ones yields better results.
+* Investigate the combination of the two techniques, as Random Forest's ability to perform feature selection can be combined with the speed of Naive Bayes (as shown by Chihab et al and Lou et al.)
+
+************
+** MY OWN **
+************
+
+* Discuss explainability
+* Matlab libraries were used to train both models. It would have been good to know what random attributes were selected by each decision tree in the best model Random Forest but this was not possible during the study. Further work would benefit from investigating the source code, as such information would make the chosen model more explainable.
+ 

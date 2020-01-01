@@ -1,0 +1,42 @@
+* Discussion
+
+Since Naive Bayes classifiers assume conditional independence, we will not compute a standard deviation, only the mean required to compute conditional probabilities?
+
+From https://uk.mathworks.com/help/stats/naive-bayes-classification.html
+Refers to [1] Manning, C. D., P. Raghavan, and M. Schütze. Introduction to Information Retrieval, NY: Cambridge University Press, 2008.
+
+
+"The naive Bayes classifier is designed for use when predictors are independent of one another within each class, but it appears to work well in practice even when that independence assumption is not valid."
+
+Rewording
+
+Naive Bayes Classifiers assume predictiors are conditionally independent (TODO CHECK), however they do work well even when such assumption in not valid.
+
+" fit a multinomial model using the category relative frequencies and total number of observations"
+
+such that (TODO mathematical equation goes here)
+
+"additive smoothing [1]."
+
+"If data collection is expensive or difficult, you might prefer a model that performs satisfactorily without some predictors."
+
+* Loss function - from doc kfoldLoss
+
+Classification error 'classiferror'	
+
+The classification error is the weighted fraction of misclassified observations where 
+
+ is the class label corresponding to the class with the maximal posterior probability. I{x} is the indicator function.
+
+
+Citation - 
+
+Duda and Hart (1973) and by Langley et al. (1992)
+From http://www.cs.technion.ac.il/~dang/journal_papers/friedman1997Bayesian.pdf
+
+BOOSTING - should we boost the minority class?
+
+
+
+
+

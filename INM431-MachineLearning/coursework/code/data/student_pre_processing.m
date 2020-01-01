@@ -33,7 +33,6 @@ ixDupRows = setdiff(1:size(x2,1), I)
 dupRowValues = x2(ixDupRows,:)  % yes, 382
 % We will have to deal with duplicates at some point
 
-
 % From a binary classification perspective, column G3 is the label, where 
 % G3 >= 10 represents a pass, and
 % G3 < 10 represents a fail
@@ -68,6 +67,4 @@ writetable(x, 'student-labelled.csv');
 % the minority class "fail" - question for Artur, when should we consider
 % boosting?
 
-% Next, we create a column with a label pass/fail binary column, which will be our
-% class labels
 

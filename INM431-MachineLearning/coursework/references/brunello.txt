@@ -1,0 +1,1827 @@
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+ORIGINAL ARTICLE
+
+Open Access
+
+The costs of early school leaving in Europe
+Giorgio Brunello1* and Maria De Paola2
+* Correspondence:
+giorgio.brunello@unipd.it
+1
+University of Padova, IZA and
+LUMS Lancaster, Padova, Italy
+Full list of author information is
+available at the end of the article
+
+Abstract
+The reduction of early school leaving to less than 10 percent of the relevant
+population by 2020 is a headline target in the Europe 2020 strategy and one of the
+five benchmarks of the strategic framework for European cooperation in education
+and training. Designing adequate policies to combat early school leaving is a difficult
+task that requires both the identification of causal links and the measurement of
+costs and benefits. In this paper, we review the issues surrounding the measurement
+of the costs of early school leaving to individuals and societies and examine several
+implemented policies that are expected to affect early school leavers. These include
+broad policies – such as changes in minimum school leaving age, tracking and
+school resources – as well as more targeted policies. While our focus is mainly on
+Europe, we also consider important evidence from across the Atlantic.
+JEL Classification: J24.
+Keywords: Early school leaving; Europe; Policy evaluation
+
+1. Introduction
+According to the definition used by Eurostat and the European Commission, early
+school leaving occurs when an individual aged 18 to 24 has attained at most lower secondary education and is not engaged in education and training.1 In 2009, 14.4% of the
+European population (EU-27) was in this condition, with some countries close to the
+10 percent mark (Austria, Germany, Belgium, The Netherlands, Sweden, Czechia,
+Poland and Slovenia) and other countries very far from this mark (Spain, Portugal,
+Italy, and – somewhat surprisingly - Norway and Iceland).
+What are the individual and social costs of early school leaving? In a frictionless
+economy, where individuals are free to choose their optimal level of education and the
+effects of individual choice do not spill over into society at large, this question makes little
+sense: the level of education each of us chooses or has chosen is both privately and socially
+optimum. In practice, however, economies and societies are far from frictionless, and
+optimal choice may be restrained both by the presence of credit constraints – both short
+and long term – and by other market frictions. Moreover, since individual choice has
+effects that are typically ignored when choosing education, there are externalities driving a
+wedge between the social and private costs and returns to education.
+Many view early school leaving as a serious economic and social phenomenon that
+has important consequences both on individuals and on society. The recent economic
+literature has highlighted that the benefits of education are broad (see Oreopoulos and
+Salvanes 2011). For individuals, education generates benefits not only because it
+© 2014 Brunello and De Paola; licensee Springer. This is an Open Access article distributed under the terms of the Creative Commons
+Attribution License (http://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any
+medium, provided the original work is properly credited.
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+Page 2 of 31
+
+improves occupational prospects, wages2 and job satisfaction, but also because it leads
+to more informed decisions affecting health, marriage, parenting and retirement.
+Moreover, schooling affects individual non-cognitive skills and attitudes, such as risk
+aversion, patience and motivation, that influence economic choices. Individual decisions to undertake further education have social consequences and affect both state finances - by raising tax revenues and reducing welfare benefit payments - and social
+welfare because of their effects on crime, attitudes toward minorities and immigrants
+and political participation (Moretti 2007).
+The broad perception that early school leaving affects in a significant way both society
+and individuals, who could benefit from increased educational attainment, has induced policy makers to design policies that try to address the problem. Reducing early school leaving
+to less than 10 percent of the relevant population by 2020 is a headline target in the Europe
+2020 strategy and one of the five benchmarks of the strategic framework for European
+cooperation in education and training (European Commission 2010). Designing adequate
+policies to combat early school leaving is, however, a difficult task that requires the
+identification of causal links and the evaluation of the expected costs and benefits. It is
+unfortunate that in the European policy debate these requirements are often overlooked or
+receive limited attention.
+In this paper, we review and discuss the issues surrounding the measurement of the
+costs of early school leaving to individuals and societies. We also examine a set of
+implemented policies that are expected to affect the percentage of early school leavers by
+distinguishing between broad policies – such as changes in minimum school leaving age,
+tracking and school resources - and policies explicitly targeted to the sub-population of
+early school leavers. While our focus is mainly on Europe, we also consider important
+evidence from across the Atlantic.
+
+2. The costs of early school leaving
+The costs of early school leaving are private, fiscal and social (see Belfield 2008, and
+Psacharopoulos 2007). Table 1 from Belfield is a good summary of the expected
+Table 1 Benefits from education across different perspectives
+P - Private benefits
+
+(1) Gain in net earnings and wealth
++ (2) Improved health status/life expectancy
++ (3) Household productivity gains
+- (4) Fees for education
+
+F - Fiscal or government (state/local and federal/central)
+
+(5) Increased tax payments
++ (6) Lower reliance on government health programs
++ (7) Reduced expenditures on criminal justice
++ (8) Lower reliance on welfare
+- (9) Subsidies for education
+
+S – Social
+
+Private individual benefits
++ Fiscal benefits
++ (10) Productivity externalities
++ (11) Gains from reduced crime
++ (12) Social value of health
+
+Source: Belfield 2008.
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+Page 3 of 31
+
+benefits from additional education. Private benefits include the expected gains in earnings and wealth, improved health and life expectancy and higher lifetime satisfaction.
+From these benefits one should subtract the additional private costs, which include
+foregone earnings. Fiscal benefits include increased tax payments, lower reliance on
+government transfers and reduced expenditures on criminal justice. If the government
+subsidizes education, the public costs of additional schooling should be subtracted from
+expected benefits. Social benefits include productivity externalities, the social value of
+better health and the gains from reduced crime.
+Evaluating the costs of early school leaving and the expected benefits of additional education – typically high school graduation – is a complex task based on the comparison of
+outcomes for a treatment and a control group. It is customary to identify the treatment
+group with early school leavers and the control group with high school graduates. Ideally,
+individuals in these two groups should differ only in their educational attainment. In practice, however, they differ also in a number of observable and unobservable characteristics.
+While the analyst can control for the former using standard multivariate regression analysis, less can be done about the latter. To illustrate the implications of failure to control
+for unobservables, consider the possibility that high school graduates have better (unobserved) talent than early school leavers. If labor market outcomes depend both on formal
+education and on talent, assigning additional education to the treatment group will not
+produce for this group the labor market returns attained by high school graduates. If this is
+the case, the average observed difference in earnings between the control and the treatment group over-estimates the expected private benefits of additional education.
+2.1. Private costs of early school leaving: earnings and employment
+
+Early school leaving typically reduces lifetime earnings and leads to higher unemployment
+incidence and duration. Define as IHS and IESL the (expected) lifetime net earnings associated to high school attainment (HS) and early school leaving (ESL). These are given by
+I
+
+HS
+
+T HS
+X
+F a;t HS
+¼
+ð1 þ iÞt
+t¼sHS
+
+ð1Þ
+
+and
+I
+
+ESL
+
+T ESL
+X
+F a;t ESL
+¼
+ð1 þ iÞt
+t¼sESL
+
+ð2Þ
+
+where F is the annual expected net income flow, i the (real) rate of interest, s the age
+when school ends and labor market entry occurs and T is end of life. The expected income flow is defined as
+
+
+
+ 
+
+F a;t K ¼ Da;t K ua;t K ba;t K þ 1−ua;t K wa;t K þ 1−Da;t K pa;t K
+
+ð3Þ
+
+where K = HS,ESL, D is a dummy equal to 1 if the individual is active and to zero if
+she is retired, u is the unemployment rate, w the net wage, b net welfare benefits, p are
+net pension benefits and indices a and t are for age and time respectively, with a = s + t.
+We also assume that pensions are a function π of the average wage, and that social
+security contributions are used to fund pension outlays.
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+Page 4 of 31
+
+The expected cost of early school leaving – relative to attaining high school education –
+is given by
+I
+
+HS
+
+−I
+
+ESL
+
+¼
+
+ HS
+
+T ESL
+X
+F a;t −F a;t ESL
+t¼sHS
+
+ð1 þ iÞt
+
+−
+
+sHS
+T HS
+X
+X
+F a;t ESL
+F a;t HS
+þ
+ð1 þ iÞt t¼T ESL ð1 þ iÞt
+t¼sESL
+
+ð4Þ
+
+The first component on the right hand side of [4] is the discounted sum of the (expected) difference in earnings (and pensions) over a common length of working and
+non-working life; the second component captures the foregone earnings associated to
+increasing schooling from ESL to HS; the third and final component captures the
+difference in life expectancy between ESL and HS graduates.
+The computation of [4] for the average early school leaver requires information on
+lifetime earnings profiles, that typically last between 40 and 50 years, and on future
+pension benefits. Longitudinal data covering these long life spans are rare outside of
+Scandinavia and are often available for specific birth cohorts. They can be used in [4]
+with the additional assumption that the earnings profiles do not vary by cohort. In the
+absence of long longitudinal data, the empirical literature has used cross sectional data.
+For this to make sense, the following assumption is required
+F aþx;tþx K ¼ F aþx;t K ð1 þ π Þx
+
+ð5Þ
+
+This assumption states that the expected income flow accruing to individuals aged a
++ x at time t + x is equal to the income flow accruing to individuals aged a + x at time t,
+augmented by average productivity growth π. To illustrate, the earnings flow of an individual aged 50 in year 2030 – typically not observable – is equal to the earnings flow of
+an individual aged 50 in 2013 – observable in a cross section of individuals of different
+ages – inflated by estimated productivity growth.
+Suppose that we plot age - earnings profiles by educational attainment using cross
+sectional data (see for instance Rouse 2007). The assumption above says that – conditional
+on age - the ratio of income flows by education is constant over time
+F a;tþx HS
+F a;t HS
+¼
+ESL
+F a;tþx
+F a;t ESL
+
+ð6Þ
+
+In other words, the ratio of the expected income of high school graduates to the
+income of early school leavers at time t is equal to the ratio at time t + x.
+While this assumption is necessary in practice to estimate lifetime earnings, it is
+important to be aware of its limits. Relative wages by education are the outcomes
+of the interaction between demand and supply. Consider first demand. There is a
+well documented tendency of modern labor markets to become increasingly
+polarized, with an expansion of jobs in the upper and lower part of the wage distribution and a reduction of “middle class” routinized jobs (see Autor et al. 2002,
+for the US and Goos et al. 2010, for Europe). Polarization implies that the relative
+demand for high school graduates, who have typically filled middle class jobs, is
+bound to decline relative to the expanding demand for professionals, who have a
+college degree or more, and for the less educated, who fill elementary occupations.
+Figures 1 and 2, taken from Goos, Manning and Salomons (2010), illustrate these
+patterns for Europe. With increasing polarization and given relative supply, we
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+Figure 1 Cumulative yearly employment growth of high- and low-paying occupations relative to
+middling occupations.
+
+expect that the income premium from completing high school – relative to early
+school leaving – might fall in the future. If this is the case, estimates that rely on
+current earnings profiles run the risk of over-estimating the costs of early school
+leaving.
+Next consider relative supply. Policies that encourage individuals to complete high
+school, if successful, will increase the relative supply of high school graduates. Given
+demand, this increase will trigger a decline in the relative wage paid to high school
+graduates compared to early school leavers. If this is the case, using current wage ratios
+to estimate future ratios may lead again to over-estimating the costs of early school
+leaving.3
+A key ingredient of the first component of equation [4] is that earnings differ by level
+of education. This gap should be measured for individuals who differ only in their
+
+Figure 2 European-wide polarization, 1993-2006.
+
+Page 5 of 31
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+Page 6 of 31
+
+educational attainment. In practice, most analysts use econometric methods to control
+for an array of observable characteristics that vary across education levels, such as parental background and labor market experience.
+An interesting study that evaluates the private and fiscal returns to education in a
+number of European countries is De la Fuente and Jimeno (2009), who consider in
+their estimates the explicit costs of schooling borne by the representative agent in each
+country, her opportunity cost in the form of foregone labor income and lost work experience, and the expected change in future net-of-tax labor earnings and welfare benefits arising both from higher wages and from higher employment probabilities.
+Column (1) in Table 2 reports for each country their estimates of the private returns
+to schooling. Schooling turns out to be an attractive investment: for most countries,
+the private returns to schooling ranges between 7.5% and 10% and is equal to 8.8% for
+the hypothetical average EU country. Column (2) in the table reports instead the estimated recovery rate on educational expenditure, defined as the percentage of the direct
+cost of education that is recovered by increased tax revenues and savings on social insurance payments. This rate is negative for Sweden, less than 100 percent in Austria,
+Denmark, France, Greece, Italy, the Netherlands and Portugal, and above 100 percent
+in Belgium, Finland, Germany, Ireland, Spain and the UK.
+These estimates, however, as well as those provided by many other similar studies,
+might suffer from omitted variable bias. In the presence of unobserved differences in
+ability, and of measurement error in observed education, standard estimates of the
+relationship between earnings and education fail to uncover causal effects. A large
+literature has addressed this issue, in an attempt to identify sources of exogenous
+variation in educational attainment that could be used to pin down these effects.
+There is growing consensus in this literature that a genuine source of exogenous
+variation originates from changes in compulsory school reforms or minimum school
+leaving laws (see for instance Oreopoulos 2006).4 When these reforms are used as
+instruments for education, average estimated returns are typically much higher than
+Table 2 Private and fiscal returns to schooling
+Country
+
+After-tax rate of return to an
+additional year of schooling
+
+Recovery rates on
+educational expenditure
+
+Austria
+
+8.52%
+
+37.50%
+
+Belgium
+
+7.47%
+
+108.58%
+
+Denmark
+
+7.99%
+
+12.93%
+
+Finland
+
+9.98%
+
+154.93%
+
+France
+
+8.63%
+
+93.96%
+
+Germany
+
+9.13%
+
+139.15%
+
+Greece
+
+9.18%
+
+84.64%
+
+Ireland
+
+11.03%
+
+201.31%
+
+Italy
+
+8.44%
+
+82.99%
+
+Netherlands
+
+6.95%
+
+37.98%
+
+Portugal
+
+10.30%
+
+57.08%
+
+Spain
+
+7.50%
+
+126.63%
+
+Sweden
+
+4.28%
+
+-26.07%
+
+UK
+
+12.25%
+
+115.21%
+
+Source: De la Fuente and Jimeno (2009).
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+those uncovered using standard ordinary least squares techniques. In the presence of
+heterogeneity in the returns to schooling, this result is often interpreted as showing
+that the individuals affected by these reforms (compliers) have higher returns to schooling than those who are not affected.5
+In the rest of this section, we review five studies that have tried to estimate the cost
+of early school leaving relative to high school or college graduation. For each study, we
+briefly discuss the key working assumptions and the main results.
+2.1.1 The Rouse study
+
+The study by Rouse 2007, is part of the broader project aimed at evaluating the cost of
+early school leaving or of inadequate education in the United States, which was undertaken by a group of scholars coordinated by Henry Levin of the Teachers College,
+Columbia University. Rouse uses CPS (Current Population Survey) data for the years
+2003 and 2004 to obtain average age-earnings profiles by education (high school or
+more, high school diploma or GED and high school dropouts). She disregards pension
+income and makes the following assumptions:
+a) the expected income flow accruing to individuals aged a + x at time t + x is equal to
+the income flow accruing to individuals aged a + x at time t augmented by average
+productivity growth π;
+b) annual productivity growth lies between 0 and 2 percent;
+c) the discount rate is either 3.5 or 6 percent;
+d) the relevant time horizon starts at 18 and lasts about 45 years;
+e) no differences in pension income;
+f ) no differences in employment rates by education;
+g) ordinary least squared estimates of the returns to education, on the ground that
+omitted ability bias and measurement error bias more or less cancel out.
+Rouse estimates that the per capita lifetime earnings difference between dropouts and
+those with a high school diploma ranges from 140,000 to 339,000 dollars (at 2010
+prices), depending on the assumed rate of productivity growth and on the discount
+rate.
+This interesting study has three drawbacks. First, assumption g) is not supported by
+recent research using instrumental variables techniques, which consistently finds that
+the estimated local average treatment effect is substantially higher than the ordinary
+least squares estimate. Second, by considering the age range between 18 and 67, Rouse
+downplays the foregone earnings of early school leavers, who may start working well
+before age 18. Third, by ignoring differences in employment and unemployment by
+education, Rouse under-estimates costs because early school leavers are less likely than
+high school graduates to be continuously employed.
+2.1.2 The Oreopoulos study
+
+The study by Oreopoulos 2006, shares most of the assumptions made by Rouse, with
+the important exception of assumption g). He estimates the causal effect of education
+on earnings separately for the United States, Canada and the United Kingdom, using
+the variation across cohorts and states in minimum school leaving age. He finds that
+the earnings gain induced by an additional year of schooling assigned to a dropout who
+
+Page 7 of 31
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+Page 8 of 31
+
+left school at age 15 is 15.4 percent return in the United States, 12.9 percent in Canada
+and 13.7 percent in the United Kingdom. These returns are substantially higher than
+those estimated by standard ordinary least squares techniques.6
+Using these estimates, he derives age-earnings profiles from age 15 to age 64. He assumes a 3% discount rate and zero productivity growth and estimates that the average
+present value gain from staying an additional year in school is 131,130 dollars (2010 US
+dollars) in the United States, 104,521 dollars in Canada and 152,346 dollars in the
+United Kingdom. The estimated amount for the United States exceeds foregone earnings by a factor of 13.8.
+Since computed gains from an additional year in high school exceed foregone earnings many times over, Oreopoulos asks why individuals drop out from school and offers
+several alternative explanations: a) dropouts strongly dislike schools; b) they and their
+families are financially constrained; c) students would like to stay on but parents are
+not willing to bear the costs, given the uncertainty about future returns; d) investing in
+further schooling is too risky; e) students do not act rationally and/or fail to correctly
+predict future higher earnings.
+2.1.3 The study of school failure in Estonia
+
+Anspal et al. 2011, have carried out a very detailed study of the cost of school failure in
+Estonia. This study shares several of the assumptions made by the Rouse study, and
+stands out mainly because it removes assumption f ), which disregards unemployment
+risks. These risks vary both with age and with educational attainment and are much
+higher for those who have not completed upper secondary education.
+Table 3 presents the main results of this study, separately by gender and by educational level (tertiary relative to upper secondary, upper secondary relative to lower
+secondary). When only those continuously employed are considered, the expected gain
+from having an upper secondary degree is estimated at 4 percent for males and at 10
+percent for females. However, when the wage gains are corrected for the probability of
+employment, the expected gain associated to having an upper secondary education
+raises to 35 percent for males and 46 percent for females, a substantial increase. In
+terms of lifetime earnings, this corresponds to 40,378 euros (in 2010) for males and to
+31,837 euros for females.
+The Estonian study clarifies that overlooking the substantial difference in unemployment risks experienced by individuals with different education can lead to grossly
+under-estimating the monetary costs of early school leaving.
+Table 3 Estimated returns from additional education
+Males
+
+Females
+
+Tertiary
+over upper
+secondary
+
+Upper secondary
+over lower
+secondary
+
+Tertiary
+over upper
+secondary
+
+Upper secondary
+over lower
+secondary
+
+Relative wage gain for the
+continuously employed
+
+30%
+
+4%
+
+35%
+
+10%
+
+Relative wage gain
+corrected for the probability
+of unemployment
+
+52%
+
+35%
+
+66%
+
+46%
+
+Present value of investment
+
+88,523 dollars
+
+40,378 dollars
+
+64,451 dollars
+
+31,837 dollars
+
+Source: Anspal et al. 2011.
+Estonia.
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+2.1.4 The study of NEET by the European Foundation for the Improvement of Living and
+Working Conditions (EFILWC)
+
+This study examines the economic costs borne by individuals who are not in employment,
+education or training (NEET), using a European-wide dataset, the European Survey on Income and Living Conditions (EUSILC). This dataset has several advantages and should
+be considered as a key resource in any investigation of the costs of early school leaving
+in Europe. First, it is based on a common questionnaire and harmonized across more
+than 20 European states; second, it includes crucial information for the estimation of
+the costs of early school leaving: gross and net earnings, welfare payments – including
+unemployment benefits - and labor market status. Third, it covers the period from
+2005 to 2011.
+Compared to the studies illustrated so far, this study differs also in the empirical
+methodology because it replaces the more standard regression analysis with a matching
+approach. This is a statistical tool designed to match “treated” individuals (early school
+leavers) and “control” individuals (high school graduates) using a large set of observables. The underlying idea is to find for each early school leaver a high school graduate
+with the same set of observable characteristics. Unfortunately, since matching cannot
+be done on unobservable characteristics, this method does not allow us to identify a
+causal relationship between education and earnings. From this viewpoint, it cannot be
+considered as an alternative to the estimates based on credible exogenous variation in
+education attainment.
+Using the 2008 wave of EUSILC, this study estimates the resource costs of being a
+NEET for 26 European countries, the main component of which is earnings. These
+costs are obtained by comparing the annual resources available to dropouts to the
+resources available to matched individuals, who differ from dropouts only because of
+their education and of unobservables. The average estimated costs are equal to 7,184
+dollars per year (2010 prices) in the EU26, with a maximum of 15,220 dollars in the
+Netherlands and an minimum of 1,267 dollars in Romania. Since NEETs differ from
+their matched individuals with higher education not only because of the shorter time
+spent in school but also because of unobserved ability, these estimates are likely to be
+an upper bound to the true costs if NEETs are on average of lower ability than high
+school graduates.
+2.1.5 Heterogeneous returns to compulsory education
+
+Most estimates of the cost of early school leaving focus on the cost borne by the average
+school leaver, thereby ignoring that early school leavers are heterogeneous, for instance
+because they differ in their early life conditions. Brunello et al. 2012a, use comparable
+European data from the survey SHARE (Survey on the Health, Age and Retirement in
+Europe) and retrospective information to estimate the lifetime earnings of Europeans born
+between 1920 and 1956 in nine European countries. Compared to the Rouse study, this
+investigation allows for unemployment spells, includes estimated pension income in some
+specifications and identifies the causal effects of education on earnings using the cross
+country and cross cohort variation in compulsory school years.
+Brunello, Weber and Weiss find that an additional year of schooling increases the lifetime earnings of compliers – who typically have less than upper secondary education – by
+nine percent. They then estimate the returns to education separately for individuals who
+
+Page 9 of 31
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+had no books in the house at age ten and for individuals with books and find that an additional year of schooling increases earnings by 5.2 percent in the former group and by a
+very high 21.1 percent in the latter group. The availability of books in the house at age ten
+captures important features of the early environment, which contribute to shaping
+individual ability.
+These estimates suggest that the costs of early school leaving in terms of lifetime
+earnings vary substantially among school leavers and could be particularly severe for
+those with relatively high individual and parental ability and high marginal costs of
+education. They also point out that policies that increase minimum school leaving age
+pay off rather handsomely for individuals with good environmental conditions (books
+in the house at age ten) but are unlikely to deliver high returns for those forced into
+higher education from a less privileged background.
+2.2 Fiscal costs of early school leaving: Tax revenues and welfare benefits
+
+In his study of the costs and benefits of early school leaving, Psacharopoulos 2007, classifies
+foregone tax revenues as fiscal costs. Since early school leavers earn on average lower lifetime earnings, they also contribute less to society in terms of income taxes. When data on
+gross and net earnings are available - as in the EUSILC dataset - foregone tax revenues can
+be computed as the difference between lifetime gross and net earnings.
+Since early school leavers are more likely to be unemployed or out of the labor force,
+they typically receive higher transfers from the government, in the form of unemployment benefits, disability benefits, and other welfare payments. In its study of NEET, the
+European Foundation for the Improvement of Living and Working Conditions (2012),
+considers these transfers as public finance costs, defined as the benefits received by
+NEETs from public schemes in excess of those received by individuals with at least
+upper secondary education. These costs include: unemployment benefits, survivors
+benefits, sickness benefits, disability benefits and education-related allowances. When
+pension schemes are not fully funded by beneficiaries, one should also include pension
+benefits funded by public resources.
+Using the matching approach discussed in sub-section 1.1.4, the EFILWC report
+estimates the average annual public finance costs of NEETs in the 26 European
+countries at 579 dollars per person (2010 prices), with a minimum of 2.34 dollars in
+Bulgaria and a maximum of 4,062 dollars in Denmark.7
+2.3 Costs of early school leaving: health
+
+Table 1 shows that the effects of additional education on health include private benefits
+(improved health status and better life expectancy), fiscal benefits (lower reliance on
+government health problems) and social benefits (higher social value of health). There
+are many possible channels through which education may improve health, which
+include: stress reduction, better decision making and information gathering, higher
+likelihood of having health insurance, healthier employment, better neighbourhoods
+and peers, and health behaviors, such as smoking, drinking, eating calorie-intensive
+food and refraining from exercising (see Lochner 2011).
+The relationship between education and health – the “health-education gradient” – is
+widely studied. While there is abundant evidence that a gradient exists (Cutler and
+Lleras Muney 2010), more controversy exists on whether the gradient reflects a causal
+
+Page 10 of 31
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+Page 11 of 31
+
+effect. The empirical literature that has addressed this issue typically focuses on single
+countries and identifies the effect of education on health using the exogenous variation
+generated by mandatory schooling laws. Most of these studies consider self-reported
+health and mortality as the key outcome. Some find that education improves health
+and reduces mortality - see for instance Mazumder 2008 for the US, Arendt 2005, for
+Denmark, Kempter et al. 2011, for German males, Van Kippersluis et al. 2011 for the
+Netherlands and Silles 2011, for the UK. Others find small or no effects – see for instance Clark and Royer 2010, and Oreopoulos 2007. Overall, the existing literature is
+inconclusive.
+In a recent study covering seven European countries (Austria, Czech Republic,
+Denmark, England, France, Italy and the Netherlands), Brunello et al. 2013, use the
+cross-country and across-cohorts variations in compulsory education to estimate the
+causal effect of education on self-reported poor health. Their OLS estimates of the gradient are -2.5 percentage points for females and -1.7 percentage points for males. The
+magnitude of the gradient increases sensibly when they use the exogenous variation
+provided by compulsory schooling. They find that one additional year of schooling decreases the probability of poor health by 4 to 8.5 percentage points for females and by
+5 to 6.4 percentage points for males. This study, and several others, suggests that estimating the health costs of low education using non-causal estimates such as ordinary
+least squares is likely to grossly under-estimate these costs.
+Some of the health benefits associated to higher education accrue to the individual,
+and some accrue to society. In modern society, several health costs are borne by governments, which are often involved in the supply of health services. By improving
+health, better and more education has the potential of reducing public health costs. As
+argued by Muenning 2007, however, two countervailing effects may limit the savings attributable to higher education. First, better educated individuals use public health services more intensively, for instance because they screen more frequently. Second, they
+live longer and therefore are in need of more services later in life. The presence of
+these countervailing factors imply that it is difficult to pin down the public health savings associated to higher education.
+Measuring the health costs of early school leaving typically involves two steps. In
+the first step, the analyst estimates the effect of additional education on individual
+health capital, defined as the utility from the stock of current and future qualityadjusted life years. In the second step, the savings in (mainly public) health expenditures are measured. In this section, we review two studies that have addressed these
+issues.
+2.3.1 The study of school failure in Estonia
+
+This study defines health capital HC as
+
+HC a K ¼ VE
+
+∞
+X
+H aþt K
+t
+t¼0 ð1 þ iÞ
+
+ð7Þ
+
+where V is the monetary value of a year of life, H is the health flow, i is the rate of
+interest, a is age, K is education and E is the expectations operator. In its simplest version, the health flow is equal to 1 in the event of life and to 0 in the event of death.
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+Page 12 of 31
+
+Conditional on being alive at age a, the expected health flow is the probability of being
+alive at age a + k, Pa + k , and Eq. (7) can be re-written as
+HC a K ¼ V
+
+∞
+X
+P aþt K
+t
+t¼0 ð1 þ iÞ
+
+ð8Þ
+
+Each year of life is characterized by different health, with the quality of health declining with age. Rather than simply adding up – with a discount – future probabilities of
+survival, a more encompassing measure of health should weight each year with its quality. Define this weight as QALY (quality-adjusted life year), an index that ranges from 0
+(no quality) to 1 (perfect health). One QALY is a year of life lived in perfect health.
+Using this weight in (8) yields
+HC a K ¼ V
+
+∞
+X
+P aþt K QALY aþt K
+t¼0
+
+ð9Þ
+
+ð1 þ iÞt
+
+ESL
+and is
+The effect of graduating from high school on health capital is HCHS
+a − HCa
+given by
+
+HC a HS −HC a ESL ¼ V
+
+
+
+
+
+∞
+X
+Paþt HS − Paþt ESL QALY aþt HS þ QALY aþt HS − QALY aþt ESL Paþt ESL
+t¼0
+
+ð1 þ i Þt
+
+ð10Þ
+In their study on Estonia, Anspal et al. 2011, assume that QALY does not vary with
+age and estimate education specific QALY using the approach suggested by Groot and
+van den Brink 2007. In this approach, the authors employ as a measure of quality selfreported health8, which takes the following values: very good, good, fair, poor, very poor
+health, regress it on education and additional covariates, which include parental background, and use a normalization of the coefficient associated to education to obtain
+education specific QALY. As discussed above, their estimates are likely to be lower
+bounds, because they do not use exogenous variation to identify the effect of education
+on health.
+Anspal et al. 2011, estimate that males failing to attain upper secondary education
+have a 4.3% lower QALY than males who attain higher education. They combine the information on QALY with the effects of education on life expectancy – which they
+measure at age 25 - use a three percent discount rate and estimate that the difference
+in discounted quality-adjusted life years between individuals with upper secondary and
+lower secondary education is close to approximately three years for males and to
+one year for females. Using as value of a life year approximately 45,072 dollars in 2010
+prices, they estimate the value of health capital by gender and education for Estonia.
+Results are reported in Table 4.
+Table 4 Differences in health capital by education level
+Lower secondary minus basic education
+
+Males
+
+Females
+
+105,950
+
+58,153
+
+Upper minus lower secondary education
+
+69,776
+
+37,503
+
+College minus upper secondary education
+
+77,244
+
+45,071
+
+Source: Anspal et al. 2011.
+Per head. Estonia. Dollars. 2010 prices.
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+If we compare the estimates in Tables 3 and 4, we see that the estimated costs
+of early school leaving in terms of lower health capital are higher than the costs
+in terms of lower lifetime earnings. We also notice that the estimates in Table 4
+do not include the higher public health expenditures associated with a lower
+health capital.
+2.3.2 The study by Muennig
+
+The study on Estonia produces estimates of health capital by education but is silent
+about the effects of education on public health expenditures. An antecedent study by
+Muenning 2007, uses US data to estimate both the private and the public health costs
+associated with less than upper secondary education. As in the Estonian study, the estimate of the private costs relies on two basic ingredients, the effects of education on life
+expectancy (the number of years an individual is expected to live at a given age) and
+the effects on quality-adjusted life years, or QALY. Muennig estimates that attaining a
+high school degree increases perfect health over the lifetime by 1.7 years. Valuing one
+additional year of perfect health at 122,767 dollars (at constant 2010 prices), he
+estimates the benefits of high school graduation at approximately 204,241 dollars.
+Since high school graduates in the US are less likely to be enrolled in public health
+programs such as Medicare and Medicaid, a reduction in the share of early school
+leavers translates into large differences in annual public costs. While the average school
+dropout consumes 3,013 dollars (at 2010 prices) in public health insurance costs per
+year, the average high school graduate consumes 1,116 dollars. Muenning (2007) estimates that each new high school graduate can save the government approximately
+43,527 dollars in health care over her lifetime.
+
+2.4 Fiscal and social costs of early school leaving: crime
+
+Belfield 2008, classifies the effects of education on crime into fiscal benefits – reduced
+expenditures on criminal justice – and social benefits – the gains to society from
+reduced crime. There are several reasons why education may have an effect on crime.
+Machin et al. 2011, consider the following three channels: income effects, time availability, and patience or risk aversion. On the one hand, education increases the returns
+to legitimate work, raising the opportunity costs of illegal behavior. On the other hand,
+punishment for criminal offences may lead to imprisonment. By raising wage rates,
+schooling makes any time spent out of the labor market more costly. These arguments
+suggest that those who can earn more are less likely to engage in crime. But it is also
+possible that schooling raises the returns to crime. For example, certain white collar
+crimes require higher levels of education (see Moretti 2007).
+Time spent in education reduces the time available for participating in criminal activity.
+Whilst youngsters are at school, they stay off the streets. Education may also influence
+crime by affecting patience and risk aversion (see Lochner and Moretti 2004). More
+patient or more risk averse individuals are likely to place a greater weight on the possibility of future punishment and future income losses from imprisonment. In a similar vein,
+additional schooling may affect the taste for crime by increasing the psychological costs of
+breaking the law.
+As in the case of earnings and health, the fact that education and crime are
+negatively correlated does not automatically guarantee that education has a causal
+
+Page 13 of 31
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+effect on crime. In order to identify a causal relationship, Lochner and Moretti
+2004, for the US, and Machin et al. 2011, for the UK, use the exogenous variation provided by changes in compulsory school laws, which affect different cohorts of individuals going through their schooling experience. Lochner and
+Moretti found that US states that raised high school graduation rates by increasing minimum school leaving age experienced significant declines in incarceration
+rates. Machin and co-authors found that the exogenous increase in education induced by the 1947 school reform in the UK produced a significant reduction in
+property crimes.
+Using the estimates by Lochner and Moretti 2004, Moretti 2007, computes the expected social benefits from reduced crime associated to a one percent increase in
+high school graduation rates. He multiplies the estimated total cost per crime –
+which consists of incarceration costs, property losses and victim costs – by the estimated reduction in the arrest and crime rate associated to higher education.
+Admittedly, this estimate is a lower bound to the cost of crime because it ignores important cost components, which include law enforcement and judicial costs, private
+security measures and the steps people take to avoid being victimized. Even so, expected savings are estimated at 2.21 billion dollars (2010 prices), a substantial
+amount. The positive externality in crime reduction induced by an extra male high
+school graduate is between 14 and 26 percent of the private return to high school
+graduation.
+Machin and co-authors 2011, estimate the social benefits from crime reduction
+that would follow from a one percent reduction in the percentage of individuals
+with no educational qualifications. They find that the estimated crime reduction
+ranges between 43,921 and 88,469 offences and that the associated costs range
+from 100 to 202 million dollars (2010 prices). Assuming that an extra year of
+school at age 16 is sufficient to obtaining an educational qualification, they also estimate that the cost of achieving a one percent reduction in the pool of individuals
+without qualification is 40 million dollars (2010 prices), way below the expected
+social benefits from crime reduction.
+
+2.5 Evaluating the general equilibrium effects of changes in the share of early school
+leavers
+
+Policies that aim at reducing the share of early school leavers need to compare
+expected benefits and costs. Since relative earnings are affected by changes in
+relative supply and demand, a potential difficulty with the estimate of expected
+benefits is that these benefits may vary when the percentage of early school
+leavers is altered. Policies can affect not only wages by education but also the
+shape of age-earning profiles, a crucial ingredient in the computation of expected
+lifetime gains.
+The availability of estimates that link changes in relative supply with changes in relative wages may allow the analyst to correct estimated benefits by adjusting wages by
+age and education. To illustrate, consider a setup where employers hire four different
+types of labor, the young with less than secondary education, NESL
+y , the old with the
+ESL
+same education, No , the young and the old with upper secondary education or more,
+
+Page 14 of 31
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+Page 15 of 31
+
+HS
+NHS
+y and No . These four groups are imperfect substitutes in the production of goods
+and services. Employers hire workers to maximize profits
+
+π ¼ f ðN Þ−W y ESL N y ESL −W y HS N y HS −W o ESL N o ESL −W y HS N y HS
+
+ð11Þ
+
+subject to the following technology
+
+1
+N ¼ eθ 1 N y σ þ eθ 2 N 0 σ σ
+
+ð12Þ
+
+h 
+ρ
+
+ρ1 iρ11
+N y ¼ eμ1 N y ESL 1 þ eμ2 N y HS
+h 
+ρ
+
+ρ2 iρ12
+N o ¼ eμ3 N o ESL 2 þ eμ4 N o HS
+
+ð13Þ
+
+where W is for wages and product prices are normalized to 1, ρ1, ρ2 and σ are elasticities of substitution (with values between 0 and 1) and θ1, θ2 and μi are relative efficiency parameters (see Card and Lemieux 2001). Profit maximization yield
+W y ESL
+N y ESL
+ln
+¼
+μ
+−μ
+−
+ð
+1−ρ
+Þ
+ln
+1
+2
+1
+W y HS
+N y HS
+
+!
+ð14Þ
+
+and suggests that a reduction in the relative share of early school leavers increases
+their relative wage. Similarly, we have that
+ 
+ ESL 
+W y ESL
+Ny
+Ny
+−ð1−ρ1 Þ ln
+¼ μ1 −μ3 þ θ1 −θ3 −ð1−σ Þ ln
+ln
+No
+Ny
+W o ESL
+ ESL 
+No
+þ ð1−ρ2 Þ ln
+No
+
+ð15Þ
+
+A reduction in the share of early school leavers over youth employment reduces their
+wage relative to that of older early school leavers.
+Following Katz and Murphy 1992, equations [14] and [15] can be estimated using repeated cross sections from the EUSILC dataset. These estimates can then be used to adjust wages by age and education and the estimate of the monetary costs of early school
+leaving.
+2.6 Estimating the cost of early school leaving in Europe. Guidelines for empirical studies
+
+The review of the existing empirical literature on the costs of early school leaving suggests the following guidelines for an empirical study:
+1. identify the causal effect of education on earnings and health, using credible exogenous
+variation. A source of exogenous variation that has become increasingly popular in the
+empirical literature is provided by compulsory school leaving reforms, which have
+occurred in Europe since the end of the Second World War. A summary of some of
+these reforms is provided by Garrouste 2011. It is not clear whether this approach can
+be applied in all the 27 European countries. To be useful for the purpose at hand, a
+compulsory school reform should affect years of compulsory education for a subset of
+treated cohorts and be ineffective for a subset of other cohorts;
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+2. recognize that early school leavers are heterogeneous and have heterogeneous returns
+to education. Empirical research should go beyond estimating the average return to
+additional education, and should consider how these returns vary at different points of
+the distribution of early school leavers;
+3. pool data from different cross sections and estimate age earnings profiles net of
+business cycle effects (pre-2008 and post-2008);
+4. evaluate general equilibrium effects. If the proposed change in the share of early school
+leavers is small, because of proximity to the European benchmark of 10 percent, these
+effects can probably be disregarded. If instead the change is large, as one would foresee
+for countries such as Portugal, Spain, Italy or Romania, adjust age earnings profiles to
+take into account the effects of changes of quantities on relative prices;
+5. include the risk of unemployment as a key ingredient of the cost of early school
+leaving. Differences in the probability of employment may be more serious than
+differences in earnings.
+
+3. The effectiveness of policies combating early school leaving
+Early school leaving is the result of multiple factors, such as poor early school experience, lack of ability, low perceived labor market returns to education, heavy discounting
+of future benefits, poor social environment and peer influence. Consequently, interventions aimed at reducing this phenomenon have to address a number of different aspects. Since handling all these factors together is particularly difficult, many existing
+policies tend to focus only on some.
+Several policies have been pursued by different countries to reduce early school leaving (see European Commission 2010), and the debate on which policies are more effective is still very animated among both academics and politicians. While some
+policies are aimed at students at-risk or are targeted to disadvantaged pupils, other policies affect the entire school system with actions involving all pupils in school.9 Unfortunately, policies in this area are rarely evaluated using approaches that identify causal
+effects, partly because the design and implementation of many programs disregard that
+a source of exogenous variation in the treatment should be available.
+As reported by Meierkord and Mascherini 2012, many policies implemented in EU
+countries do not even define outcome targets. Typically, the outcome target refers to
+the percentage of participants who are expected to achieve a qualification. Very rare
+are also evaluations that quantify the benefits obtained by individuals who have
+achieved the target qualification, relative to those accruing when the target is not
+reached. On top of this, we often do not know whether these benefits outweigh the
+program costs. Completely absent are studies that include in the cost-benefit analysis
+the gains in terms of fiscal benefits and externalities. Unfortunately, the virtual absence
+of careful studies providing guidance to policy-makers can lead to an inefficient allocation of (scarce) public resources.
+In this section, we review a number of evaluation studies that rely on credible identification strategies. While some of these studies only consider the impact of the policy
+under study on selected outcome variables, there are also studies that offer a costbenefit analysis. We consider both interventions affecting the entire school system and
+interventions targeted at disadvantaged groups.
+
+Page 16 of 31
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+3.1. Interventions affecting the entire school system
+
+In this section we review: a) policies that increase the number of compulsory years of
+schooling; b) policies that change the time of tracking; and c) policies that affect the
+organization of teaching activities, both by changing the number of pupils per class and
+by changing curricula.
+3.1.1 Changes in the length of compulsory education
+
+Compulsory school laws establish either a minimum number of years of education that
+an individual should complete before leaving school or a minimum school leaving age.
+These laws are widespread in Europe (see Murtin and Viarengo 2011). In several European countries, compulsory education has repeatedly increased after the end of the Second World War from primary and lower secondary education to include at least part if
+not the entire cycle of upper secondary education.
+Higher compulsory education addresses the dropout problem because it forces potential school leavers to stay in school longer and eventually complete upper secondary
+education (and even college). Several studies have estimated the effect of adding one
+year of compulsory education on average educational attainment for European countries. Brunello et al. 2009, review some of these studies for Continental (Western) Europe and show that the estimated average effect is close to 0.3 years of schooling. For
+the UK, Oreopoulos 2006, estimates that the compulsory increase in the school leaving
+age - from 14 to 15 - in 1947 increased the average school leaving age by more than
+half a year.
+In a recent empirical study, Cabus and De Witte 2011, estimates the causal impact of
+one additional year of compulsory education on the dropout rate using administrative
+data for students living in Amsterdam (for whom the information on the date of birth
+is available). The authors identify a treatment and a control group depending on year
+of birth. While before the reform pupils were mandated to attend school until their
+17th birthday, after the reform mandatory school attendance increased to age 18 (or
+until a higher secondary diploma was obtained if that comes at an early age). They estimate the effect of a one year increase in compulsory education by comparing the average dropout rate in the treatment and control groups, after conditioning for age and
+time effects, and find that the policy has reduced the rate in the former group relative
+to the latter by 2.28 to 2.52 percentage points, with the largest effect for vocational students (−3.32 percentage points) and Dutch natives (−6.12 percentage points), and no
+effect for students who have experienced grade retention. The estimated effect, however, is driven mainly by an increase in the dropout rate of students in the control
+group, probably due to the anticipated improvement in the Dutch labor market when
+the policy was implemented.
+As argued by Oreopoulos 2006, compulsory education can be either not binding –
+for those individuals who are already investing in higher education – or binding for
+those who would have attained less education in the absence of the law. If we believe in
+the investment model of education, which predicts that each individual chooses her optimal level of investment by equating perceived marginal benefits to marginal costs,
+and if we are prepared to assume that there are no obstacles to individual choice, then
+compulsory school reforms cannot be optimal because they force some individuals to
+invest more than their private optimum, at a level where marginal costs are above
+
+Page 17 of 31
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+marginal benefits. While changes in minimum school leaving age are often justified by
+the presence of positive externalities – for instance because education reduces crime –
+or because individuals are constrained by lack of financial resources or finally because
+they are not able to predict in a satisfactory way the expected returns to further investment, it is not clear that these changes are the most efficient way to address the dropout problem.
+Importantly, the effects of compulsory school reforms on the sub-sample of compliers are far from homogeneous. As discussed above, Brunello et al. 2012b, have shown
+that the expected payoff in terms of higher lifetime earnings of adding one year of compulsory education varies substantially with the conditions that individuals face early in
+life. Their findings suggest that among the individuals induced by these reforms to attain higher education, only those with enough books at home have been able to reap
+significant private economic returns. A significant group of individuals, who lived in
+rural areas with very few books at home, attained higher education but earned much
+lower private returns.
+3.1.2 School tracking
+
+An important issue in the organization of secondary educational systems is whether
+and at what age students should be allocated to academic and vocational tracks. As reported by Brunello and Checchi 2007, countries differ in the age at which students are
+tracked into different types (or levels) of education. While in the US and Scandinavia
+secondary schools are broadly comprehensive, in Austria and Germany pupils are
+tracked into different types of schools as early as at age 10. Many European countries
+fall between these two extremes. There is also variety across countries in the number of
+available tracks.
+Early tracking may affect early school leaving for two reasons. On the one hand, by
+affecting test scores they may induce some students to drop out from school too soon.
+On the other hand, by providing a more flexible set of curricula and a vocational track
+that places less emphasis on academic abilities, early tracking may be able to keep longer in schools those students who prefer practical trades to more academic education.
+Some studies have tried to evaluate the effects of tracking on educational outcomes.
+Hanushek and Wössmann 2006, for instance, use a difference-in-differences approach
+to compare the mean and the dispersion of test scores before and after tracking in two
+samples of countries: a treatment sample with early tracking (before age 15) and a control sample where tracking occurs after age 15 if ever. They find that early tracking increases inequality in test score performance but has limited effects on average
+achievement. However, as shown by Jakubowski 2010, their results might be affected by
+the fact that the international tests they consider are taken at different ages.10
+Pekkarinen et al. 2009, examine the gradual introduction of a comprehensive school
+system in Finland and find that the reform has a small positive effect on verbal test
+scores but no effect on mean performance in arithmetic or logical reasoning tests. In
+addition, the reform improved the test scores of students with poorly educated parents.
+This evidence is in contrast with that produced by Figlio and Page 2002, who find that
+tracking in the US does not harm low-ability students.
+In a recent study, Hall 2012 evaluates the effects of introducing a more comprehensive school system on dropout rates in Sweden. She considers a pilot scheme
+
+Page 18 of 31
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+(implemented only in some municipalities) that preceded an educational reform aimed
+at increasing the academic content and the duration of vocational curricula, thereby reducing the differences with the more academic tracks. In Sweden, the municipalities involved in the pilot scheme were decided by a central authority on the basis of
+observable characteristics. Hall identifies the effects of the policy on the treated municipalities by exploiting the exogenous variation provided by a set of municipality characteristics. Her estimates show that the probability that upper secondary school students
+drop out increased by 3.8 percentage points with the piloted policy, mainly as a result
+of the behavior of low performing students. Since the piloted policy also increased
+workplace training, these negative effects may have been partly compensated by higher
+employment rates among students leaving school early.
+
+3.1.3. Changing educational inputs: class size
+
+The effects on student performance of the resources devoted to education are a central
+concern in the economic and political debate on educational policies. Starting with the
+controversial Coleman Report, a study commissioned by the United States Department
+of Health, Education, and Welfare in the mid-sixties to assess the availability of equal
+educational opportunities, many empirical studies have investigated the effects of class
+size, teaching experience and ability, peer characteristics and school resources on student achievement. However, the results obtained are far from conclusive.
+The main findings of the Coleman Report, showing that inputs into schooling have
+negligible effects on student achievement, were confirmed by Hanushek’s 1986 influential survey of the economic research on the subject. A key ingredient of the educational
+production function is class size. Hanushek concludes that there does not appear to be
+a strong, systematic relationship between school resources, and in particular class size,
+and student achievement. Krueger 2003, on the other hand, documents a positive association between resources, class size and achievement.
+In traditional studies, the estimates of class size effects are plagued by serious identification problems, which produce biased estimates. When trying to assess the effect of
+an intervention such as a reduction in class size on student achievement, researchers
+are typically not able to observe all the other confounding factors that enter into the
+student learning process, including student effort, family support or teaching quality.
+The problem is that these omitted inputs are likely to correlate both with the intervention itself and with the selected outcome. For instance, parents may choose schools
+with smaller class size for their offspring and invest more of their personal time in their
+children’s education. The effect of this joint choice is to create an upward bias in the
+estimated effect of class size. Conversely, if they invest less time, a downward bias is
+generated. A downward bias would also emerge if school administrators assigned pupils
+from a disadvantaged background or with learning difficulties to smaller classes or if
+better teachers were assigned to larger classes.
+To handle these problems, recent empirical research investigating class size effects
+has relied on identification strategies that exploit exogenous variations in class size induced by controlled or natural experiments. On the one hand, Krueger 1999, and Krueger and Whitmore 2001, have focused on the Tennessee STAR project,11 where pupils
+are randomly allocated to classes of different size. On the other hand, Angrist and Lavy
+
+Page 19 of 31
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+Page 20 of 31
+
+1999 – and also Browning and Heinesen 2007 and Leuven et al. 2008 – have used the
+variation provided by administrative rules which impose maximum class size limits.12
+The focus of these researches is mainly the effect of class size on test scores, which
+indirectly affect the decision to stay in school. More recently, a few studies have looked
+explicitly at the effects of class size on educational attainment. Fredriksson et al. 2013,
+using very rich data from Sweden and the exogenous variation in class size induced by
+a maximum class size rule, show that reducing class size by one pupil during the final
+three years of primary school increases years of schooling by only 0.05 years (or twothirds of a month). They report that smaller classes increase the probability of having a
+college degree by 0.8 percentage points, improve cognitive test scores and increase
+earnings at age 27 to 42. Using these effects, the authors carry out a costs-benefits analysis, showing that for reasonable values of the discount rate the present discounted
+value of benefits associated to the policy exceeds the present discounted value of costs.
+They also estimate an internal rate of return (the discount rate that equalizes the
+present values of costs and benefits) equal to 17.8 percent.
+Similar studies are provided by Browning and Heinesen 2007, and Bingley et al. 2005,
+who investigate the effects of class size in Denmark. As in Fredriksson et al. 2013, the
+Browning and Heinesen 2007 study relies on the exogenous variation provided by a
+maximum class size rule. They find that reducing class size in the 8th grade by one
+pupil (a 5% decline) increases educational attainment by 0.02 years on average and the
+probability of completing upper secondary education by 0.4%, a small effect.
+Unfortunately, this study does not include a cost-benefit analysis. This type of investigation is instead carried out by Bingley et al. 2005, who examine the effects of
+changes in class size in Denmark using a different estimation strategy that combines
+administrative rules with between-siblings differences. The advantage of this method
+is that it does not rely on the identifying assumption that class size is not influenced
+by parents. Using data on the whole Danish population, they find that class size has a
+statistically significant but very small effect on educational attainment. In particular,
+they estimate that reducing class size in the 8th grade by 5% increases mean schooling
+attainment by about 0.005 years, a tiny effect. Effects are somewhat higher for households with three or four children and much larger when focusing on large
+municipalities.
+Using wage returns estimated with twin data, the authors compute the ratio of discounted benefits to costs associated to a 5% reduction in class size. As shown in Table 5
+below, which is based on a five percent rate of return to education, this ratio is very
+low and outweighs the costs only for a zero discount rate and for males.
+Table 5 Discounted present value of benefits to costs associated to reducing class size
+by 5%
+Ratio of discounted benefits Ratio of discounted benefits Ratio of discounted benefits
+to costs
+to costs
+to costs
+Discount rate annual productivity growth 0% annual productivity growth 1% annual productivity growth 2%
+Males
+
+Females
+
+Males
+
+Females
+
+Males
+
+Females
+
+0%
+
+1.07
+
+0.32
+
+1.08
+
+0.33
+
+1.09
+
+0.33
+
+2%
+
+0.58
+
+0.19
+
+0.58
+
+0.19
+
+0.59
+
+0.20
+
+3%
+
+0.34
+
+0.12
+
+0.34
+
+0.12
+
+0.34
+
+0.12
+
+Source: Bingley et al. 2005.
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+In the US, Chetty et al. 2012 use data from the well-known Project STAR, where pupils are randomly assigned to classes of different size, and show that being assigned to
+a smaller class size produces beneficial effects on educational attendance, as randomly
+selected students are 1.8 percentage points more likely to be enrolled in college at age
+20 than students assigned to larger classes.13 In contrast to Bingley, Jensen and Walker,
+their cost-benefit analysis suggests that the expected benefits from reducing class size
+outweigh the costs.14
+It is worthwhile to notice that both Bingley et al. 2005 and Chetty et al. 2011, do not
+estimate the effect of class size on wages. The estimates by Bingley, Jensen and Walker
+are based on the assumption that class size affects wages by changing years of schooling. Chetty et al., on the other hand, assume that class size modifies wages because it
+changes test scores. Fredriksson et al. 2013, instead, provide an estimation of the effect
+of class size directly on wages. They also show, using their data, that indirect methods
+tend to underestimate the true effect.15
+In sum, the reviewed studies agree on the fact that reducing class size may have a
+positive albeit relatively small effect on educational attainment. Less agreement exists
+on the estimated costs and benefits of a policy that reduces class size early on, with
+some studies finding that benefits are much lower than the costs and other studies
+finding the opposite.
+3.1.4. The content and structure of teaching
+
+Early school leaving is often correlated to bad school performance. As a consequence,
+programs that try to improve student performance can also induce individuals to stay
+in education longer. It is well known that one key factor in determining student performance and attainment is teacher quality.16 In the late 1990s, two programs were introduced in England with the aim of improving the teaching of literacy and numeracy
+in primary schools. At the beginning, these programs were implemented only in a few
+cities but were subsequently extended nationally as the ‘National Literacy Strategy’ and
+the ‘National Numeracy Strategy’ (in 1998 and 1999 respectively).
+These programs tried to improve the quality of teaching by providing more focused
+instruction and a more effective classroom management. For instance, a daily literacy
+hour was introduced and divided into 10-15 minutes of reading or writing for the entire class, 10-15 minutes of whole-class session on word work (phonics, spelling and
+vocabulary) and sentence work (grammar and punctuation), 25-30 minutes of directed
+group activities (on aspects of writing or reading), and a plenary session at the end to
+revisit the objectives of the lesson.
+Machin et al. 2004 evaluate the effects of the ‘literacy hour’ relying on a
+difference-in-differences strategy. Since the implementation of the policy was preceded by pilot projects, they could compare educational attainment at the end of
+primary school in ‘treatment schools’ and in schools in an appropriately defined
+comparison group, before and after the ‘pilot’ project was introduced. Results show
+that the literacy hour has produced a 2-3 percentage point improvement in the
+reading and English skills of primary school children involved in the program. The
+authors estimate the costs per pupil of the program at £25.52 per annum, and the
+present discounted value of benefits in the range of £1,918-£4,995, suggesting that
+the policy had a very high payoff.
+
+Page 21 of 31
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+3.2. Targeting additional resources targeted to pupils or schools at risk
+
+Students at risk of dropping out display easily identifiable characteristics, including
+among others low income, scarcely educated parents, and low attendance rates. Policies
+that try to change individual choices of subjects at risk are targeted either directly at
+pupils or at schools. In this section, we review some of the policies that were recently
+implemented in European countries.
+3.2.1. Conditional cash transfers: the EMA project in UK
+
+The use of conditional cash transfers to improve student performance is becoming a
+common practice in the educational systems of several countries. For example, in
+Colombia, the FA (Familias en Acciòn) and PACES (Programa de Ampliaciòn de
+Cobertura de Educaciòn Secundaria) programs assigned vouchers, respectively, to primary and secondary school students to encourage attendance and performance
+(Angrist, Bettinger, Bloom, King, and Kremer 2002). In Mexico, the PROGRESA financial incentive scheme offered cash payments to families to increase school enrolment
+and attendance (Schultz 2004). In Kenya, the Girls’ Scholarship Programme provided
+awards to female students who obtained high test scores (Kremer, Miguel, and Thornton
+2009). Similar programs have also been recently implemented in a number of developed countries. In the United States, following the “Helping Outstanding Pupils
+Educationally” (HOPE) program implemented in Georgia, several other states have
+introduced analogous scholarship programs. About 27,000 students benefitted from
+the financial incentives offered by a number of schools in Chicago, Dallas and New
+York (Fryer 2011). As far as European Countries are concerned Leuven et al. 2010
+and De Paola et al. 2012 study the effect of financial incentive respectively in the
+Netherlands and in Italy reaching mixed results.
+Since many of these programs have been implemented following an experimental design (students were randomly assigned to a treatment and a control group), their effects
+have been evaluated rather extensively. It emerges that conditional cash transfers work
+well in increasing attendance and enrolment, especially in developing countries
+(Angrist et al. 2006).
+Among the programs implemented in European countries, particularly relevant is the
+Earnings Maintenance Allowance (EMA). This project was piloted in England in 1999
+before national implementation. The effects of the program have been evaluated by
+Dearden et al. 2009, using data from the first cohort of the EMA pilot study.17 The target population consisted of pupils who had completed their last year of compulsory
+education (Year 11) in 1999. The program intended to change the opportunity cost of
+education by paying a means tested benefit to 16 to 18-year-olds from low income families who remained in full-time education after compulsory education. The benefit
+could be claimed for up to two years (or three for young people with special educational needs) and could be used to attend any form of full-time post-16 educational
+program. Additional bonuses were paid for regular attendance (at the end of a term of
+regular attendance, the student would receive £50 or £80) and for successful completion of examinations. By inducing students to stay on until completion of upper secondary education, this policy could directly affect dropout rates.
+The identification strategy used by Dearden and co-authors to evaluate this policy is
+based on matching techniques that match each individual in the treatment sample with
+
+Page 22 of 31
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+an alike individual in the control sample by using a large set of individual characteristics. The outcome variables considered are: full-time education, inactivity and work.
+The authors find that EMA has had a positive and significant effect on postcompulsory education, with a 6.7 percentage points increase in the percentage of individuals from income-eligible families completing two years of post-compulsory education (from 54.3 percent before the treatment to 61.0 percent after the treatment). Both
+inactivity and employment rates also declined by three and 1.5 percentage points
+respectively.18
+The cost-benefit analysis conducted in this study suggests that the program benefits
+would outweigh the costs if students staying two additional years in school – and therefore completing upper secondary education - experienced a real increase in future earnings higher than 6.2 to 7.7 percent. These values are below the returns to education
+estimated by Oreopoulos 2006 for the UK - 11 percent for males and 18 percent for females - but above those estimated by Devereux and Hart 2010.
+3.2.2. Additional resources to schools with disadvantaged children
+
+In this section we report the results of three evaluation studies that consider programs
+implemented in France, the Netherlands and the UK. All these programs devoted additional resources to schools with disadvantaged pupils.
+The Education Priority Zones program in France The Education Priority Zones
+program (ZEP), first established in France in 1982, was targeted at both primary and
+junior-high schools located in disadvantaged zones.19 As the main policy in France directed at helping students from a disadvantaged background, its main objective was to
+reduce the number of students who dropped out of the school system without any degree. Schools included in the program received additional resources, which were mainly
+used for additional hours of instruction and to pay bonuses to teachers and other
+personnel.
+Bénabou et al. 2009 use a sample of 24,455 students who entered 6th grade in 1989
+and information on school and teacher characteristics to evaluate the effects of this policy on the probability that targeted students move up either to the 8th or to the 10th
+grade of the academic track rather than switching to a vocational track after the 7th or
+the 9th grade, and on the likelihood of success at the “Baccalauréat” (the French
+national exam at the end of high school). These effects are estimated using a
+difference-in-differences approach, which compares students in the same grade but of
+different cohorts, some who attended school before the program was implemented and
+others attending school after priority status was granted.
+The results are somewhat disappointing in that the impact of ZEP on the academic
+achievement of students in targeted schools was never significantly different from zero,
+after conditioning for pre-existing differences between treated and control schools. One
+reason why the policy was not successful was that it was not well focused. Furthermore,
+the bonuses awarded to teachers were not a sufficient incentive to attract experienced
+or highly qualified teachers.
+Devoting additional resources to schools with disadvantaged students in
+the Netherlands Devoting additional resources to schools with disadvantaged students
+
+Page 23 of 31
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+has been a poorly performing policy also in the Netherlands. Leuven et al. 2007 use Regression Discontinuity Design (RDD) to evaluate two subsidies implemented in the
+Netherlands, which gave additional funds to schools with a share of disadvantaged pupils above 70 percent. While one subsidy provided extra resources to improve the
+working conditions of teachers, the other subsidy offered additional funding for the
+purchase of computers and software. By comparing schools with shares of disadvantaged students around a threshold value, the authors find that the policy has failed to
+increase student performance in nationwide tests and had led to lower attainment.
+These negative results could depend on the fact that the extra payment to teachers was
+not conditional on performance. The negative effect of additional computer resources
+might have occurred because instruction methods that use computers intensively are
+less effective than more traditional methods. These negative findings cannot be easily
+generalized to other contexts. The fact that these interventions focusing on schools
+with a large share of disadvantaged students did not succeed in increasing test scores
+does not imply that these policies would be ineffective if implemented in other schools.
+
+Excellence in Cities (EiC) in the UK Excellence in Cities (EiC) was introduced in
+England in September 1999 to encourage participation in higher education. Schools in
+disadvantaged areas of England were given extra resources to try to improve standards.
+The original program was expanded over time and now covers about one-third of all
+secondary (state) schools. The main features of the EiC programme were: the employment of ‘learning mentors’ to help students overcome educational or behavioral problems; the provision of ‘learning support units’ to provide short-time teaching and
+support programs for difficult pupils; a ‘gifted and talented programme’ to provide extra
+support for 5-10 percent of pupils in each school.
+Machin and McNally 2012 evaluate the impact of the Excellence in Cities policy in
+secondary schools by assessing the extent to which the whole range of activities implemented by the program have led to an improvement in both learning and school attendance at age 14. The analysis is based on national-level administrative records of
+pupil attainment and attendance before (1999) and after the policy was introduced
+(from 2000 to 2003). The identification strategy is based on a difference-in-differences
+approach and consists of comparing outcomes in schools where the EiC policy has
+been in place with outcomes in schools belonging to an appropriate comparison group.
+This strategy exploits the fact that the policy does not cover every disadvantaged or
+poorly performing school in England.
+The authors find that EiC has contributed both to better learning, in term of higher
+scores in Mathematics (although not in English) and to higher pupil attendance.20 The
+cost-benefit analysis suggests that the expected benefits of EiC are about 0.02 years of
+schooling and about £400 over the lifetime (assuming a rate of return to a year of education of eight percent and linear wage profiles). These expected benefits are close to
+the costs of the policy.21
+
+Parent involvement and the decision to drop out: evidence from France
+Goux et al. 2013 evaluate a program implemented in 2010-2011 in 37 schools in Paris,
+involving 4,300 students in 181 classes. The intervention was randomized at the class
+
+Page 24 of 31
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+level within each school (respectively 98 treated and 83 control classes). The principals
+of the secondary schools involved in the program were required to identify students at
+risk of dropping out and to help their families form less unrealistic aspirations and
+make better school choices by providing adequate information. Two meetings were
+held between the principal and the selected families with the purpose of illustrating the
+complexity of the choices available in the French educational system. These meetings
+had also the purpose of identifying the specific aspirations of families, evaluate whether
+these were realistic, provide information on alternative options, and explain the merits
+of vocational education.
+The authors find that, as a result of the mentoring program, involved parents became less
+confident that their children would be able to graduate from high school. Enrolment in vocational tracks increased and both dropout rates and grade repetition fell by one third, a
+large effect. This effect persisted two years after the treatment as differences between treated
+and control students further increased rather than diminish as time went by. Although the
+authors do not provide a cost-benefit analysis, the costs of the program appear to have been
+small compared to the large effects produced by the policy on early school leaving.
+
+3.3 Critical assessment
+
+This review of the studies evaluating policies that address directly or indirectly early school
+leaving in Europe leads to at least three considerations. First of all, the number of studies is
+limited. As demonstrated by the increasing number of evaluation studies focusing on programs implemented in other countries, such as the US and Canada, this is not due to a lack
+of interest in the subject. Second, serious evaluation is possible only when the policy is designed in a way that causal effects – from the policy to the outcomes - can be identified.
+Currently available evaluation methods rely on the definition of treatment and control
+groups independently of the outcome of interest. In some cases, these groups are obtained
+by explicit randomization. In other cases, the evaluation uses the variations in the exposition to a certain policy that originate from an exogenous source that is not correlated to
+the outcome of interest (instrumental variables or natural experiment approach). Another
+recent technique, in the spirit of natural experiments, is the so-called regression discontinuity approach, which can be applied when the assignment to treatment is based on a
+specific exogenous threshold.
+When public funds are allocated to policies, it is paramount to consider that rigorous policy
+evaluation is possible only under particular circumstances. Policies need then to be designed
+so as to allow sources of exogenous variation in the treatment, a necessary requirement for
+the identification of casual effects.22 Only in this case it is possible to obtain reliable estimates
+of the policy impact, a crucial starting point for any serious cost-benefit analysis.
+Third, evaluation requires accurate data. It is not surprising that most of the studies that
+we have reviewed in this report come from countries with a tradition of collecting and releasing to academic researchers rich individual data. Education affects individual, social and
+fiscal outcomes, ranging from labor market performance to health, lifelong learning participation, job and life satisfaction, crime, social cohesion, growth, tax revenues and benefits
+payments. A fully-fledged policy evaluation would require data on all these aspects. When
+such data exist, it is potentially possible to measure the impact of different policies on each
+of these outcomes and try to assess which policy has produced the best overall impact.
+
+Page 25 of 31
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+Unfortunately, these data are often missing. For instance, since some of the effects of a
+policy intervention occur after several years, information should be collected on the life
+histories of treated and control groups. While this type of data is available in some North
+European countries, they are not available in most EU member states. In many situations,
+only a few outcomes are observable. In these cases, evaluations are less reliable because policies may produce effects on variables that are important but not observed by the analyst.
+As shown in our review of evaluation studies, cost-benefit analysis of European programs
+typically focus on wage returns and tend to fail to calculate the overall benefit-cost ratio.
+The computation of these ratios with the information at hand often requires strong assumptions. For instance, Levin et al. 2012, in their evaluation of US policies targeted at reducing early school leaving, rely on the very strong assumption that social benefits are a
+given percentage of observed private benefits.
+
+4. Conclusions
+Economic policies addressing early school leaving can be justified with equity and/or efficient
+arguments (see Moretti 2006). If equity is interpreted in terms of equal access to income,
+then public policies aimed at reducing early school leaving can be viewed as a form of inkind transfer constraining beneficiaries to spend the transfer on education instead of leaving
+them free to spend it on their preferred goods. Apart from equity arguments, government
+interventions aimed at reducing early school leaving can be justified by efficiency considerations. Inefficient school leaving decisions can be due to credit constraints, uninformed or
+irrational individual decisions or to the fact that the social returns exceed the private returns
+to schooling (education not only rewards the educated individual, but creates externalities).
+In this paper, we have focused on the efficiency argument and reviewed the issues surrounding the measurement of the costs of early school leaving to individuals and societies.
+And we examined several policies that were implemented in Europe to reduce early school
+leavers. These policies include broad policies – such as changes in minimum school leaving
+age, tracking and school resources – as well as more targeted policies. While our focus is
+mainly on Europe, we also consider important evidence from across the Atlantic.
+Our assessment of the empirical literature that tries to measure the costs of early
+school leaving can be summarized in the following guidelines for an empirical study:
+1. the causal effect of education on earnings and health should be identified, using
+credible exogenous variation;
+2. it should be recognized that early school leavers are heterogeneous and have
+heterogeneous returns to education. Therefore, empirical research should go
+beyond estimating the average return to additional education and should consider
+how these returns vary at different points of the distribution of early school leavers;
+3. in the absence of long longitudinal data, cross section data can be used only at the
+price of strong assumptions that have important implications on outcomes;
+4. general equilibrium effects should be evaluated, especially if the proposed change in
+the share of early school leavers is large;
+5. unemployment and health are key ingredients in the cost of early school leaving. In
+particular, differences in the probability of employment may be more serious than
+differences in earnings.
+
+Page 26 of 31
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+Besides its effects on individual productivity and earnings, education can produce
+relevant spillovers that affect economic growth. In addition, education also reduces the
+probability that an individual engages in socially costly activities, such as crime. Given
+their large social costs, the social returns to education can be very high even when it
+generates small reductions in these activities. Education also improves health and civic
+participation, which increases social returns. Even if there is still no consensus on the
+exact magnitude of these effects, existing studies suggest that the social returns to education might be higher than the private returns.
+In the second part of the paper, we have looked at the policies implemented by EU
+member states to reduce early school leaving. We have highlighted that comparing different policies – some addressing all students and some others targeted at disadvantaged students – on the basis of a cost-benefit analysis is a very difficult task. Success
+in this exercise requires not only accurate data on outcomes and costs, but also that
+the same outcomes are considered, that individuals with similar characteristics are targeted and that similar evaluation methods are applied.
+We have shown that polices devoting higher resources to disadvantaged students typically lead to small individual benefits. However, it is difficult to compare these low
+returns with those found for programs involving the whole population of students because individuals with different characteristics are likely to differ in terms of their policy responsiveness. In addition, as the underlying assumptions that have to be met in
+order to obtain estimates of causal estimates differ across estimation methods, particular care must be paid when comparing evaluations using different approaches.
+
+Endnotes
+1
+Early school leavers include both young people who have dropped out of school before the end of upper secondary education programs (dropouts) and individuals who
+have never enrolled in those programs. This distinction somehow reflects that between
+credentials and competences, which traces back to the distinction between the human
+capital and signalling theories of the value of education. If getting a diploma produces a
+signalling effect, the taxpayers’ financing of public compulsory education is partially
+wasted when students drop out of the program.
+2
+More and better education is associated to higher wages both in standard human capital models and in signalling models where education acts as a signal of valuable innate
+abilities.
+3
+We also notice that, if education signals certain characteristics that individuals have
+(Spence 1974), a change in the pool of individuals acquiring a given educational level might
+produce a change in the signalling value of the qualification and in the associated wage.
+4
+With the growing consensus, doubts have also started to emerge. See for instance
+Holmlund et al. 2011 and Brunello et al. 2013.
+5
+Carneiro and Heckman 2002 have a more critical view and argue instead that high
+estimated returns may be signaling that the selected instrument is not valid.
+6
+Recently Devereux and Hart 2010 have re-estimated the returns to education in the
+United Kingdom using both the same dataset (the General Household Survey) and the
+same identification strategy as Oreopoulos. They find, however, much smaller returns
+(3% on average).
+
+Page 27 of 31
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+7
+
+For the US, the welfare costs of early school leaving are estimated in Waldfogel et al.
+2007. See also Anspal et al. 2011, for Estonia.
+8
+Both the Survey on the Health and Retirement of Europeans (SHARE) and the
+EUSILC survey include self-reported health.
+9
+Reviews of national policies implemented to reduce dropout rates are scarce. Cabus
+and De Witte 2013, who cover The Netherlands, is an exception.
+10
+Brunello et al. 2012b use the approach suggested by Hanushek and Wossmann and
+find that in the sub-sample of European countries, early tracking significantly increases
+average performance.
+11
+In the Project STAR, 11,571 students (of 79 schools) in Tennessee (from 1985 to
+1989) and their teachers were randomly assigned to a class of about 15 students while
+others were assigned to a class of about 22 students (from kindergarten to third
+grade).
+12
+Other studies include Hoxby 2000, who investigates the effects of class size on student achievement by relying on random population variations, and Case and Deaton
+1999, who exploit the fact that the apartheid regime in South Africa did not allow black
+people to move from one district to another. De Paola and Scoppa (2011) exploit exogenous variations in class size determined by a maximum class size rule introduced by
+the 2001 Italian university reform and find negative effects on student achievement. De
+Paola et al. 2013, relying on the random assignment of students to classes of different
+size, show that large classes mainly affect low ability students.
+13
+Positive effects emerge also on test scores, which might also translate in a reduction of
+early school leaving.
+14
+Under the assumption that the percentage gain in earnings observed at age 27 remains
+constant over the lifecycle, they calculate that the present value of earnings gains from a
+class size reduction is $9,460 per student (in 2009 dollars). They assume a 3% annual
+discount rate and discount all earnings streams back to the point of the intervention. They
+estimate the average cost per child of reducing class size by 33% for 2.14 years (the mean
+treatment duration for STAR students) at $9,355. According to these calculations, the
+benefits of reducing class size slightly outweigh the costs.
+15
+An early attempt is the classical study by Card and Krueger 1992.
+16
+See for example Rockoff (2004) and De Paola (2009).
+17
+The study is based on survey data (face-to-face interviews with both the parents
+and the children and follow-up annual telephone interviews with the children). Data
+were collected both for eligible and ineligible individuals in pilot and control areas.
+Information includes: the youngster’s current economic activity, the family income, parental economic activity, occupation, and education, childhood events (such as ill health
+and mobility), and prior school achievement. In addition the study uses administrative
+data on the quality of schooling in the relevant neighborhood and other measures of
+neighborhood quality measured prior to the introduction of EMA.
+18
+No relevant differences between males and females were detected. The effect of
+EMA was estimated to be largest for children with lower levels of prior educational
+achievement. In addition, the effect was larger for children in rented accommodation
+(who are more likely to be liquidity constrained) that for children living in owneroccupied housing, although the difference was not statistically significant.
+19
+Plus a small number of high schools.
+
+Page 28 of 31
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+20
+
+The effects of the policy are heterogeneous, stronger the longer the policy has been
+in place and for medium-high ability pupils within disadvantaged schools.
+21
+Other studies have evaluated the effect of student involvement in extracurricular
+activities. These activities might help in developing skills, such as teamwork ability,
+self-confidence, taste for competition, that are relevant in many contexts. Eide and
+Roman 2001 analyse the impact of sport participation on educational attainment. Their
+identification strategy relies on an instrumental variable approach in which sport participation is instrumented with height at age 16. They do not find any effect of sport activities on high school dropout rates. The same instrument is used by Pfeifer and
+Cornelißen 2010, who use data from the German Socio-Economic Panel and show that
+sport participation has a positive effect on educational attainment. However, the validity
+of the adopted instrument is questionable since height is correlated both to education
+and to earnings conditional on education (see for example Persico et al. 2004; Case
+et al. 2009; Guven and Lee 2013). Lipscomb 2007 uses a fixed effect estimation strategy
+and finds that athletic participation is associated with a two percent increase in math
+and science test scores.
+22
+Unfortunately, this point is often ignored by several EU member states.
+Competing interests
+The IZA Journal of Labor Policy is committed to the IZA Guiding Principles of Research Integrity. The authors declare
+that they have observed these principles.
+Acknowledgements
+This paper is an adapted version of an analytical report prepared by the European Expert Network on Economics of
+Education (EENEE) for the European Commission. We are grateful to an anonymous referee, Susanne Conzes, Hessel
+Oosterbeek and Martina Viarengo for comments and suggestions on an earlier draft. The opinions expressed in this
+paper are those of the authors alone and do not necessarily represent the point of view of the European Commission.
+The usual disclaimer applies.
+Responsible editor: Juan F Jimeno
+Author details
+1
+University of Padova, IZA and LUMS Lancaster, Padova, Italy. 2University of Calabria and IZA, Arcavacada di Rende
+Cosenza, Italy.
+Received: 3 June 2014 Accepted: 19 August 2014
+Published: 22 Oct 2014
+References
+Angrist J, Lavy V (1999) Using Maimonides’ rule to estimate the effect of class size on scholastic achievement. Q J Econ
+114(2):533–575
+Angrist J, Bettinger E, Bloom E, King E, Kremer M (2002) Vouchers for private schooling in Colombia: evidence from a
+randomized natural experiment”. Am Econ Rev 92(5):1535–1558
+Angrist J, Bettinger E, Kremer M (2006) Long-term educational consequences of secondary school vouchers: evidence
+from administrative records in Colombia. Am Econ Rev 96(3):847–862, American Economic Association
+Anspal S, Järve J, Kallaste E, Kraut L, Räis ML, Seppo I (2011) The Cost of School Failure in Estonia, CENTAR
+Arendt J (2005) Does Education Cause Better Health? A panel data analysis using school reforms for identification,
+Economics of Education Review, pp 149–160
+Autor D, Levy F, Murnane R (2002) Upstairs, downstairs: computers and skills on two floors of a large bank. Ind Lab Rel
+Rev 55(3):432–447, ILR Review, Cornell University, ILR School
+Belfield (2008) The Cost of Early School-Leaving and School Failure, Mimeo
+Bénabou R, Kramarz F, Prost C (2009) The French zones d’éducation prioritaire: much ado about nothing? Econ Educ
+Rev 28(3):345–356, Elsevier
+Bingley P, Jensen MV, Walker I (2005) The effects of school class size on length of post-compulsory education: some
+cost-benefit analysis. In: IZA Working Paper n. 1605
+Browning M, Heinesen E (2007) Class size, teacher hours and educational attainment. Scand J Econ 109(2):415–438
+Brunello G, Checchi D (2007) Does school tracking affect equality of opportunity? New international evidence.
+Econ Policy 22:781–861
+Brunello G, Fort M, Weber G (2009) Changes in compulsory schooling, education and the distribution of wages in
+Europe. Econ J 119(536):516–539
+Brunello G, Weber G, Weiss C (2012a) Books are Forever: Early Life Conditions, Education and Lifetime Income,“ IZA
+Discussion Papers 6386
+
+Page 29 of 31
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+Brunello G, Rocco L, Ariga K, Iwahashi R (2012b) On the efficiency costs of de-tracking secondary schools in Europe.
+Educ Econ 20(2):117–138
+Brunello G, Fort M, Weber G, Weiss C (2013) “Testing the Internal Validity of Compulsory School Reforms as Instrument
+for Years of Schooling,” IZA Discussion Papers 7533
+Cabus S, De Witte K (2011) Does School Time Matter? On the impact of compulsory education age on school dropout,
+Economics of Education Review, 30(60):1384–1397
+Cabus S, De Witte K (2013) Dropout prevention measures in the Netherlands, an exploratory evaluation. Educ Rev
+3(1):155–176
+Card D, Krueger A (1992) “Does school quality matter? Returns to education and the characteristics of public schools in
+the United States,”. J Polit Econ 100(1):1–40, University of Chicago Press
+Card D, Lemieux T (2001) Can falling supply explain the rising return to college for younger men? A cohort based
+analysis. Q J Econ 116(2):705–746
+Carneiro P, Heckman J (2002) Human capital policy. In: IZA Discussion Paper No. 821
+Case A, Deaton A (1999) School quality and educational outcomes in South Africa. Q J Econ
+114(3):1047–1084
+Case A, Paxson C, Islam M (2009) Making sense of the labor market height premium: Evidence from the British
+Household Panel Survey. Econ Lett 102(3):174–176
+Chetty R, Friedman J, Hilger N, Saez E, Whitmore Schanzenbach D, Yagan D (2012) How Does Your Kindergarten
+Classroom Affect Your Earnings? Evidence from project star, Quarterly Journal of Economics, pp 1593–1660
+Clark D, Royer H (2010) The Effect of Education on Adult Health and Mortality: Evidence from Britain, NBER Working
+Papers 16013, National Bureau of Economic Research
+Cutler D, Lleras Muney A (2010) Education and Health: Evaluating Theories and Evidence, NBER Working Paper No.
+12352
+De la Fuente A, Jimeno J (2009) The private and fiscal returns to schooling in the European Union. J Eur Econ Assoc 7
+(6):1319–1360
+De Paola M (2009) Does teacher quality affect student performance? Evidence from an Italian university. Bull Econ Res
+61(4):353–377
+De Paola M, Scoppa V (2011) The effects of class size on the achievement of college students. Manchester School 79
+(6):1061–1079
+De Paola M, Scoppa V, Nisticò R (2012) Monetary incentives and student achievement in a depressed labor market:
+results from a randomized experiment. J Human Capital 6(1):56–85
+De Paola M, Ponzo M, Scoppa V (2013) Class size effects on student achievement: heterogeneity across abilities and
+fields. Educ Econ 21(2):135–153
+Dearden L, Emmerson C, Meghir C (2009) Conditional cash transfers and school dropout rates. J Human Resour 44
+(4):827–857
+Devereux P, Hart R (2010) Forced to be rich? Returns to compulsory schooling in Britain. Econ J 120(549):1345–1364
+Eide E, Roman N (2001) Is participation in high school athletics an investment or a consumption good? Evidence from
+high school and beyond. Econ Educ Rev 20:431–442
+European Commission (2010) Reducing Early School Leaving. Commission Staff Working Paper, Brussels
+European Foundation for the Improvement of Living and Working Conditions (2012) NEETs Young People not in
+Employment, Education or Training: Characteristics, Costs and Policy Responses in Europe. European Foundation
+for the Improvement of Living and Working Conditions, Dublin, Ireland
+Figlio D, Page M (2002) School choice and the distributional effects of ability tracking: does separation increase
+inequality? J Urban Econ 51(3):497–514, Elsevier
+Fredriksson P, Ockert B, Oosterbeek H (2013) Long Term effects of class size. Q J Econ 128(1):249–285
+Fryer R (2011) Financial incentives and student achievement: evidence from randomized trials. Quart J Econ 126
+(4):1755–1798
+Garrouste C (2011) Towards a Benchmark on the Contribution of Education and Training to Employability:
+Methodological Note, MPRA Paper 37153
+Goos M, Manning A, Salomons A (2010) Explaining Job Polarization in Europe: The Roles of Technology, Globalization
+and Institutions. mimeo, University of Maastricht
+Goux D, Gurgand M, Maurin E (2013) Implication des Parents et Prevention du Decrochage Scolare, Rapport
+Intermediaire d’evaluation, Ecole D’Economie de Paris
+Groot W, van den Brink H (2007) The health effects of education. Econ Educ Rev 26(2):186–200
+Guven C, Lee WS (2013) Height and cognitive function at older ages: is height a useful summary measure of early
+childhood experiences? Health Econ 22(2):224–233
+Hall L (2012) The effects of reducing tracking in upper secondary school: evidence from a large-scale pilot scheme.
+J Human Resour 47(1):237–269
+Hanushek E (1986) The economics of schooling: production and efficiency in public schools. J Econ Lit 24(3):1141–1177
+Hanushek E, Wössmann L (2006) Does educational tracking affect performance and inequality? Differences- indifferences evidence across countries. Econ J 116(510):C63–C76, Royal Economic Society
+Holmlund H, Lindahal M, Plut E (2011) The causal effect of parents’ schooling on children’s schooling: A comparison of
+estimation methods. J Econ Lit 49(3):615–651
+Hoxby C (2000) The effects of class size on student achievement: new evidence from population variation. Q J Econ
+115:1239–1285
+Jakubowski (2010) Institutional tracking and achievement growth: exploring difference-in-differences approach to PIRLS,
+TIMSS, and PISA Data. In: Quality and Inequality of Education
+Katz L, Murphy M (1992) Changes in relative wages, 1963-1987: supply and demand factors. Q J Econ 107(1):35–78
+Kempter D, Juerges H, Reinhold S (2011) Changes in compulsory schooling and the causal effect of education on
+health: Evidence from Germany’. J Health Econ 30(2):340
+Kremer M, Miguel E, Thornton R (2009) Incentives to learn. Rev Econ Stat 91(3):437–456, MIT Press
+
+Page 30 of 31
+
+Brunello and De Paola IZA Journal of Labor Policy 2014, 3:22
+http://www.izajolp.com/content/3/1/22
+
+Krueger A (1999) Experimental estimates of educational production functions. Q J Econ 114(2):497–532
+Krueger A (2003) Economic considerations and class size. Econ J 113:34–F63
+Krueger A, Whitmore D (2001) The effect of attending a small class in the early grades on college-test taking and
+middle school test results: evidence from project Star. Econ J 111(468):1–28
+Leuven E, Lindahl M, Oosterbeek H, Webbink D (2007) The effects of extra funding for disadvantaged pupils on
+achivement. Rev Econ Stat 89(4):721–736
+Leuven E, Oosterbeek H, Ronning M (2008) Quasi-experimental estimates of the effect of class size on achievement in
+Norway. Scand J Econ 110(4):663–693
+Leuven E, Oosterbeek H, van der Klaauw B (2010) The effect of financial rewards on students’ achievement: evidence
+from a randomized experiment. J Eur Econ Assoc 8(6):1243–1265
+Levin H, Belfield C, Hollands F, Brooks Bowden A, Cheng H, Shand R, Pan Y, Hanisch-Cerda B (2012) Cost – Effectiveness
+Analysis of Interventions That Improve High School Completion. Columbia University, Teacher College
+Lipscomb S (2007) Secondary school extracurricular involvement and academic achievement: a fixed effects approach.
+Econ Educ Rev 26:463–472
+Lochner L (2011) Non-Production Benefits of Education: Crime, Health, and Good Citizenship, Working Paper 16722,
+National Bureau of Economic Research (NBER)
+Lochner L, Moretti E (2004) The effect of education on crime: evidence from prison inmates, arrests, and self-reports.
+Am Econ Rev 94(1):155–189
+Machin S, McNally S (2012) The evaluation of English education policies. Natl Inst Econ Rev 219(1):R15–R25
+Machin S, McNally S, Meghir C (2004) Improving pupil performance in English secondary schools: excellence in cities.
+J Eur Econ Assoc 2(2-3):396–405, MIT Press
+Machin S, Marie O, Vujić S (2011) The crime reducing effect of education. Econ J 121(552):463–484
+Mazumder B (2008) Does education improve health: A re-examination of the evidence from compulsory schooling
+laws. Econ Perspec 33(2):1
+Meierkord A, Mascherini M (2012) Preventing and re-Integrating Early School Leavers - a Meta Evaluation of Policies
+Implemented in 7 European Member States. European Foundation for the Improvement of Living and Working
+Conditions, Dublin, Ireland
+Moretti E (2006) Private and social returns to education. Economia Politica 96(3):3–46
+Moretti E (2007) Crime and the cost of criminal justice. In: Belfield C, Levin H (eds) Price we Pay. Brookings Institution,
+Washington
+Muenning P (2007) Consequences in health status and costs. In: Belfield C, Levin H (eds) Price we Pay. Brookings
+Institution, Washington
+Murtin F, Viarengo M (2011) The Expansion and convergence of compulsory schooling in Western Europe, 1950–2000.
+Economica 78(311):501–522, London School of Economics and Political Science
+Oreopoulos P (2006) Estimating average and local average treatment effects of education when compulsory schooling
+laws really matter. Am Econ Rev 96(1):152–175
+Oreopoulos P (2007) Do dropouts drop out too soon? Wealth, health and happiness from compulsory schooling.
+J Public Econ 91(11-12):2213–2229
+Oreopoulos P, Salvanes K (2011) Priceless: the nonpecuniary benefits of schooling. J Econ Perspec 25(1):159–184
+Pekkarinen T, Uusitalo R, Kerr S (2009) School tracking and intergenerational income mobility: Evidence from the
+Finnish comprehensive school reform. J Public Econ 93:965–973
+Persico N, Postlewaite A, Silverman D (2004) The effect of adolescent experience on labor market outcomes: The case
+of height. J Politic Econ 112:1019–1053
+Pfeifer C, Cornelißen T (2010) The impact of participation in sports on educational attainment. New evidence from
+Germany. Econ Educ Rev 29:94–103
+Psacharopoulos G (2007) The costs of school failure: A feasibility study, European Expert Network on Economics of
+Education (EENEE) for the European Commission
+Rockoff J (2004) The Impact of individual teachers on student achievement: evidence from panel data. Am Econ Rev 94
+(2):247–252
+Rouse C (2007) Consequences for the labor market. In: Belfield C, Levin H (eds) Price we Pay. Brookings Institution,
+Washington
+Schultz TP (2004) School subsidies for the poor: evaluating Mexico’s Progresa poverty program. J Dev Econ 37:199–250
+Silles M (2011) The intergenerational effects of parental schooling on the cognitive and non-cognitive development of
+children. Econ Educ Rev 30(2):258–268
+Spence AM (1974) Market Signaling: Informational Transfer in Hiring and Related Screening Processes. Harvard
+University Press, Cambridge
+Van Kippersluis H, O’Donnell O, van Doorslaer E (2011) Long run returns to education: does schooling lead to an
+extended old age? J Human Resour 46(4):695–721
+Waldfogel J, Garfinkel I, Kelly B (2007) Welfare and the cost of public assistance. In: Belfield C, Levin H (eds) Price we
+Pay. Brookings Institution, Washington
+10.1186/2193-9004-3-22
+Cite this article as: Brunello and De Paola: The costs of early school leaving in Europe. IZA Journal of Labor Policy
+
+2014, 3:22
+
+Page 31 of 31
+
+

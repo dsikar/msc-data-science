@@ -1,0 +1,37 @@
+The datasets being investigated, made publicly available at the UCI Machine Learning Repository[] https://archive.ics.uci.edu/ml/datasets/Student+Performances, were collected by using school reports and questionnaires, at two Portuguese secondary schools and refers to subjects of Mathematics (student-mat.csv) and Portuguese (student-por.csv). Both datasets contain the same column headers and were combined for the purpose of our analysis (student-labelled.csv).
+
+The combined dataset has 1044 observations and 33 attributes, consisting of 4 nominal, 13 binary and 16 numeric attributes, three numeric attributes being grades (G1, G2 and G3) following a 20-point grading scale. Attribute G3 contains the final grade. A "Result" binary attribute column was added with a value of 0 for fails (G3 less than 10) and a value of 1 for passes (G3 greater or equal to 10). Based on the "Result" attribute, the dataset was found to be unbalanced, with 78% passes and 22% fails, which shall be considered when evaluating predictive model performance.
+
+In Fig. 1, the scatter plots show that there is strong correlation between the prior (G1, G2) and final (G3) grades and also between prior grades. The plots also show that there are outliers: data points where the final grade is zero. The data source does not explain why these grades are zero - if we assume the most likely explanation is that the student did not take the exam we could consider eliminating these from the analysis or perform analyses with and without these points.
+
+The histograms imply that Final Grades are higher for students with internet access, no romantic relationship and extra-curricular activities. Statistical means are higher for these subsets.
+
+The box plots suggest that students with some free time (freetime) and moderate amounts of alcool intake during weekdays (Dalc) and weekends (Walc) have higher mean grades. According to the data source[5], attribute "Health" is described as "current health status (numeric: from 1 – very bad to 5 – very good)". Given the "health" by final grade "G3" box plot shows that students in poorest health states have achieved highest mean grades, the described gradient is assumed to be inverted. 
+
+Additional data analysis box plots (not shown in Fig. 1), plotting “quality of family relationships (numeric: from 1 – very bad to 5 – excellent) versus final grade, show students with better family relationships have higher mean grades, the same being the case for students with parents with higher levels of education (numeric attributes Medu and Fedu).
+
+
+Final grades were found to be normally distributed 
+
+
+
+
+Based on the analysis, the following attributes are potential candidates for independent predictor variables of final grade G3, with the strongest correlation, G1 and G2, noting they are also strongly correlated to each other. Next higher Age and Medu (mother's education) values correlate to final grade G3.
+* TODO REFERENCE TO FIGURES
+
+Description and preliminary analysis based on posters:
+
+* One column added
+* Summary statistics
+* Missing values
+* Binning?
+
+
+My own
+* strongest correlations
+
+13 binary, 16 numeric and 4 nominal attributes
+
+
+
+

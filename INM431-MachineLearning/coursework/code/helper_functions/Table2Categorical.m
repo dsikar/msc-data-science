@@ -1,15 +1,9 @@
 function [newTable] = Table2Categorical(trainingData, cats)
-% **NO SAFETY NETS** - If you want to use this function, make sure your logical
-% array will not try to convert string to double
-% or email ghostbusters@gmail.com
-
+% If you want to use this function, make sure your logical
+% array will not lead to string to double conversions, i.e. no string data
+% types allowed in trainingData table.
+% cats array will look like this:
 % cats = [true, true, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false];
-
-
-
-% T.ConfMat=categorical(T.ConfMat)
-
-%var = trainingData.Properties.VariableNames(1)
 
 % trainingData(:,3) = categorical(trainingData(:,3))
 % Error using categorical (line 282)

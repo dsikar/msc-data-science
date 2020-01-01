@@ -1,0 +1,2756 @@
+The Cost of Early School-leaving and School Failure *
+
+June 2008
+
+Clive Belfield
+Economics Department
+Queens College,
+City University of New York
+Clive.belfield@qc.cuny.edu
+
+Summary
+This report examines how low educational attainment is associated with significant economic
+costs for private individuals, for taxpayers, and for society. Specifically, higher education levels
+are associated with higher earnings, increased labor market participation, better health status
+(including lower prevalence of epidemic disease), and improvements in family decision-making;
+education is also associated with lower rates of poverty and intra-household benefits such as
+improved family nutrition. We describe the method for calculating these costs of school failure.
+We then highlight methodological challenges as well as key assumptions that underlie estimates
+of the overall costs of school failure. The method is illustrated with case studies from seven
+countries: Indonesia; Ghana; Kenya; Pakistan; Mexico; Chile; Ukraine; and Egypt. Using the
+best available research evidence, we calculate the gross costs of school failure for each of these
+countries. In each case these costs are significant. However, the magnitude of these costs
+depends on several key assumptions, including: the appropriate discount rate; the valuation of
+informal activity; and the economic value of improved health.
+
+* Research prepared for the World Bank. The author appreciates support from Tazeen Fasih and
+Harry Patrinos.
+
+1. Introduction
+This report investigates the economic consequences for nations from failing to adequately educate
+their citizens. Hundreds of studies have established the income gains from having more
+education such that investment in more schooling would pass a cost-benefit test (see
+Psacharopoulos and Patrinos, 2004). That is, the present value of the investment in education
+would be exceeded by the present value of the resulting economic benefits, as expressed in
+money terms (McMahon, 1998). But, basing educational investment decisions solely on the
+earnings gains is incomplete: as documented below, there are many other effects of education that
+might justifiably be included in a benefit–cost analysis. Such analysis should include this full
+range of benefits from education, expressed in present values, to set against the costs of the
+investment. Yet despite the simplicity of the evaluation method, and the need for a complete
+accounting, it has been only infrequently applied at the national level. As such, it is not possible
+to determine whether national education policies and investments in schools and colleges are
+optimal.
+Recent research has begun to investigate the costs of school failure or inadequate
+education. 1 It finds substantial economic benefits to individuals and countries when education
+levels are higher; alternatively put, nations are losing significant opportunities for improvements
+in economic well-being by failing to ensure that citizens have sufficient education and skills. The
+economic magnitudes are such that there is a strong imperative for governments to invest more in
+public education. However, this work has focused primarily on the U.S. and Europe, mature
+economies with relatively small informal labor markets and large government expenditures as a
+proportion of GDP. Research for other countries is very limited. Evidence on the costs of
+inadequate education ultimately depends on how education influences economic behaviors and
+who benefits, and these influences may vary from country to country.
+1
+
+Psacharopoulos (2007); Belfield and Levin (2007); and World Bank (2003). Looking just at low levels of
+literacy for the United Kingdom, KPMG Foundation (2006) estimates the costs at ₤45,000 per person.
+1
+
+This report makes two contributions to the research on the costs of inadequate education.
+First, we develop the method for estimating the costs of inadequate education, as applied to a
+broader set of countries. Second, we assess the potential costs of inadequate in eight countries:
+Mexico; Chile; Ukraine; Ghana; Kenya; Egypt; Indoneisa; and Pakistan. 2 These eight countries
+were selected to include a variety of global circumstances of developing economies: central/South
+America; one centrally-planned Soviet economy; three African countries, one Arabic; a large
+Asian economy; and a large low-income nation with very low education levels. This variety
+allows us to compare and contrast different methodological and empirical aspects of the costs of
+inadequate education. These comparisons are important in highlighting the key assumptions
+needed to calculate costs of school failure.
+The report is structured as follows. First, we review the education levels in each of the
+eight countries. This review allows us to assess the extent to which education levels might be
+suboptimal. Second, we describe in detail the assumptions behind calculations of the costs and
+benefits of inadequate education. We consider issues of specific relevance to developing
+countries, including child labor, the appropriate discount rate, and the system of governance.
+Third, we calculate the costs of inadequate education for each of the eight selected countries. For
+each country we follow a modular template approach that: (a) describes key aspects of the
+education system, including the extent to which families are constrained in their enrollment
+decisions; (b) identifies the earnings premium from education; (c) assesses other economic
+benefits from education (e.g. health and long-term well-being); and (d) calculates a lifetime
+present value cost of inadequate education. We emphasize that, for two reasons, these
+calculations are provisional. One is that there are a number of unresolved issues in relation to
+applications of the cost–benefit method at a national level; and the other is that the data available
+
+2
+
+From our literature review, for none of these countries has a full economic burden been calculated. For
+other countries, partial costing models have been undertaken in relation to specific social burdens (such as
+HIV/AIDS) but generally these models have not be related to educational status.
+2
+
+for each country is far from ideal. Nevertheless, these figures give an indication of the costs of
+school failure and the extent to which public investments are optimal.
+
+3
+
+2. Educational Status
+2.1 Measuring education levels
+Table 1A shows basic educational and demographic data for the selected countries from the
+Barro-Lee dataset from 1980 to 2000 (data for the Ukraine is from UNESCO). Each country has
+experienced significant population growth over the last two decades. Per capita educational
+attainment has also increased over this period. However, as of 2000, for each country, the
+average years of schooling per person aged over 24 is low: less than 8 years in Chile; 7 in
+Mexico; 5 in Egypt and Indonesia; 4 in Ghana and Kenya; and 2.5 in Pakistan. With the
+exception of Chile and Mexico, the average years of schooling per person does not ensure that
+each individual has completed primary school. In fact, in Egypt, Ghana, Kenya, and Indonesia
+one-third to one-half of the population has not completed primary school. Yet, for those who
+complete secondary education, each country has a growing higher education system, albeit from a
+relatively small base.
+Table 1B gives further information about each education system (World Bank data,
+2005). Three countries have almost complete adult literacy (Chile, Mexico, and the Ukraine), but
+three have a significant proportion of adults who are not literate; and in Pakistan and Ghana,
+roughly half of the population is not literate. Each country spends public funds on education:
+spending varies from 2.3% of GNP up to 6.7%, with the higher figure above the proportion for
+the OECD countries (the OECD average for 2005 was 5.8%, www.oecdinfigures). However, this
+high spending ratio includes a significant investment in higher education. As shown in the final
+panel of Table 1B, both Kenya and Ghana – despite majorities of the population only at primary
+level – invest heavily in higher education: per student spending for higher education is more than
+twice as much as per capita GDP. Also, Indonesia spends an amount equivalent to GDP per
+capita on each student enrolled in higher education.
+
+4
+
+There are significant differences in education levels by sex. Unlike OECD countries,
+where the high school graduation rate for females is above that of males in all but two countries
+(Turkey and South Korea), educational disparities favor males in developing countries. In
+examining illiteracy rates, the rates in Egypt are 17% for males but 40% for females and in
+Indonesia 6% versus 13% (MENA, 2007, Table 1.9). For Ghana, attainment differences are
+stark, with males aged 20-24 having on average 8.3 years of schooling, compared to 5.5 for
+females. For Pakistan, 10% of boys aged 10-14 are not enrolled; for girls, the figure is 36%
+(Sathar et al., 2003, Table 1). However, for countries with higher incomes and higher overall
+attainment, girls are at parity with, or overtaking, boys: in Mexico, education levels are broadly
+the same by sex; and 20-29 year old Ukrainian females have almost one year more schooling than
+males.
+There are also significant differences by urban/rural location and poverty status. For
+example, in Egypt, enrollment rates for 15-19 year olds are 85% for the urban non-poor, 73% for
+the rural non-poor, 72% for the urban poor, and only 65% for rural poor children (MENA, 2007,
+Table 1.11). Illiteracy rates are almost 50% in poor, rural Upper Egypt compared to 31%
+nationally (World Bank, 2004, Figure 1.4). For the Ukraine, children in rural areas have 0.4
+years less schooling on average (Patrinos, 2008, Table 7). For Indonesia, school participation
+rates are 10 percent lower in rural over urban areas; and the gap in participation between the
+poorest and the richest quintiles is almost 30% (Filmer, 2008, Figure 1). These gaps also exist in
+the earliest years of schooling: approximately half of all children in Indonesia in the richest
+quintile participate in early childhood education; the proportion for those in the poorest quintile is
+one-fifth (World Bank, 2006b). Similar disparities in early education enrollments are evident in
+Kenya and Ghana (Kennedy and Haddad, 1994).
+
+5
+
+2.2 Defining school failure or inadequate education
+From an economic perspective, the definition of 'school failure' or 'inadequate education' is clear:
+it occurs whenever the economic benefits of education exceed the costs of attending school, i.e.
+when the net present value of educational investment is positive. The specific level of education
+associated with a positive net present value will vary from country to country. For example,
+Belfield and Levin (2007) argue that, for the U.S., failure to graduate from high school represents
+'inadequate education'. In the U.S., being a high school dropout results in significantly lower
+income, higher unemployment, inferior health status, and higher welfare receipt and involvement
+in criminal activity. By failing to graduate from high school, students in the U.S. are risking
+significantly impaired lifetime economic well-being.
+Low absolute levels of education may not be synonymous with inadequate education,
+particularly in regions where life expectancy is relatively short. Important to the consideration of
+'inadequate education' is whether individuals are constrained in the optimal amount of education
+they can obtain. If individuals are unconstrained and can invest freely in education and other
+activities, it is unlikely that they will have made sub-optimal investments from a private
+perspective. Internationally, there is plausible evidence of substantial income constraints on
+educational investments (see Filmer, 2008) such that families cannot borrow optimally. Citations
+regarding education policies and the likelihood of sub-optimal investments for each of the
+selected countries are listed in column 2 of Table 2. These citations are discussed below.
+As shown in Tables 1AB, very few students complete secondary education. Given these
+low absolute levels of education in the selected countries, high school graduation is not a
+reasonable measure of school failure. Instead, it is more appropriate to consider investments that
+would either ensure universal completion of primary education or augment existing levels of
+attainment by one or two years.
+
+6
+
+The growth in average years of schooling over the last two decades (Table 1A) gives
+some indication of feasible changes in educational attainment. Each country (except Pakistan)
+has raised average educational attainment by at least one year over the period 1990-2000.
+However, given the low rates of completion of primary schooling, it may be more appropriate to
+focus on raising education levels for children at the bottom of the education distribution. For
+example, a more efficient policy may be to seek to reduce the numbers of persons who do not
+complete the first level of education by 20 percentage points (equivalent to the gain by Egypt,
+Ghana, Kenya, and Mexico over the prior decades, see Table 1A). 3 For countries with higher
+first-level completion rates, an alternative policy might be to raise the rate of completion of
+secondary education by 10 percentage points (as for Mexico from 1980 to 2000). These changes
+are considered below, as applicable for each country.
+
+3
+
+Others have argued – in the context of education systems across Africa – that free and universal primary
+education is feasible (see Avenstrup et al., 2004).
+7
+
+3. Method for Calculating Costs of Inadequate Education
+3.1 Taxonomy of benefits from education
+There are many potential benefits from more education. These benefits are reaped by three
+agencies: the private individual; government/taxpayers; and the broader society. Each agency
+may gain because education influences a number of domains. For example, private individuals
+gain because they obtain higher incomes; but taxpayers also gain because higher incomes mean
+higher tax payments. Necessarily, it is the costs and benefits of education for each agency that
+help explain investment decisions.
+The primary beneficiary of education is of course the individual who experiences higher
+incomes, wealth, and improved health status, as well as a set of intra-household benefits. For
+income, the effect is assumed to be a direct skill effect (and not a signaling effect). The wealth
+effect may arise because educated persons have higher returns on financial assets or avoid
+poverty and debt. The health status effect may arise in part because of higher incomes, but there
+is also a direct knowledge effect (e.g. on disease etiology). For fertility, education plays an
+important role because: where females have more labor market options they have a lower demand
+for children; education is associated with greater use of contraception; and staying in school
+reduces the number of years available for child-rearing. But education affects sexual behaviors
+more broadly; this in turn influences the spread of sexually-transmitted diseases (as discussed
+below). Also, maternal education is likely to raise child health in two ways: it raises the
+productivity of health inputs; and it reduces the costs of gathering information about healthy
+behaviors (Barrera, 1990). Compelling international evidence is summarized in Hanmer (2003):
+across ten studies of infant mortality, eight find a clear, statistically significant reduction in infant
+
+8
+
+mortality from mother’s education. 4 Finally, individuals gain from education through intrahousehold productivity gains, such as more efficient household management and better care of
+children and their health. Offsetting these private advantages from education are the costs. These
+costs have two main components: the opportunity cost of not working and the direct cost of fees
+for education.
+A second beneficiary of education is the government (taxpayer). As education boosts
+incomes it increases tax payments and reduces reliance on government health, welfare, and social
+support programs. As education reduces criminal activity the taxpayer saves on criminal justice
+system expenditures. However, the government also incurs costs in public subsidies for
+education. An important distinction in considering the government benefits from education is
+between central and local government. Typically, central governments collect payroll taxes and
+fund anti-poverty programs. However, they do not have the primary responsibility for funding
+education (or supporting health systems); this is devolved to local governments. 5 Therefore,
+there is a mismatch between the recipient of the benefits of education (central government) and
+the agency responsible for funding education (primarily the local government).
+Finally, it is useful to consider the social perspective on investments in education. This
+social perspective values all the benefits of education regardless of which agent is the beneficiary.
+Therefore, the social benefit includes the private benefits and the fiscal benefits (excluding
+transfers). It counts all the costs of education, both private fees and public subsidies. In addition,
+a social perspective would count the gains to all citizens when crime rates are lower; these gains
+4
+
+The health status to education relationship is not conclusive, in part because the effects of education
+appear to vary by amount of education. Grignon (2007) reports on the variation in the returns to education
+on health status across different countries: modelling a relationship where educational effects differ after
+completion of primary school, the effects of education are almost zero beyond this attainment level.
+Moreover, both Behrman and Wolfe (1987) and Streatfield et al. (1990) find that knowledge of the benefits
+of health is more important than education per se even as the two are strongly positively correlated. And
+the education–health relationship is not always found. Wang (2002) shows that, in pair-wise correlations,
+education and child mortality are strongly correlated. But, the effect is mediated by the collinearity
+between income and education such that the correlation is not statistically significant in multivariate
+estimation.
+5
+For example, In the Ukraine, local government spending is 30% of total government spending, but it bears
+a much higher fraction for education (61%) and health (77%).
+9
+
+include savings from being a victim of crime and reduced costs of crime avoidance. The social
+perspective also counts productivity externalities, i.e. improvements in economic competitiveness
+that arise when the workforce has more human capital. Lastly, the social perspective also counts
+the social value of health, i.e. the economic benefits from reductions in infectious diseases or
+epidemics (such as HIV/AIDS).
+Indeed, one domain where educational investments may be powerful for individuals, the
+taxpayer, and society is in reducing HIV/AIDS prevalence. AIDS prevalence rates vary
+significantly, with extremely high rates in some African countries. 6 AIDS prevalence is strongly
+related to education levels: using UNAIDS data for 84 countries, Lakhanpal and Ram (2008)
+estimate that a ten percent increase in mean schooling (equivalent to one-half year) reduces HIV
+prevalence (% of adult population age 15-49 with HIV) by 12-17%. And the economic costs of
+HIV/AIDS, particularly in high-prevalence countries, are stark. HIV/AIDS infection destroys
+human capital formation and work productivity among young adults; it reduces savings as
+families pay for medicines; and it also dramatically cuts schooling investments for children in
+families with HIV-positive adults (as well as creating large cohorts of orphans). 7 The costs of
+HIV/AIDS is borne by the entire family: in Kenya, Yamano and Jayne (2005) find that parental
+HIV/AIDS significantly reduces school attendance for girls – caring for sick parents – and boys –
+assuming household and income-generating responsibilities (see also Mishra et al., 2007). The
+total costs of HIV/AIDS include not only the loss of life, but also the fiscal costs of prevention
+and treatment. In an economic evaluation in urban and rural Kenya, Forsythe et al. (2002) report
+significant costs of counseling and testing centers for HIV/AIDS. Costs were such that many
+families would not use the service if it was not publicly-supported. Also, HIV-positive patients
+
+6
+
+In Kenya the rate is at least 15% of persons aged 15-49 (Robalino et al., 2002a). In contrast, for the
+Ukraine, it is 0.25% of persons aged 15-49 (World Bank, 2007), but it is 0.7% of those aged 20-24.
+According to World Health Organization data, the numbers needing anti-retroviral treatments in 2006 were:
+9,000 in Chile; <1,000 in Egypt; 20,000 in the Ukraine; 12,000 in Pakistan; 25,000 in Indonesia; 46,000 in
+Mexico; 63,000 in Ghana; and 290,000 in Kenya (Global HIV/AIDS online database at www.who.org).
+7
+However, orphanhood may not reduce attainment according to research by Ainsworth and Filmer (2006).
+10
+
+may have complications from other diseases, ratcheting up health care costs. 8 A series of models
+have examined the consequences for economic growth and although these economic models vary
+widely in their predictions about economic losses, they are consistent in identifying the costs of
+AIDS as substantial. 9 Direct evidence on the costs of HIV/AIDS for some of the selected
+countries is available and is incorporated below. 10
+This taxonomy (private, fiscal, and social) is distinct from other classifications of the
+economic benefits of education in several dimensions. First, the rate of return to education is
+strictly calculated from the present value costs and benefits accrued to each agent (private, fiscal,
+or social). By custom, the term 'rate of return to education' is often applied to the coefficient on
+years of schooling from a Mincerian earnings function. In this taxonomy, such a coefficient is
+called the earning premium because it may not approximate to the rate of return to education once
+costs and, importantly, other benefits are accounted for. Second, the term 'social' in this
+taxonomy includes all the benefits that might accrue to society. Other studies refer to the social
+rate of return as the private rate of return minus the public costs of providing the education.
+(Typically, studies report this social rate as a few percentage points below the private rate).
+However, this reference is overly narrow in that it does not account for the other social benefits
+from education. Finally, this taxonomy is more detailed than the term 'non-market' outcomes
+from schooling (Behrman and Stacey, 1997; Wolfe and Zuvekas, 1997). This term may include
+benefits that accrue to government in the former of lower expenditures or society in the form of
+productivity externalities; it may also include benefits that can be monetized using shadow prices.
+8
+
+In a microeconomic study of patient case management in Sudan, El-Sony et al. (2006) report that HIVpositive patients with tuberculosis are significantly more expensive than HIV-negative patients with
+tuberculosis.
+9
+As reviewed in Bell et al. (2006) and Robalino et al. (2002a), these studies find: if HIV prevalence rises
+from zero to 15-20% in sub-Saharan Africa, per capita income falls by 30-40%; if HIV prevalence rises by
+1%, per capita income falls by 0.59%; and an overall estimate for countries where prevalence rates exceed
+5% is 0.5% to 1.5% per year in per capita GDP.
+10
+Nevertheless, there is an important caveat: the urgent imperative is to reduce HIV rates in the immediate
+term, whereas educational investments are a long-term strategy for reducing prevalence. Alternative
+policies – health interventions – may therefore be more cost-effective at reducing HIV prevalence in and of
+itself. Nevertheless, the above evidence suggests that the economic benefits of education in reducing
+HIV/AIDS prevalence may still be significant.
+11
+
+Finally, we note one important implicit assumption of this cost-benefit method: it
+assumes that each dollar of savings for each agency is valued equally. Yet, if society places a
+higher value on reducing poverty over raising average income levels, then simple comparisons of
+costs and benefits may not be appropriate.
+The matrix of agencies and benefits from education are summarized in Box 1 (Belfield
+and Levin, 2007; Behrman and Stacey, 1997). This matrix shows how the benefits accrue to
+different agencies, as well as how each benefit affects multiple agencies. The matrix allows us to
+consider a modular approach where research evidence on each of the items (1)-(12) is collected
+for any country or region.
+
+3.2 General Statement of Method
+The method for calculating the costs of school failure involves three stages (Belfield and Levin,
+2007). These are outlined in Box 2.
+First, it is necessary to specify an appropriate threshold level of education that constitutes
+success or failure. As reported above in Section 2, an appropriate level for the selected countries
+may be either one additional year of attainment or universal completion of primary (or secondary)
+school. 11 Given this threshold it is necessary to count the numbers of persons who fail to reach
+that threshold for a given age cohort and to identify those persons who might feasibly reach the
+appropriate level of education. A further consideration is whether this increase in education leads
+to a further upgrading of education levels. For example, new high school graduates might then
+enroll in college.
+Second, the lifetime ‘causal impact’ of education on each of the benefits listed in Box 1
+must be identified. This identification is determined using the best available research evidence
+
+11
+
+School quality should also be considered. Behrman et al. (2008) argue that because children are already
+enrolled in school, the opportunity cost of improving school quality is zero. However, given the very low
+levels of attainment in developing countries (as well as equity considerations) the primary concern is access
+to school; improving school quality would of course benefit those who already enroll, and these children
+are disproportionately from wealthier families.
+12
+
+for each country, appraised according to method. To estimate the impact of education on each
+domain, we review a wide range of literature. Reflecting differences in education systems, labor
+markets, and social systems, we only draw on literature specific to each country. 12 As shown in
+Tables 3 and 4, there are a significant number of high quality studies that relate education to each
+outcome. As an iterative process, the research evidence may be continuously improved. That is,
+the evidence would be drawn from: studies conducted most recently; studies that are specific to
+localities or disaggregated by population characteristics; and from studies that use high-quality
+research methods. 13
+As most of the research employs controlled observational empirical methods, rather than
+experimental methods, it is not possible to identify causality. Indeed, causality from education to
+any of the benefits is often difficult to establish given individuals’ endogenous choices of
+schooling. However, at least for the education–earnings relationship, there is sufficient evidence
+to conclude that there is causality (Rouse, 2007). The earnings premiums for a year of additional
+schooling for the selected countries are reported in Tables 5A-E. For each equation the earnings
+premium is positive and statistically significant, although there are variations by locality and level
+of education. Moreover, these premiums do not typically adjust for labor market participation
+rates by education levels. 14
+
+12
+
+Our search strategy for review for each country includes: review of the World Bank database ('data and
+statistics', 'publications and reports', and 'development topics'); search of Web of Science literature from
+1995-2008; direct review of journals Education Economics, Economics of Education Review, World Bank
+Economic Review, as well as IMF working papers (2005-2008).
+13
+A more detailed approach would involve estimation of these relationships directly using country-specific
+datasets. For the selected countries, household survey data do exist for: Kenya Demographic and Health
+Survey (2003); Ghana Living Standards Survey (2003); Pakistan Integrated Household Surveys (2001);
+National Income and Expenditure Household Survey (ENIGH, 2002); and Indonesia SUSENAS National
+Socioeconomic Survey (2003). Further research is necessary to examine these datasets.
+14
+Earnings premiums, conditional on employment, do not significantly vary by sex. For Chile, male
+earnings premiums are 12.1% versus 13.2% for females; for Ghana, the respective figures are 9.3% and
+10.6%; and for Mexico, 14.1% and 15% (see Tables 5AE below). However, female labor market
+participation rates are considerably below male rates. Typically, private earnings premiums for primary
+school are higher than for secondary school or higher education (as in Indonesia and Mexico). However, in
+some cases the return to higher education is significantly above that of other education levels because
+access to university is restricted. For example, earnings premiums for secondary school in Chile are 12.9%
+13
+
+The third stage is to calculate the monetary benefits or economic/cost consequences from
+each educational impact for each population cohort. In the case of income gains, these cost
+consequences are straightforward, but the economic consequences of other benefits may be
+harder to identify. For example, it is necessary to place an economic value on gains in health or
+reductions in crime, yet these typically do not have observable prices. 15 Often it is necessary to
+rely on government budgetary spending as an indicator of the economic consequences of poor
+health status or high crime.
+Where cost data are not available we apply the method described in Wolfe and Zuvekas
+(1997) and first elaborated in Haveman and Wolfe (1984). In equilibrium, families should
+accumulate education such that the marginal utility divided by the price equals the marginal
+utility divided by the price of other inputs into the utility function. One of these inputs is
+education, the price of which is typically unknown. Often, one of the other inputs is income, the
+price of which serves as the numeraire. Therefore, the equilibrium condition is:
+(1) MUeducation/Priceeducation = MUincome/$1
+Equation (1) can be rearranged such that:
+(2) Priceeducation = MUeducation/ MUincome
+With information on the marginal utilities (proxied by coefficients from regression equations), it
+is therefore possible to calculate the economic value of education. Where data are available, we
+apply this Haveman–Wolfe (HW) translation below to allow for a fuller accounting of the
+benefits of education.
+Finally, the fourth stage is to aggregate these benefits to provide a full assessment of the
+gross costs of school failure. These benefits should be expressed in present values and so can be
+versus 20.7% for higher education; for Pakistan, the respective figures are 13.7% and 31.2% (all data from
+Psacharopoulos and Patrinos, 2004).
+15
+One measure of costs is the amount that private individuals spend as a proportion of their budgets; but
+this is problematic because higher incomes allow families to consume more health or less crime. The only
+shadow price we could identify for family valuations of child health is from Dickie (2005). Using U.S.
+data, families report a willingness-to-pay to avoid one school day lost to health of $100-$150 (1997
+dollars). Approximately, therefore, one lost school day equates to one lost day of work.
+14
+
+compared with any additional educational subsidies. This comparison will yield the net costs of
+school failure. Below we do not calculate the costs of educational subsidies and so the figures
+presented below are the gross costs of school failure. 16
+This method has a number of benefits, not least in terms of conceptual simplicity, for
+formulating educational policies across countries. It estimates the effects for individuals who
+must make decisions about educational investments. It illuminates the relative importance of
+education across the domains of life. It highlights which assumptions are the most sensitive for
+policy. Perhaps most important is the utility in comparing the economic consequences of school
+failure with the burden of funding for education. Clearly, determination of the burden of funding
+for education is a key policy issue, but this burden should in part reflect the benefits principle, i.e.
+agencies should fund education to the extent to which they benefit from it. 17 This analysis helps
+shed light on the optimal burden of funding.
+
+3.3 Methodological Issues
+Although straightforward in principle, the method of calculating the costs of school failure is
+challenging in practice. The key sensitivity issues are itemized in Box 2, section (4).
+First, it is important to fully account for the benefits of education (particularly when
+calculating a social rate of return). Some influences that might be anticipated from increasing
+levels of education are omitted in this analysis. These are itemized in Box 3. These omissions
+may be justified on the grounds that the resulting 'costs of school failure' will be conservatively
+estimated.
+We exclude any environmental benefits from additional attainment; yet, for Mexico
+Dasgupta et al. (2000) find levels of human capital to be positively associated with compliance
+
+16
+
+The costs of educational subsidies would require identification of successful interventions that would
+raise attainment. Identifying such interventions is a far from straightforward task.
+17
+The burden of funding raises many other important issues. Few of the selected countries run budget
+surpluses, such that public funding can be directly secured either from tax revenues or from borrowing at
+current interest rates.
+15
+
+with environmental protections. We do not include the influence of education on remittances to
+families. These are an important way for families to avoid poverty, but the effect of education is
+hard to identify because education is positively correlated with migration decisions which in turn
+induce remittances. 18
+We also do not fully consider issues related to family formation, household size, and
+intra-household externalities. Specifically, education is associated with smaller family size; we
+do not place a positive or negative value on that change (although we do count the impact on
+child quality from mother's education and the implications of better fertility management for
+government health spending). Intra-household externalities may be significant, particularly
+across generations: for Egypt, for example, Wahba (2006) finds that parental education is
+strongly negatively associated with child labor rates. The economic values of these more subtle
+linkages are not easy to calculate or calculate shadow prices for, however.
+Another separate area where education may play an important role is in relation to civic
+order. Education has been found to be positively correlated with civic engagement and this may
+contribute to good government. However, the economic value of democracy has not been found
+to be strong (even as political stability appears to raise economic growth, McMahon, 1998). 19 So,
+this benefit is not counted here. Finally, education has a demonstrated positive effect on life
+expectancy, but this is only partially incorporated into the analysis below. That is, we assume
+education will yield additional years of life (and so additional economic activity) and will reduce
+child mortality rates; but we do not include a measure of the value of life per se.
+
+18
+
+Also, even Mexico, which has by far the largest absolute value of international remittances across Latin
+America, generates less than 5% of GDP through such remittances (Acosta et al., 2008). Adams (2006)
+finds that, intranationally, families that remit money do not have higher incomes than families that do not
+remit. And Taylor and Yunez-Naude (2000) report only small effects of education on remittances in
+Mexico.
+19
+Such externalities are hard to identify because they appear to be very sensitive to institutional
+frameworks and power structures. For cooperative economic arrangements involving NGOs in Ghana, see
+Botchway (2001). On peer learning in regard to micro-credit financing in Mexico, see Barboza and Baretto
+(2006). Olken (2006) investigates corruption in rice aid programs in Indonesia; although corruption rates
+are high (at least at 18% of total aid), education levels do not appear to influence corruption rates.
+16
+
+Second, the evidence is not always conclusive that education is beneficial.
+Macroeconomic studies typically find much smaller gains from education compared to
+microeconomic studies; the former find factor accumulation to be a more potent influence on
+economic growth than productivity gains (on evidence for Egypt, see Abu-Qarn and Abu-Bader,
+2007; internationally, Pritchett (2006) estimates productivity externalities from education are
+zero). The discrepancy between these results may arise because of general equilibrium effects:
+education may be privately beneficial, but at the expense of other workers who do not have
+credentials. (It might alternatively be a result of aggregation bias). For example, Duflo (2006)
+finds that a large-scale expansion in education in Indonesia did cause the wage rate to fall, in part
+because capital did not expand. It also caused a large increase in participation in the formal labor
+market. A 10% increase in the primary school graduation rate caused the wages of older cohorts
+to fall by 4-10% but it also increased their labor market participation by 4-7%. If the expansion
+of education is large-scale, wages may indeed fall.
+However, these general equilibrium effects may not be strong. Educational changes take
+a long time to permeate the labor market (as some students go to college) and even then the new
+entrants are a flow being added to a very large stock (of about 30 times the size). Moreover,
+education influences migration, such that new graduates may move to alternative labor markets to
+get jobs (the impact of education on migration is also not considered here: the motivations for
+migration are complex and educational influences are unclear, Mansuri, 2006). Finally, intensive
+investigation for the U.S. (and other western countries) has found that skill-biased technical
+change significantly offsets labor supply effects; the long run correlation between aggregate skills
+and wages is therefore unclear. Our approach is to use the best available microeconomic research
+evidence on the impacts of education but recognizing that, if substantial expansions in education
+are contemplated, the marginal returns may be lower than our average estimates.
+A third challenge is that children's time in school has a high opportunity cost, particularly
+in developing countries. Specifically, many children are not in school because they must work to
+17
+
+support the family and ensure that household income is above subsistence; this is especially
+salient for countries where secondary school enrollment rates are low. For children, hours
+worked in the labor force do reduce attainment (perhaps by as much as two years of attainment,
+for Mexico, see Binder and Scrogin, 1999; for Ghana, see Ray, 2002). However, a significant
+proportion of child labor is either illegal, compromises child development, or is not monetarily
+compensated. 20 Also, the majority of child who work are also in school. 21 Moreover, free
+schooling or subsidies may reduce child labor (as found in studies of conditional cash transfer
+programs, such as Progresa in Mexico, Bando et al., 2005). If schooling includes free meals, it
+may reduce poverty also. Here, the assumption is that child time out of school – at least for
+elementary school children – has no opportunity cost. 22
+Fourth, the economic consequences of education will depend on how informal labor
+market activity is valued. In developing economies, with large agricultural sectors, it is harder to
+measure employment status and to account for the value of work done by all members of a
+household. 23 Increasing education may lead to greater participation in the formal labor market
+but not necessarily an overall improvement in family well-being (e.g. if child care is transferred
+to other family members). This impact of education may be particularly strong in countries
+where female labor force participation rates are currently low. 24 The assumption here is that
+education is equally beneficial in non-market settings as in the labor market. That is, education
+changes the opportunity cost of working versus not working so that a college-educated nonworker must have the same economic benefits as a college-educated worker. (As we show below
+for the case studies, consumption data indicate that educational impacts are at least 75% as strong
+
+20
+
+Binder and Scrogin (1999) report wage rates for children in Mexico that are one-third of parental wages.
+For rural Egypt, Wahba (2006) estimates 19% of children work, but over half of them are also in school.
+22
+This assumption is motivated by the following: child labor is illegal, raises only a small amount of family
+income, displaces in part child leisure, and is often a consequence of a lack of availability of schooling.
+23
+For example, in Pakistan only 27% of adults are in wage employment, with 8% self-employed, 13%
+agricultural workers, and 52% out of the labor force (Kingdon and Soederbom, 2007).
+24
+For the selected countries, female rates of labor market participation are: in Egypt, 31%; in Indonesia,
+41%; in Chile, 35%; and in Mexico, 35% (MENA, 2007, Table 2.9).
+21
+
+18
+
+in rural or agrarian areas as they are in urban areas). Under this assumption it is not necessary to
+incorporate changes in labor market participation in the overall returns. However, one advantage
+of education in raising labor market participation rates is that individuals do pay more in taxes; in
+this respect education yields fiscal gains.
+Fifth, a critical parameter in calculating the benefits of education is the discount rate, i.e.
+the rate at which future benefits from education should be valued. In their analysis for the U.S.,
+Moore et al. (2003) argue for a 3.5% discount rate for public investments. However, this rate is
+almost certainly too low for countries with lower life expectancies, greater economic volatility,
+and more unstable governments. Yet, it is possible to avoid the use of a discount rate if the
+simulation is simply described as: the current annual cost of school failure for all those persons
+who are not adequately educated.
+Finally, data limitations may be such that it is hard to accurately identify the benefits of
+education. Data for some of the domains of education or for costs may not be available.
+Typically, information is only available on average cost even though marginal cost is the more
+relevant value. Regional government budgets are also not easily accessible. 25 Sample surveys in
+these countries may suffer from greater selection bias or educational mismeasurement
+(particularly in regions with low literacy rates); also school quality may vary significantly
+(Behrman and Birdsall, 1993). In addition, in many developing countries with poorly functioning
+public education systems, families may enroll their children in private tutoring schools (as well as
+public school). This tutoring is not typically measured in educational datasets and its omission
+may lead to an upward bias in the earnings premium for education.
+
+25
+
+Also, information on the progressivity of the tax code is needed. If education raises incomes and makes
+persons liable at a higher tax rate, then the fiscal impacts of education are likely to be understated. As
+found by Gong and van Soest (2002) for Mexico, the fiscal impacts of education on incomes taxes are
+somewhat muted by the proportionality of the tax rate.
+19
+
+In terms of the benefits of education, data limitations are particularly evident in the
+domain of criminal activity. 26 As noted by Soares (2004), not only have there been few
+investigations into the causes and costs of crime in developing economies, perhaps in part
+because there is likely to be a significant bias from misreporting of crime. Indeed, from empirical
+investigation of 45 countries, Soares (2004) finds that the countries with higher incomes are much
+more likely to report crimes. However, education still has a beneficial impact on crime: if a
+country increases its primary school enrollment by 10%, both theft and contact crimes would fall
+by 30% (Soares, 2004, Table 6). In a separate study, Soares (2006) has calculated the costs of
+crimes of violence across 73 countries. These costs are expressed: as the marginal willingness to
+pay of an 18-year old individual; as the lifetime aggregate social value across the population; and
+as a proportion of GDP. However, country-specific results are only available for three of the
+selected countries: Chile, Mexico, and the Ukraine. These results are incorporated below. For
+the remaining five countries, even applying the lowest estimates of the costs of violence yields a
+significant economic magnitude.
+In terms of the cost consequences, the largest data uncertainty relates to government
+financing and fiscal implications of education. Specifically, although there is information on total
+government expenditures as a proportion of GDP, there is limited information on who bears the
+tax burden and on whether marginal and average tax rates differ significantly. Also unavailable is
+information on tax avoidance and on the deadweight loss of collecting taxes. Absent more
+detailed information on these parameters, the working assumption below is that taxes are paid
+proportionately with income. (For developing economies relying on excise taxes, this assumption
+may be reasonable).
+These data limitations mean that our analysis is very preliminary. One possible response
+to a lack of data availability and methodological challenges is to draw on evidence from other
+countries. Indeed, given the sizeable costs of school failure in the U.S. (Belfield and Levin,
+26
+
+Hence, there are no entries for crime in Tables 3 and 4 of the literature review.
+20
+
+2007), it might be anticipated that the costs would be even greater for countries with low
+education levels. For example, low-income countries tend to have higher earnings premiums
+from schooling than rich countries (because the gains from basic literacy are greater than the
+gains from college, see Psacharopoulos and Patrinos, 2004).
+However, there are significant economic, social, and organizational differences across
+countries; the presumption of high returns may not be valid. 27 Education may have less influence
+on economic well-being in countries with more informal labor markets or those with high
+agricultural employment. As well, labor markets in developing countries may not be sufficiently
+flexible in rewarding skills. This is especially likely in former Soviet states and economies with
+large public administrations. In Egypt, for example, government employment as a percentage of
+total employment is high at 16%; but government wages as a percentage of GDP are not
+proportionate at only 4% (MENA, 2007, Figure 2.1). It may be the case that educated workers
+accept stable government jobs which pay relatively little. If so, cross-sectional estimates of the
+return to education will fail to account for the benefit of job stability. In contrast, the returns
+might be greater in developing economies where larger families living in single dwellings may
+generate greater intra-household externalities.
+Even if the overall costs of school failure might be comparable across countries, the
+returns may vary across agents. Specifically, the fiscal returns may be lower in developing
+countries if government spending as a fraction of GDP is lower. For example, without
+comprehensive healthcare coverage, private families bear the burden of ill health. So, Baeza and
+Packard (2006, Table 2.1) tabulate total health expenditures as a percent of GDP at 7.7% for
+high-income countries, 5.8% for mid-income countries, and 4.7% for low-income countries.
+However, differences in private spending expenditures on health as a fraction of total health
+expenditures are compressed (relative to income differences): they are 30% for high-income
+27
+
+Nevertheless, international evidence may be useful for estimating key relationships. For example, in
+their multi-country study, Boyle et al. (2006) estimate that maternal education has a very strong effect on
+child health.
+21
+
+countries, 38% for mid-income countries, and 48% for low-income countries. 28 So, although
+high-income countries spend more on health and more of that spending is mediated through
+public provision, these patterns are not significantly discrepant from those in low-income
+countries. Yet, studies have found that the returns to health from education vary significantly
+depending on the absolute levels of education in the country (Grignon, 2007). Moreover, in lessdeveloped economies ill health is more likely to include infections that lead to epidemics (such as
+HIV); in this case health improvements are likely to yield significant social benefits.
+Overall, there are many factors in relation to a country's labor market, health status,
+family characteristics, and role of government, that will affect the costs of school failure. Hence,
+a country-by-country analysis of the costs of school failure appears to be necessary.
+
+4. Indonesia
+4.1 Education levels
+Across Indonesia, six of ten adults are literate and over one-third have not completed primary
+schooling; average attainment of the adult population is under five years (Tables 1AB).
+According to World Bank (2006b) data, 16% of the population (35 million people) live below the
+national poverty line; many of these persons lack basic literacy skills. However, education levels
+have risen signficantly over the last two decades and Indonesia has undertaken an expansion of
+education through construction of new schools. 29 Ito (2006, Table 1) reports that the expansion
+of schooling and increase in the number of teachers in Indonesia (SD INPRES) raised educational
+28
+
+Moreover, private spending on health care is quite small as a proportion of total annual consumption (less
+than 5%), and it is not substantially higher in developing Latin American countries (Baeza and Packard,
+2006, ES2). Chile and Mexico, for example, fund health provision using payroll and general taxes, with
+private spending about one-quarter of the total in Chile and one-half the total in Mexico (Baeza and
+Packard, 2006, Table 1.1). Total government spending in the Ukraine is 44% of GDP (2005 data), with
+health spending 4% and social protection and assistance 20% of GDP (World Bank, 2006).
+29
+Per-child annual spending on primary education is approximately $230 (2004 dollars, World Bank,
+2004b).
+22
+
+attainment by 0.12 years (see also Duflo, 2001). This significant increase in attainment for
+younger cohorts indicates the possibility of increasing education levels in Indonesia. Moreover,
+public schools appear to out-perform private schools in Indonesia (Newhouse and Beegle, 2006),
+suggestive of the importance of constraints on families in their abilities to afford more education.
+
+4.2 The benefits from education
+As shown in Table 5, years of attainment are positively correlated with attainment in Indonesia.
+The most precisely calibrated estimate of earnings gains is from Duflo (2001): based on a
+comparison of wages before and after an expansion of school construction, earnings premiums
+are approximately 7%-11%. Earlier studies found positive earnings premiums from additional
+education of even larger magnitude. McMahon and Boediono (1992) found high social rates of
+return from greater investments in junior secondary general education, as well as senior
+secondary general and vocational education (see also Cann, 1982). Skoufias and Suryahadi
+(2002) survey earnings premiums over the period 1986-98 and find that younger workers are
+benefiting the most from education with greater participation in the labor market. This suggests
+that earnings premiums for education are likely trending upwards even as the economy develops
+with greater formalization of the labor market.
+Education also raises labor market participation. Gertler and Gruber (2002) report a very
+strong correlation between completing primary school and secondary school and hours worked by
+the head of the household. There is also evidence that increasing education levels will generate
+externalities in terms of economic growth. In Indonesia, Todo and Miyamoto (2006) find that the
+effect of research and development from foreign firms on domestic Total Factor Productivity is
+"positive, statistically significant, and large" for enterprises with high skill levels.
+Health benefits from education are also evident and potentially these gains in improved
+health status may outweigh those from increased earnings. In Indonesia, one-quarter of children
+under five are considered undernourished; infant mortality in poor districts is high, at 82 per
+
+23
+
+1,000 births; across the country, the rate is 41 per 1,000 (World Bank, 2006b). Poor health and
+poverty are of course strongly correlated. For adults, ill health has a strong impact on
+consumption, reducing it by 20% when activities of daily living are constrained (Gertler and
+Gruber, 2002).
+For rural Indonesia, Block (2007) finds that education has a strongly positive impact on
+nutritional status. 30 Applying the HW translation, the value of one year of schooling is worth just
+under 5% of annual income. Much larger effects are reported by Skoufias (1999): applying the
+HW translation, having a mother who is educated to junior high has an equivalent effect on rural
+infant boys' weight-for-height as a 50% increase in per capita household expenditures (with
+similar impacts for girls and older children). In a model of intra-household bargaining, Park
+(2007) estimates that maternal education has a stronger effect on child nutritional status than on
+child education (primarily because the mother has greater responsibility for nutrition relative to
+education).
+The effect of education on child mortality is very large: Mellington and Cameron (1999)
+report that one additional year of primary schooling by the mother is associated with a reduction
+in child mortality of 2.2 percentage points. However, the relationship between education and
+fertility is complex: Angeles et al. (2005) find that its effects depend on whether an individual is
+married or not. This impact is therefore excluded in the economic analysis below.
+4.3 The costs of inadequate education
+Several economic analyses of inadequate education have been conducted for Indonesia. Arze del
+Granado et al. (2007) calculate a social rate of return (in the narrow sense), finding significant
+earnings premia net of costs. However, the returns appear lowest for primary school (4%),
+compared to junior secondary (25%), and secondary (28%) school. A similar social rate is
+
+30
+
+Miller et al. (2006) do not find strong impacts of human capital on health when social capital is
+controlled for.
+24
+
+calculated by Duflo (2001) based on investments in school construction. Although these
+investment take a long time to be recouped, Duflo (2001) estimates an internal rate of return of
+8.8%-12%, depending on the growth rate of GDP. Finally, World Bank (2006b) conducted a
+cost-benefit analysis of early childhood education, focusing on both the educational benefits
+(higher enrollments and lower grade repetition) and on the increase in earnings. Across children,
+the predicted benefit-cost ratio of investing in early education is 6.01, rising to 6.93 for children
+from the poorest expenditure quintile. This calculation – as do the other two – excluded benefits
+such as nutrition and health, as well as intra-family externalities; it was also specific to a
+particular intervention.
+Given the high rate of failure to complete primary school, this is adopted as the measure
+of school failure. Assuming that two additional years of school are required to complete primary
+school for the one-third who currently do not, this would mean an increase in the stock of human
+capital of 0.66 years across the entire population.
+The gross annual fiscal costs of school failure are calculated as follows. The earnings
+gain is 14% of per capita income; and the taxes paid are 19% of this amount (calcuated as Gross
+Government Expenditure divided by Gross Domestic Product, see Table 6). The government
+health savings are five percent of 2.3% of per capita income (spending patterns calculated from
+Baeza and Packard, 2006). The government criminal justice system costs are estimated at 0.5%
+of per capita income (the developing economy average from Soares, 2006). 31 Thus, for each
+person who fails to complete primary school, the gross fiscal cost is 3.3% of per capita income;
+note that this is an annual measure of what is being lost by the taxpayer from low education
+levels. Given that one-third of persons do not complete primary school, the annual gross fiscal
+cost from school failure is 1.1% of gross domestic product (27.3 millions rupiah). Note that this
+value does not count the economic benefits in terms of externalities from improved health and
+31
+
+Even for the sample of Western European economies, with homicide rates of 4 per 100,000, the welfare
+costs of violence are: 0.1 expected years of life lost; with a marginal willingness to pay of 12% of per
+capita GDP; and a social present value of 7% of GDP (Soares, 2006, Table 1).
+25
+
+family nutrition; nor does it factor in the enormous private (and social) losses from high child
+mortality rates.
+
+5. Ghana
+5.1 Education levels
+As shown in Tables 1AB, education levels in Ghana are relatively low: approximately half of the
+adult (aged 25+) population has not completed primary school; over 40% of adults are not fully
+literate; and adults have on average only four years of education. However, education levels have
+risen considerably since 1980, when average attainment was less than 2.5 years.
+There is strong evidence that individual families in Ghana face severe constraints when
+deciding on educational investments. Using micro-survey data, Tansel (1997) finds parental
+education strongly influences child educational attainment, as do Glick and Sahn (2000). In
+addition, Tansel’s (1997) analysis of how income declines in Ghana in the 1990s had a strongly
+negative impact on child attainment is indicative of wealth constraints. Lavy (1996) has found
+that families do consider the costs of schooling across childhood when making decisions about
+enrollment. As for other developing economies, these constraints appear to operate more strongly
+for girls than for boys.
+
+5.2 The benefits from education
+There is evidence on basic earnings premiums from education in Ghana: workers with one
+additional year of attainment earn 7-9% more (see Tables 3 and 5). This premium is also found
+by Teal (2000) and Jones (2001) in the manufacturing sector, although Teal (2000) reports that
+Ghanaian wage rates have been very volatile in recent decades. Jolliffe (1998, 2004) finds that
+these premiums are strongest for off-farm income, i.e. informal or agricultural workers gain less
+from education although the returns are still positive. This difference may in part arise because of
+
+26
+
+how education serves as a signal of productivity in the formal labor market in Ghana (Strobl,
+2004). It may also arise because more educated workers take greater advantage of on-the-job
+training, raising earnings further (as developed in Frazer's (2006) apprenticeship model for
+Ghana).
+As well, education also raises labor market participation rates, with this effect also
+stronger in non-farm settings. Given this disparity, education induces workers to shift toward
+working in the formal labor market: as found by Abdulai and Delgado (1999), "human capital…
+is essential in increasing nonfarm earnings and time allocation of rural families and to diversify
+the rural economy out of agriculture… a 10% increase in years of schooling increased women's
+labor supply to nonfarm activities by 6.6%, compared to 3.2% for men." Greater participation in
+the formal labor market is associated with increased tax payments reinforcing the economic
+benefits to the government.
+There is also evidence for Ghana that human capital generates productivity externalities.
+Using micro-data, Barr (2000) finds that more human capital is associated with higher
+productivity of capital and greater productivity through business networks. (However, because of
+multicollinearity, this externality cannot be calculated precisely). Where families work together
+informally, intra-household externalities may equate to intra-workplace externalities. For family
+enterprises in Ghana Vijverberg (1995) found that the entrepreneur’s educational attainment
+raises income by an amount close to that of employed workers and that the educational attainment
+of the entrepreneur's family members significantly increased income for the enterprise.
+The personal benefits of education include improvements in health status, reductions in
+the rate of HIV/AIDS prevalence, fertility, intra-household transfers, as well as long-term
+economic well-being (see Table 4). As noted above, research on the link between education and
+crime is sparse, limited to work by Soares (2006). Also, research on the fertility effects of
+
+27
+
+education for Ghana does not show strong impacts, except on abortion rates (Ahiadeke, 2001). 32
+Therefore, our focus is on health effects, measured using calorie counts, and HIV/AIDS.
+There is evidence for Ghana that education reduces long-term poverty and improves
+health status. Using the Ghana Household Budget Survey, Kyereme and Thorbecke (1991, 1987)
+find that education independently influences household calorie gaps, as do other correlates such
+as income and fertility patterns. Using the Haveman–Wolfe translation on Kyereme and
+Thorbecke's (1991) results, completing primary school has an impact on health (calorie gaps) of
+equivalent size as a 40% increase in income. Schultz (1999) also reports a very strong positive
+association between attainment, income, and body-mass index for Ghana. Similarly, Higgins and
+Alderman (1997) find a strong positive impact of primary, secondary and higher education on
+nutrition (BMI) in Ghana. Applying the Haveman–Wolfe translation, completing primary school
+raises Body-Mass Index by an amount equivalent to an increase in income of approximately
+40%. 33 Finally, Kennedy and Haddad (1994) calculate the probability that a Ghanaian child is
+malnourished. Applying the Haveman–Wolfe translation, any schooling by the mother reduces
+the probability of malnutrition to an extent equivalent to a 29% increase in per capita income.
+5.3 The costs of inadequate education
+Given existing education levels, school failure in Ghana is considered as failure to graduate from
+primary school. This failure means lower incomes and labor market participation and worse
+health status (including HIV/AIDS incidence).
+Income gains from completion of primary school are approximately 14% (assuming two
+years to complete primary school). There is also an induced switch toward employment in the
+formal labor market; offsetting this is the lower return to work in the non-farm sector. There is
+32
+
+As found for other countries, education does influence fertility, but the relationship is subtle. For Ghana,
+Benefo and Schultz (1996) found that child mortality was an exogenous shock to families, but that fertility
+rates were sensitive to this shock. More educated females were found to be more sensitive, but the effect
+for Ghana was not substantively strong.
+33
+Again, we do not compare educational effects with direct health interventions (as the latter have been
+found to be very effective in Ghana, see Lavy et al., 1996).
+28
+
+also a productivity externality of almost equivalent size to the earnings premium. With an
+average tax rate of 31% on incomes (Table 6), per capita fiscal gains are likely to be 8.7%. In
+addition, the substantial gains in health status are worth 1.1% in per capita incomes and the fiscal
+savings in crime are 0.5%. Thus, the gross annual fiscal cost of failing to ensure primary school
+completion is 9.3% of per capita income. Given that 46% of the population has not completed
+primary school, the per capita fiscal effect is 4.3% or per capita income of US$21. Note that this
+is almost certainly an underestimate because it does not include the costs of HIV/AIDS
+(Lakhanpal and Ram, 2008).
+
+6. Kenya
+6.1 Education levels
+Education levels in Kenya are shown in Table 1AB: one-third of children have not completed
+primary school and the average adult has four years of schooling. Moreover, Kenya’s education
+system has suffered shocks to enrollment in recent decades. As described by Bedi et al. (2004),
+investment was high in the 25 years after independence in 1963, but that enrollments in primary
+school actually fell in the late 1980s. A number of factors are involved, including: rising school
+fees; a lack of school supply; and the spread of HIV/AIDS. School failure rates may therefore be
+extremely high.
+Research evidence suggests that families are constrained in their educational investments.
+Kabubo-Mariara and Mwabu (2007) report high sensitivity of enrollment to incomes and to
+family characteristics. Evidence on price sensitivity to participation is evident from a study of
+child care for primary school children by Lokshin et al. (2004) in which high costs of child care
+are found to discourage mothers from participating in market work. Educational subsidies may
+therefore play an important role in allowing mothers to work. Families also appear to be sensitive
+
+29
+
+to small subsidies: for example, Ito (2006, Table 1) reports that free school meals in Kenya raised
+the probability of schooling by 30 percentage points. Thus, public funding may encourage
+families to invest in schooling.
+
+6.2 The benefits from education
+Even as school quality and access are constrained, there are positive returns to investments in
+education in Kenya (see Table 5). These returns – at 16% – appear to be higher than for most
+other countries. The returns may include better access to high-skilled jobs: more educated
+workers in Kenya get more training, and this has a positive impact on earnings (de Beyer, 1990).
+However, from data on manufacturing employees in Kenya over the period 1993-2001, Soderman
+et al. (2005) find that the rate of return to education in Kenya has been falling. (No evidence on
+the effects of labor market participation were found).
+Long-term indicators of well-being are positively associated with education, which in
+turn reduces the likelihood of poverty. Christiaensen and Subbarao (2005) estimate that raising
+the household literacy rate from 50% to 100% would raise household expenditures by 23%
+(although this effect is only statistically significant in non-arid zones). Eloundou-Enyegue and
+Calves (2006) examine vulnerability to poverty in rural Kenya. They find that poverty – which
+afflicts two out of five households – is affected by climate and disease although adult literacy was
+also a strong predictor.
+The link between education and health is particularly salient for Kenya. Goodman et al.
+(2006) investigate how education programs improve health diagnoses and treatments in rural
+Kenya. Targeted to general shopkeepers and communities, the program found major
+improvements in the use of over-the-counter anti-malarial drugs for childhood fevers. The
+proportion of shop-treated childhood fevers treated according to medical guidelines rose from 2%
+to 15%, at an economic cost of $4.00 per additional appropriately treated case (2000 US$). For
+family health, Kennedy and Haddad (1994) calculate the probability that a Kenyan child is
+
+30
+
+malnourished. Applying the HW translation, any schooling by the mother reduces the probability
+of malnutrition to an extent equivalent to a 1% increase in per capita income. However, the most
+important health gain from education is related to HIV/AIDS prevalence (education has
+significant effects, see Maticka-Tyndale et al., 2007). Direct economic analysis of this is
+included below.
+6.3 The costs of inadequate education
+For Kenya, inadequate education is identied as a failure to complete primary school; this applies
+to one-third of the population. Per new completer, the gains in earnings are likely to be 32%.
+(This overstates the impacts in that it assumes all persons will be participating in the formal labor
+market but understates in that it does not take account of induced labor market participation or
+productivity externalities). Applying the average tax rate on income of 21%, the per capita fiscal
+cost of school failure in lost taxes is 6.7% of income. Adding in the fiscal costs of crime, at
+0.5%, and the government health savings (at 0.6%, or 23% of 2.66%), the per capita annual gross
+fiscal cost of school failure is 7.8%, or 23,200KES.
+But given the high rate of HIV/AIDS in Kenya, the health effects of education are probably
+more salient. For Kenya, Bell et al. (2006) report that investments to raise school attendance
+would yield benefit-cost ratios of 1.7-2.9 in per capita GDP simply from reducing AIDS
+prevalence. Robalino et al. (2002b) estimate that, conservatively, present value GDP losses for
+the period 2000-2020 are 20-30% without a 20-50% reduction in the current incidence rate.
+Similarly, Bruhns (2006) estimates long run GDP in Kenya to be significantly below that under a
+zero prevalence rate. Microeconomic evidence also shows strong impacts. As reviewed by
+Robalino et al. (2002a), Kenyan households with AIDS experience income reductions of
+approximately 50%; after the AIDS-related death of a family member, household expenditure per
+capita is reduced by 32%. There are also intergenerational impacts that are not counted here: in
+their analysis of orphaned and fostered children of HIV-infected parents using the Kenya
+
+31
+
+Demographic and Health Survey, Mishra et al. (2007) identify significantly lower rates of school
+attendance, higher rates of malnutrition, and inferior medical care. Hence, the fiscal and social
+cost of school failure is likely to be dominated by any reductions in HIV/AIDS incidence in
+Kenya.
+
+7. Pakistan
+7.1 Education levels
+Average attainment among the adult population of Pakistan is very low, at less than three years
+per person. Seven out of ten adults have not completed primary school and only half of the
+population is literate (see Table 3).
+Many households are constrained in providing education for their children, particularly
+girls. Income levels strongly influence enrollment (Hazarika and Bedi, 2003; Rosati and Rossi,
+2003). The costs of primary school influence enrollment, as does distance to the nearest primary
+or secondary school (as found by Holmes, 2003, using the Pakistan Integrated Household Survey
+(1991)). The private schooling market has partially responded to the scarcity of public schooling
+(Lloyd et al., 2005). Nevertheless, there is still a need for public funding for the large proportion
+of families who cannot afford to send their children to primary school.
+
+7.2 The benefits from education
+The income benefits from education in Pakistan in the years 1998 and 2001 are reported in Table
+5C (Kingdon and Soederbom, 2007). Estimated separately by gender and sector of employment,
+the coefficients on schooling are strong positive, except for females who are either self-employed
+or work in the agricultural sector. An average of the reported estimates is 7%. Earnings
+premiums are higher for older workers (aged over 30), perhaps reflecting the continuing human
+capital acquisition of the younger workers. In a study that adjusts for school quality, Behrman et
+
+32
+
+al. (2008) report very high private rates of return (at 20%) from high quality primary school
+competion (with social rates of return at 18%).
+Yet, the income gains from education are not consistently evident even for low
+absolute skill levels. 34 Despite low levels of literacy in Pakistan, Kingdon and Soederbom (2007)
+find only weak impacts of literacy (and numeracy) on earnings and labor market participation.
+However, only about half of the labor force has wage employment. In early study for
+Rawalpindi, Guisinger et al. (1984) found low rates of return to schooling, but attributed that to
+government policies that compress the skill-wage structure. In their study that compares farm
+and non-farm work, Kurosaki and Khan (2006) find that the earnings gains rise across all
+education levels for non-farm work, but that there are only positive gains from completing
+primary school for farm workers. Satriawana and Swinton (2007) find that the benefits of
+education in the farming sector are very low.
+However, the effects of education on participation in the formal labor market are very
+strong (Fafchamps and Quisumbing, 2007), both in terms of literacy and primary schooling
+(Kochar, 2000). As found for other countries with large rural and agrarian populations, education
+induces individuals to substitute farm work for off-farm work (Fafchamps and Quisumbing,
+1999).
+Gains in economic well-being and health status are also identifiable. Sathar et al. (2003)
+find that increases in schooling induce large welfare improvements. An extra year of schooling
+raises average consumption by 5% and reduces the percentage of poor by 10%; the effects across
+urban and rural areas are very similar. In fact, these effects are understatements because they fail
+to account for parental influences: Sathar et al. (2003) find that an increase in parental education
+to attain primary schooling reduces the incidence of poverty by 23%. Importantly, mean
+consumption increases by 19% but mean consumption by the head of the household only
+
+34
+
+Evidence on remittances indicates that these transfers do not substantially increase income (Adams,
+1998).
+33
+
+increases by 12%; thus, the household head is sharing the educational benefits with the rest of the
+family. Directly, Hazarika (2000) finds that the schooling of the household head strongly
+influences the household's purchases of quality foods (meat, milk, and fish). The effects are also
+evident for child nutritional status, although the relationship is not substantively large. Using the
+HW translation, one year of mother's schooling raises child height equivalent to less than a 2%
+increase in household expenditure.
+Maternal education also raises child education, both directly and indirectly through
+improvements in child health (Alderman et al., 2001). Research has also found positive effects
+on contraceptive use. In their analysis, Fikree et al. (2001) find that literacy increases usage by
+100%, an effect equal to having double the average number of household assets. Similarly,
+Sathar et al. (2003) find that contraceptive use is one-third higher if the mother has completed
+primary school. These changes in behavior are of economic value, although a precise cost
+consequence cannot be calculated.
+7.3 The costs of inadequate education
+Given the low levels of attainment, school failure for Pakistan might be regarded as failure to
+complete primary school. As given in Table 1A, this applies to 70% of the adult population and
+so would represent a significant change in human capital stocks. However, only a small
+proportion work in the formal labor market (even as some switching toward that market is
+induced by education). Also, as noted above, there are substantial externalities within families
+such that extra years of schooling raise consumption across the household.
+Accounting for the per person earnings gain of 14% across the 70% of the population, as
+well as the induced switch to working in the formal labor market, universal primary school
+education would raise GDP per capita by 7.2% each year. With current GDP per capita at
+Rs.41,500 (Table 6), the new level of GDP would be Rs.44,500. This boost is an annual one and
+it excludes the nutritional impact of maternal education on family health as well as the other intra-
+
+34
+
+family benefits. The fiscal benefits – simply from the increase in earnings in the labor market –
+are approximated as a proportion of the increase in GDP spent as general government
+expenditure: universal primary school education would increase government revenues annually
+by 1.6% of GDP. Again, these fiscal benefits are understatements because they do not include
+any impacts on health. Based on studies for other countries and the results from Sathar et al.
+(2003), these health gains are likely to be significant, but less than 0.5% of GDP. Similarly, the
+addition of intrahousehold externalities would add to the economic consequences of low
+education.
+
+8. Mexico
+8.1 Education levels
+In Mexico, the average adult (aged over 25) has approximately 7 years of education and the
+literacy rate is over 90%. However, economic volatility has meant that families have been
+significantly constrained in investments in education (Binder, 1999b). Although Skoufias and
+Parker (2006) find only weak effects of household head employment status on boy's schooling,
+they do find adverse consequences for girls in low-income families. In contrast, Binder (1998)
+finds that boy's schooling is more sensitive to family income, with girls' schooling more sensitive
+to family structure. Further evidence on the extent to which investments in education may be
+sub-optimal is the existence of child labor even before children have accumulated even basic
+human capital skills. In Mexico, approximately 7% of children work (Bando et al., 2005).
+However, small-scale programs have established that it is possible to raise educational
+attainment: Ito (2006, Table 1) reports that Progresa conditional cash-transfers raised schooling
+by 0.7 years. Also, nationally attainment has increased by over three years per person since 1980.
+
+35
+
+8.2 Income benefits from education
+Table 5B reports earnings premiums for Mexico over the period 1998-2002 (Patrinos and
+Metzger, 2005). Split by gender and level of education, these earnings premiums are consistently
+positive and substantively significant. Premiums are slightly higher for females but the pattern
+across education levels is not consistent or linear: on average, the highest premiums for males
+accrue to university graduates whereas for females the premiums are quite similar across
+education level. (Levison et al. (2001) emphasize differences in school-to-work transitions for
+boys and girls, suggesting that the pathways of human capital accumulation may vary.) Overall,
+these earnings premiums can be used to calculate a lifetime economic benefit from additional
+attainment.
+For earnings premiums for Mexico over the period 1984-1992, see Psacharopoulos et al.
+(1996). Despite significant economic fluctuations over this period, the earnings premiums
+remained strongly positive (15%). Also, Psacharopoulos et al. (1996) use the full discounting
+method to calculate social rates of return (with social defined as ‘net of the costs of education’,
+not as ‘including all social benefits’). These rates of return assume two years of foregone
+earnings during childhood, to reflect child labor. The highest social rates are at the secondary
+education level, reflecting almost-full primary school completion rates (and the social cost of
+higher education). Importantly, data for 1992 show social returns range between 11% and 15%
+(Psacharopoulos et al. 1996, Table 7). However, more recently Rojas (2006) analyses both
+supply and demand factors determining skill premiums and finds that, even as the earnings
+premiums are still positive, NAFTA has reduced the returns to high skill in Mexico.
+Simple earnings differences do not address induced changes in labor market
+participation. 35 Taylor and Yunez-Naude (2000) argue that earnings premiums are typically
+35
+
+The adult population in Mexico is divided approximately equally into those working in formal
+employment; those working in the household; and those not formally classed as employed (Binder and
+Scrogin, 1999). Hence, there is a potential for a very strong impact from education on labor market
+participation.
+36
+
+under-estimated because they do not adjust for endogenous swiches toward participation in the
+formal labor market and away from agricultural production. 36 Controlling for education-related
+sectoral choices, each extra year of education adds 15% to cash-crop income. Gong and van
+Soest (2002) find that education significantly raises labor market activity by females: for females
+with less than six years of education, the labor market participation rate is 19% and the post-tax
+wage per worker is 4.43 pesos (1992); for females with more than six years of education, the
+figures respectively are 32% and 8.63. Finally, Pagan and Sanchez (2000) report similarly strong
+impacts for rural Mexico where more educated males are considerably more likely to be formally
+employed. But they also find sharp differences by sex: for males, the big jump in employment
+occurs after the completion of primary school; for females completing secondary school doubles
+the rate of employment (whereas completing primary school only raises it by 11%).
+There is also evidence of positive economic externalities. Samstad and Pipkin (2005)
+describe how important human capital stocks are to the development of the maquiladoras. Taylor
+and Yunez-Naude (2000) find intra-family externalities on crop incomes: an increase in mean
+family schooling of one year is associated with a 16% increase in income from staples and a 13%
+increase in income from cash crops. López-Acevedo et al. (2005) find that workers with upper
+secondary education are 84% more productive than the base case worker, but they earned only
+44% more; for workers with higher education the percentages were 282% and 137%,
+respectively. These differences may reflect productivity differences that were not fully
+appropriated by educated workers. Alternatively specified, the private returns to education
+appear to be approximately 47% of the overall productivity gain.
+
+36
+
+Quinn and Rubb (2006) also emphasize how occupational matching influences the returns to education in
+Mexico. Also, Hammitt and Ibarraran (2006) find significantly lower compensating wage differentials for
+persons with more education, i.e. these workers not only receive higher pay but also have jobs that are less
+dangerous. Inclusion of compensating wage differentials would widen the full earnings gap according to
+education levels. Finally, some researchers have argued that educational investments generate more greater
+inequality (in part because education is more available in urban areas than rural and the former are already
+more wealthy, see Bouillon et al., 2003).
+37
+
+As for other countries, there is strong evidence of personal benefits from education in
+Mexico, in terms of planned fertility (Miranda, 2006) and improvements in child health (Dexter,
+1998). Contreras (2003) also finds that poverty is reduced, even as overall inequality may grow.
+However, Cutler et al. (2002) find only modest impacts of literacy on health outcomes and some
+indication that increases in female labor market participation may worsen health for the young
+and elderly. Studies on long-term well-being are equivocal: whereas Fuentes and Villagomez
+(2001) report some benefits in household assets for the more educated, Mayer (2002) finds that
+education is not a strong influence on savings rates.
+
+8.3 The costs of inadequate education
+Determining school failure in terms of years of attainment, it is possible to calculate the economic
+consequences. With GDP per capita of 79,500 pesos (Table 6), the wage and externality effects
+would add 18% to the wages of each worker. This translates into an increased per capita income
+of 6%, or 392,860 million pesos. With government expenditure at 23.4% of total income, the
+fiscal impact would be equivalent to 1.4% of national income.
+Again, these amounts are almost certainly understatements of the social benefits of
+education. They do not include health benefits, which are likely but for which no evidence is
+found. Soares (2006, Table 2) estimates that the welfare costs of violence in Mexico are: 0.6
+years of life lost; a marginal willingness to pay equal to 45% of GDP; and a social value of 67%
+of GDP (accounting for the costs on future generations). Applying Soares (2006) relationships
+between education and crime – a one year increase in attainment would reduce crime by as much
+as 30% – the savings for citizens and taxpayers in Mexico would be very large. If crime could
+be reduced by 30%, this would be valued at 14% of GDP (much of which would be fiscal
+savings) or even 20% of GDP (applying a social valuation).
+
+38
+
+9. Chile
+9.1 Education levels
+Chile's education system is distinct in that it operates as a voucher system (see McEwan, 2001)
+with considerable freedom of choice for families. Educational attainment for adults in Chile is on
+average 8 years and the literacy rate is close to full. However, almost half of the population has
+not progressed beyond primary school (see Tables 1AB).
+9.2 Benefits from education
+As shown in Table 5, there is evidence of a positive earnings premium from education. In fact,
+across the period 1974-1989 the return to education has been broadly consistent at approximately
+9% (see also Hanushek and Zhang, 2006). Evidence on changes on labor market participation
+with education levels is not available.
+In addition to the private returns, there is also evidence of productivity externalities
+through rates of innovation. In their study of plant-level data, Marotta et al. (2007) find that
+levels of human capital are strongly positively associated with innovation. Unfortunately, this
+association cannot easily be translated into an economic value. 37
+Limited evidence is available for Chile on other benefits from education, such as health
+and well-bring. Hoefter (2006) does find that education has a strongly positive effect on the use
+of private health insurance in Chile: having completed secondary education has the same effect as
+increasing own income by almost 40%.
+
+37
+
+Similary, Ramirez (2000) models inflows of foreign direct investment related to overall levels of
+economic activity.
+39
+
+9.3 The costs of inadequate education
+For Chile, school failure is interpreted attainment across the population at less than 9 years.
+Given the earnings gains of 9% per worker for each additional year of education, the aggregate
+annual economic gain from each additional year of attainment is 3% of GDP or 1,936,500
+Chilean pesos. 38 With government expenditure of 20.6% of total GDP, the fiscal gain would be
+398,900 Chilean pesos.
+These amounts are understatements, because they do not account for the other social
+benefits of education, such as health gains, reduced HIV/AIDS prevalence or lower violence. For
+example, Soares (2006, Table 2) estimates that the welfare costs of violence in Chile are: 0.9
+years of life lost; a marginal willingness to pay equal to 54% of GDP; and a social value of 86%
+of GDP (accounting for the costs on future generations). As with the case study for Mexico, even
+small impacts of education on criminal activity are likely to boost GDP significantly, at least
+rivalling the economic consequences for earnings.
+
+10. Ukraine
+10.1 Education levels
+In the Ukraine, education levels are high: the average attainment across adults is 11 years, or
+almost the equivalent of high school; 80% of students enroll through secondary school; and the
+literacy rate is almost universal (Tables 1AB). However, high attainment is common in former
+Communist countries where labor markets do not fully reflect skills and wages are artificially
+compressed (Barro and Lee, 2000). Education often serves as a consumption good and is not
+directed at obtaining business-related skills. Thus, it is possible that educational investments fail
+to generate economic benefits.
+38
+
+Accounting for labor market participation rates of 65% of the adult population.
+40
+
+10.2 Benefits from education
+Information on the Ukrainian labor market is very limited, but the returns to education in the
+Ukraine have recently been calculated by Patrinos (2008). As reported in Table 5D, these are
+only significant for high levels of education, i.e. persons with a university degree or those with a
+graduate degree. This reflects the very high and compressed overall education levels of the
+population. Nevertheless, it is indicative of high returns beyond completion of high school. It is
+also likely that younger cohorts of workers will reap higher returns from education as wage
+determination becomes more flexible as the economy becomes more market-based. Kupets
+(2005) applies a survival model to unemployment durations in the Ukraine and finds that more
+educated workers are less likely to remain unemployed.
+10.3 The costs of inadequate education
+Given the high levels of education in the Ukraine, school failure is interpreted as failure to
+graduate from high school. As a simplification, this is assumed to require one more year of
+education on average across the population. Based on Patrinos' (2008) calculations of the
+earnings benefits of one more year of education, the total wage amounts paid to labor would rise
+by 7% for each worker. Average GDP per capita in the Ukraine is 9,000UAH (see Table 6).
+Accounting for an adult labor force participation rate of 62%, an employment rate of 90%, the
+total annual increase in national income would be 2.6%.
+These income gains will have signficant fiscal consequences because the Ukraine has a
+large government sector. Given government spending of 44.6% of national income, an additional
+year of attainment would approximate to 1.18% extra government revenues annually. However,
+this is just the additional tax revenues. There are likely to be other savings from reductions in
+HIV/AIDS and crime (as well as other potential benefits in health and intrahousehold
+externalities).
+
+41
+
+World Bank (2007) evidence on the costs of HIV/AIDS is also available. For the
+Ukraine, predicted additional costs by 2014 are estimated at 263-418 million UAH in direct
+budget revenue losses and an additional 139-155 million UAH in extra spending on health and
+welfare supports. Compared with a zero prevalence rate, the economic costs of HIV/AIDS for
+the Ukraine range between 1-6% of GDP (World Bank, 2007). Given the impact of education
+from Lakhanpal and Ram (2008), an additional year of education would generate substantial
+savings of at least the lower bound estimate of 1% of GDP.
+Finally, the costs of crime can be considered. Soares (2006, Table 2) estimates that the
+welfare costs of violence in Ukraine are: 0.6 years of life lost; a marginal willingness to pay equal
+to 38% of GDP; and a social value of 29% of GDP (accounting for the costs on future
+generations). Based on Soares's relationship between education and crime, the annual economic
+savings from reduced crime – both fiscal and social – are likely to be very large.
+
+11. Egypt
+11.1 Education levels
+Educational attainment in Egypt is on average five years of schooling per adult; but almost half of
+the adult population has not completed primary school and almost one-third are not fully literate
+(Tables 1AB).
+Economic conditions are such that educational investments are probably sub-optimal
+(MENA, 2007). As noted in World Bank (2004c), the costs of schooling are prohibitive for some
+families: the income foregone from attending secondary school was approximately half of the
+poverty line for a family with two adults and three children; and school availability in rural areas
+is limited. A non-trivial number of children are active in the labor market (Wahba, 2006), and
+this is partly driven by family income and education levels. However, Hanushek et al. (2006)
+
+42
+
+conclude that family decisions largely reflect the low quality of schooling available in the public
+system and that many families must as a consequence pay for private tutoring. Thus, it is hard to
+establish the extent of suboptimality although the low literacy rate is an important indicator.
+
+11.2 Benefits from education
+As shown in Tables 5AE, earnings premiums vary considerably across education levels in Eqypt,
+with some earnings premiums quite low or negative for females (see also Dobrogonov and Iqbal,
+2005). For males, at least, the returns are at least 8% and possibly 29% for vocational secondary
+education; but these may be overstated (Hanushek et al., 2006). However, Enders (2007)
+anticipates that, in the near future, as supply constraints start to bind, the rate of return to
+education should increase. Nevertheless, the income gains from additional years of education are
+still positive on average and these gains do not account for the greater job security associated with
+higher education (as found by Assaad and Tunali, 2002). Participation in the formal labor market
+is also enhanced with higher levels of education, in part induced by significant migration into
+cities by educated workers (as found by McCormick and Wahba, 2005).
+The benefits of education are lower for those living in rural areas (see Table 5A), perhaps
+in part because literacy skills are less utilized. However, rural residents still earn a significant
+fraction of their overall incomes from non-farm income: according to Adams (2002), non-farm
+income accounts for 60% of total per capita income for the rural poor. Thus, educational benefits
+are still likely to be substantial.
+Alternative measures of economic well-being also support the need for investments in
+education. World Bank (2004b) finds poverty rates and education are strongly negatively
+correlated: whereas almost 25% of illiterate persons are poor; the rate is 10% for persons with
+some secondary education; and almost zero for persons with some college education. Similarly,
+Datt and Joliffe’s (2005) estimation of consumption rates show that each year of schooling adds
+5% to per capita consumption in urban areas and 4% in rural areas. Finally, fertility rates in
+
+43
+
+Egypt are lower as education increases (Cochrane et al., 1990), although the effect is not
+substantively large.
+Reductions in the poverty rate might lower government spending. Yet, because of data
+limitations, it is not possible to model for progressivity of the tax system and the extent to which
+welfare payments might be reduced. According to the World Bank (2004c) Egypt’s safety net for
+poverty has expanded over the last few decades. Public cash transfers amount to 5% of the
+income of low-income families (who also receive private supports of an equivalent amount).
+However, social assistance programs are “modest and not necessarily targeted to the poor”; in
+2002, these programs allocated on average 560LE to 900,000 families (World Bank, 2004c, xiii).
+Any savings in these transfers are unlikely to be significant.
+11.3 The costs of inadequate education
+Given the low absolute levels of education in Egypt, we consider a scenario in which completion
+of primary school was universal.
+Earnings gains are derived from changes in average incomes in Egypt. In 2005, GDP per
+capita in Egypt is EGP7,300 (equivalent to $1270, see Table 6). Assuming a labor force
+participation rate of 66% of the total population, the average wage per worker is EGP11,100. If
+all the workers who have not completed primary school were assumed to have completed primary
+school, there would be several effects: these workers would have higher wages; and more of these
+workers would switch to participation in the formal labor market. Based on the wage premium of
+8% and two years needed to complete primary school, the overall effect is to increase the average
+wage to EGP11,300 and so the aggregate national income would rise by 2.2% annually. Based
+on government expenditure of 32.54% of GDP, there would be an increase in government
+revenues of 0.72% or EGP1,253 million. (This figure would be lower if agricultural workers pay
+limited amounts in tax because they experience consumption rather than income gains).
+
+44
+
+As well as these labor market effects there are also savings if the rate of HIV/AIDS can
+be reduced. These costs may be significant. The simulation by Robalino et al. (2002a, Table 5)
+calculates that for Egypt a five-year delay in implementing policies to reduce HIV prevalence
+would mean an extra 100,000 infections and a cost equivalent to 8% of present value of country
+GDP. Using the evidence from Lakhanpal and Ram (2008), universal completion of primary
+school would reduce the HIV/AIDS prevalence by at least 34%. This would reduce the infection
+rate significantly and so reduce the present value cost to GDP. As with other countries, any
+reductions in criminal activity should also be included in the gross costs of school failure.
+
+12. Conclusions
+This report examines how low educational attainment is associated with significant gross
+economic costs for private individuals, for taxpayers, and for society. A copious amount of
+research literature has shown that higher education levels are associated with higher earnings,
+increased labor market participation, better health status (including lower prevalence of epidemic
+disease), and improvements in family decision-making. In addition, education is also associated
+with lower rates of poverty and intra-household benefits such as improved family nutrition.
+These effects are generally found for males and females, for urban and rural residents, and for
+developing and developed economies. Even as they do not count the costs of making educational
+investments, these school failure costs are suggestive of significant economic burdens as
+populations fail to make optimal investments in education.
+However, the exact size of the gross costs of school failure remains to be determined; the
+estimates reported here are illustrative rather than definitive. Above we described the method for
+calculating these costs of school failure. This method is simple in principle, but far from simple
+or simple in practice. There are significant methodological challenges and a number of key
+assumptions may influence the overall results. These challenges include: assessing the value of
+45
+
+child labor and modelling how children participate in the formal economy; assessing the value of
+household activities and intra-household externalities; understanding how economic fluctuations
+mediate educational gains; fully valuing gains in health status; and calculating the burden of
+taxation. In addition, different calculations are relevant for urban versus rural groups, for age
+cohorts in school versus adult workers already in the labor market, and for fiscal returns versus
+social returns. Our calculations have focussed on the fiscal returns, not only because these
+returns should determine the level of public funding but also because if these are substantial, the
+social returns are likely to be extremely large.
+Case studies for eight selected countries illustrate these points. First, there do appear to
+be constraints on investments in education such that many families are making inadequate
+investments and so forgoing private income and health advantages. Second, calculating the
+overall economic magnitude of school failure is complex and varies from country to country. The
+results of these calculations are given in Table 7, along with the key influences for each country.
+For some of the case studies, the role of education in raising health status in general may be the
+most important relationship (e.g., Indonesia, Pakistan, and Egypt); and for others it is the specific
+link between education and HIV/AIDS prevalence that matters (e.g., Kenya and Ghana). For
+other countries, the link between education and criminal activity merits further attention (e.g.
+Mexico). For a third set of countries, the traditional link between education and the labor market
+is perhaps the most salient (Ukraine, Chile). Although other impacts – such as reducing reliance
+on government health and anti-poverty programs – are not trivial but are orders of magnitude
+smaller than these other factors.
+Overall, given the sizeable and diverse microeconomic benefits of education – and the
+extremely low levels of education in some of the countries analyzed here – it seems likely that the
+gross costs of school failure are significant. Critically, these costs are a measure of the extent to
+which public funding of education is inadequate and so whether further investigation into
+educational interventions and programs is warranted.
+46
+
+Box 1
+Benefits from Education across Different Perspectives
+Perspective
+
+Benefits from education
+
+P
+Private individual
+
+(1) Gain in net earnings and wealth
++ (2) Improved health status / life expectancy
++ (3) Household productivity gains
+- (4) Fees for education
+
+F
+Fiscal or government
+(state/local and
+federal/central)
+
+(5) Increased tax payments
++ (6) Lower reliance on government health programs
++ (7) Reduced expenditures on criminal justice
++ (8) Lower reliance on welfare
+- (9) Subsidy for education
+
+S
+Social
+
+Private individual benefits
++ Fiscal benefits
++ (10) Productivity externalities
++ (11) Gains from reduced crime
++ (12) Social value of health
+
+47
+
+Box 2
+Method for Calculation of the Costs of School Failure
+Stages
+(1) Educational
+Investments
+
+(1A) Describe public and private investments in education
+(1B) Consider extent to which total educational investments are suboptimal
+(1C) Predict a feasible increase in education investments funded by
+public funds
+(1D) Account for path-dependence of schooling and school quality
+
+(2) Impacts of education
+
+(2A) Catalog of private, fiscal, and social impacts of education [see
+Box 1]
+(2B) Identify ‘causal’ impacts of education using best available
+evidence
+(2C) Adjust cross-sectional impacts of education by alpha factor [to
+account for differences in student characteristics]
+
+(3) Monetary benefits of
+education
+
+(3A) Cost out the individual causal impacts of education [based on
+budgets, expenditures or HW translation]
+(3B) Sum the individual monetary benefits expressed as present
+values
+(3C) Subtract any government subsidies for education to calculate
+the net costs of school failure.
+
+(4) Sensitivity issues
+
+(4A) Omitted impacts
+(4B) General equilibrium effects
+(4C) Value of child labor
+(4D) Value of informal work time
+(4E) Discount rate
+(4F) Data quality
+(4G) Differences by race/ethnicity, sex, and locality
+
+48
+
+Box 3
+Additional Benefits of Education
+Benefit typically
+omitted from benefit–
+cost analysis
+
+Illustrations of the influence of education
+
+1. Environmental
+impacts
+
+Dasgupta (2000) finds greater compliance with environmental
+protection laws in Mexico where human capital levels are higher.
+
+2. Income from
+remittances
+
+Taylor and Yunez-Naude (2000) report positive – but small – effects
+of education on remittances in Mexico.
+
+3. Migration
+
+Education encourages migration from areas of high poverty.
+
+4. Family formation /
+household size
+
+Education is associated with family size and improved planning of
+fertility.
+
+5. Reduced need for
+children to enter labor
+market
+
+Wahba (2006) finds that parental education is strongly negatively
+associated with child labor rates in Egypt.
+
+6. Civic order / good
+government / political
+stability
+
+Beard (2007) examines the role between human capital and
+community development in Indonesia.
+Binder (1999a) investigated how community values influence the
+decision to invest in education.
+
+7. Life expectancy /
+child mortality
+
+Education raises life expectancy and reduces child mortality through
+better health knowledge.
+
+49
+
+Table 1A
+Educational status (Populations aged 25+)
+Highest level attained
+
+Second
+Level
+
+PostSecond
+ary
+
+Ave.
+years in
+school
+
+13
+18
+18
+
+8
+17
+25
+
+6
+7
+11
+
+2.21
+3.57
+5.05
+
+66
+54
+46
+
+19
+23
+25
+
+15
+22
+28
+
+1
+1
+1
+
+2.35
+3.34
+4.01
+
+5.2
+7.4
+10.5
+
+59
+45
+33
+
+32
+46
+52
+
+9
+8
+14
+
+1
+1
+1
+
+2.46
+2.98
+3.99
+
+1980
+1990
+2000
+
+5.1
+6.7
+8.4
+
+9
+6
+5
+
+57
+48
+43
+
+27
+34
+36
+
+7
+12
+16
+
+5.96
+7.14
+7.89
+
+1980
+1990
+2000
+Indonesia
+1980
+1990
+2000
+Pakistan
+1980
+1990
+2000
+Ukrainea
+2000
+
+25.0
+33.6
+48.0
+
+34
+19
+12
+
+49
+49
+47
+
+12
+23
+29
+
+5
+9
+11
+
+4.01
+5.87
+6.73
+
+59.3
+79.3
+105.1
+
+41
+55
+36
+
+48
+26
+37
+
+10
+17
+22
+
+1
+2
+5
+
+3.09
+3.30
+4.71
+
+29.9
+44.4
+61.5
+
+79
+74
+70
+
+9
+10
+13
+
+11
+14
+14
+
+3
+3
+3
+
+1.74
+2.29
+2.45
+
+Population
+over 25
+(millions)
+
+Below first
+
+First level
+
+1980
+1990
+2000
+
+16.4
+23.6
+31.0
+
+74
+58
+46
+
+1980
+1990
+2000
+
+3.8
+5.3
+7.3
+
+1980
+1990
+2000
+
+Egypt
+
+Ghana
+
+Kenya
+
+Chile
+
+Mexico
+
+11.0
+
+Source: Barro and Lee (2000). a Data for the Ukraine from UNESCO and applies to the
+population aged 15+.
+
+50
+
+Table 1B
+Economic Data on the Education System
+
+Ukraine
+Pakistan
+Mexico
+Chile
+Egypt
+Indonesia
+Kenya
+Ghana
+
+Adult
+literacy
+rate
+
+Net
+enrollment
+ratio
+(secondary)
+
+Public
+education
+spending
+(% of GDP)
+
+99%
+50%
+92%
+96%
+71%
+61%
+74%
+58%
+
+80%
+21%
+65%
+55%
+82%
+n.a.
+42%
+37%
+
+6.4%
+2.3%
+5.4%
+3.5%
+4.7%
+3.8%
+6.7%
+5.4%
+
+Source: World Bank, 2005 data (or nearest year available).
+
+51
+
+Current spending per student as
+a % of GDP per capita
+Primary Secondary Higher
+15
+n.a.
+15
+12
+n.a.
+10
+24
+13
+
+24
+n.a.
+16
+14
+n.a.
+17
+24
+35
+
+34
+n.a.
+41
+12
+n.a.
+95
+277
+210
+
+Table 2
+Evaluation of educational policy
+Country
+
+Ukraine
+Mexico
+Chile
+Indonesia
+
+Level of education
+
+Evidence of suboptimal
+investments in education
+
+Ghana
+
+Barro and Lee (2000)
+Binder (1998; 1999a)
+McEwan (2001)
+McMahon and Boediono
+(1992); Cann (1982);
+Newhouse and Beegle
+(2006)
+Tansel (1997)
+
+Kenya
+
+Bedi et al. (2004)
+
+Pakistan
+
+Holmes (2003)
+
+Egypt
+
+MENA (2007)
+
+52
+
+Binder (1999b)
+Ito (2006); Filmer (2008)
+
+Lavy (1996); Glick and Sahn
+(2000); Ray (2002)
+Kabubo-Mariara and Mwabu
+(2007)
+Rosati and Rossi (2003);
+Hazarika and Bedi (2003)
+Wahba (2006); World Bank
+(2004c)
+
+Table 3
+Evidence on the impacts of education in the labor market
+Country
+
+Impact of education on:
+Wages
+
+Mexico
+
+Patrinos and Metzger
+(2005); Quinn and Rubb
+(2006); Rojas (2006)
+
+Chile
+
+Ramirez (2000); Hanushek
+and Zhang (2006)
+Duflo (2001); Skoufias and
+Suryahadi (2002)
+Jones (2001); Teal (2000);
+Jolliffe (1998)
+Soderman et al. (2006)
+Kingdon and Soederbom
+(2007); Behrman et al.
+(2008); Guisinger et al.
+(1984)
+El-Hamidi (2006);
+Hanushek et al. (2006);
+Dobrogonov and Iqbal,
+2005; Enders (2007)
+Patrinos (2008)
+
+Indonesia
+Ghana
+Kenya
+Pakistan
+
+Egypt
+
+Ukraine
+
+Labor market
+participation
+
+Earnings in informal
+sectors
+
+Workplace productivity
+
+Skoufias and Parker (2006)
+
+Levison et al. (2001);
+Binder and Scrogin (1999)
+
+Taylor and Yunez-Naude
+(2000); Barboza and
+Barreto (2006); Samstad
+and Pipkin (2005); LopezAcevedo et al. (2005)
+Marotta et al. (2007)
+
+Abdulai and Delgado
+(1999)
+Lokshin et al. (2004)
+
+Strobl (2004); Jolliffe
+(1998,2004)
+Kurosaki and Khan (2006);
+Fafchamps and
+Quisumbing (1999)
+
+Wahba (2006); Assaad and
+Tunali (2002)
+Patrinos (2008)
+
+53
+
+Adams (2002)
+
+Todo and Miyamoto
+(2006)
+Frazer (2006); Barr (2000);
+Vijverberg (1995)
+De Beyer (1990)
+Satriawana and Swinton
+(2007)
+
+Table 4
+Evidence on the impacts of education on personal well-being
+Country
+
+Mexico
+Chile
+Indonesia
+Ghana
+Kenya
+
+Pakistan
+
+Impact of education on:
+Health status
+
+Fertility
+
+Intrahousehold transfers
+
+Long term economic wellbeing
+
+Cutler et al. (2002); Mayer
+(2002); Hammitt and
+Ibarraran (2006)
+Hoefter (2006)
+Miller et al. (2006); Gertler
+and Gruber (2002)
+
+Miranda (2006); Todd and
+Wolpin (2006)
+
+Gong and van Soest
+(2002); Pagan and Sanchez
+(2000); Dexter et al. (1998)
+
+Fuentes and Villagomez
+(2001); Contreras (2003)
+
+Angeles et al. (2005);
+Mellington and Cameron
+(1999)
+Benefo and Schultz (1996);
+Ahiadeke (2001)
+Maticka-Tyndale et al.
+(2007)
+
+Park (2007); Beard (2007)
+
+Sathar et al. (2003); Fikree
+et al. (2001)
+
+Hazarika (2000);
+Fafchamps and
+Quisumbing (2007);
+Kochar (2000)
+Cochrane et al. (1990)
+
+Lavy et al. (1996); Schultz
+(1999)
+Goodman et al. (2006);
+Yamano and Jayne (2005)
+Alderman et al. (2001);
+Higgins and Alderman
+(1997)
+
+Egypt
+Ukraine
+
+54
+
+Kennedy and Haddad
+(1994)
+Mishra et al. (2007);
+Kennedy and Haddad
+(1994)
+
+Kyereme and Thorbecke
+(1987, 1991)
+Eloundou-Enyeque and
+Calves (2006);
+Christiaensen and
+Subbarao (2005)
+Adams (1998)
+
+McCormick and Wahba
+(2005); Datt and Jolliffe
+(2005)
+
+Table 5A
+Earnings premium from education: Survey evidence
+Country
+
+Earnings premiums per year of attainment
+
+Ukraine
+
+See Table 5D
+
+Mexico
+
+See Table 5B
+
+Chile
+
+8.3%
+(1974)
+17%
+(1981)
+8.5%
+(1989)
+16.4%
+(1970)
+4.6%
+(1989)
+12%
+(urban -2006)
+
+Indonesia
+Ghana
+Kenya
+Pakistan
+Egypt
+
+9.6%
+(1980)
+7%
+(1995)
+7.1%
+(1995)
+16%
+(1986)
+15.4%
+(1991)
+5%
+(rural – 2006)
+
+9.2%
+(1989)
+6.8-10.6%
+(1995)
+
+See Table 5C
+See Table 5E
+
+Sources: Psacharopoulos and Patrinos (2004); for Egypt, Hanushek et al (2006); third estimate for
+Indonesia from Duflo (2001). Notes: Dates of estimate given in parentheses.
+
+Table 5B
+Earnings premium from education: Mexico
+1998
+Male
+Female
+
+2000
+Male
+
+Female
+
+2002
+Male
+Female
+
+Primary
+15.4
+18.2
+12.9
+15.9
+14.0
+16.3
+Lower secondary
+13.6
+17.9
+10.2
+16.0
+11.4
+15.0
+Upper secondary
+18.9
+24.0
+15.2
+19.2
+16.3
+19.8
+University
+18.7
+15.0
+19.1
+16.0
+17.1
+14.8
+Source: Patrinos and Metzger (2005, Table 8). Notes: Percentages, controlling for experience
+(squared) and hours worked.
+
+55
+
+Table 5C
+Earnings premium from education: Pakistan
+Wage employed
+Male
+Female
+
+Self-employed
+Male
+Female
+
+Agriculture
+Male
+Female
+
+1998-99 data:
+Ages 16-30
+0.033**
+0.117**
+0.045**
+0.072
+0.066
+-0.157
+Age 31-70
+0.038**
+0.145**
+0.071
+0.180**
+0.067**
+0.257*
+2001-02 data:
+Ages 16-30
+0.040**
+0.117**
+0.043**
+0.067**
+0.086**
+-0.247
+Age 31-70
+0.056**
+0.165**
+0.056**
+0.037
+0.123**
+-0.087
+Source: Kindgon and Soederbom (2007, Tables 5A and 5B). Notes: Coefficients on years of
+schooling. Sample selection correction applied. Statistical significance at 5% *, 1% **.
+
+Table 5D
+Earnings premium from education: Ukraine
+All
+Basic education (vs none)
+0.6%
+Upper secondary (vs basic)
+0.7%
+Vocational and technical (vs basic)
+3.5%
+University (vs upper secondary)
+7.7%**
+Graduate program (vs university)
+8.6%**
+Source: Patrinos (2008). Statistical significance at 1% **.
+
+Males
+2.1%
+-0.4%
+4.2%
+7.5%**
+14.8%**
+
+Table 5E
+Earnings premium from education: Eqypt
+
+Voc. sec. educ over gen. sec. educ.
+Higher educ. over voc. sec.
+Univ. over higher inst.
+Univ. over voc. sec.
+Univ. over gen. sec.
+Source: El-Hamidi (2006).
+
+56
+
+Male
+
+Female
+
+0.29
+0.11
+0.08
+0.10
+0.17
+
+-0.02
+0.03
+0.06
+0.05
+0.06
+
+Females
+-3.3%
+4.2%
+6.4%
+9.5%**
+4.1%**
+
+Table 6
+Economic data
+
+Ukraine
+Pakistan
+Mexico
+Chile
+Egypt
+Indonesia
+Kenya
+Ghana
+
+GDP NCU
+(millions)
+
+General
+Govt Exp
+NCU
+(millions)
+
+GDP per
+capita
+NCU
+
+418,529
+6,547,590
+8,369,246
+64,549,137
+536,600
+2,729,708,200
+1,415,150
+97,035,100
+
+186,522
+1,433,580
+1,958,012
+13,283,392
+174,657
+509,419,000
+296,350
+29,895,000
+
+9,004
+41,457
+79,480
+3,961,285
+7,248
+12,252,877
+41,311
+4,388,147
+
+ER into
+dollars
+
+5.12
+59.5
+10.9
+561
+5.7
+9,705
+75.6
+9,073
+
+GDP per
+capita ($US)
+
+$1,760
+$700
+$7,290
+$7,060
+$1,270
+$1,260
+$550
+$480
+
+Source: IMF Country statistics, www.imf.org (2005). Notes: NCU, National Currency Units; ER,
+exchange rate; GNI, gross national income.
+
+57
+
+Table 7
+Gross Costs of School Failure
+
+Assessment of School Failure
+Ukraine
+
+1 year of attainment
+
+Pakistan
+
+Full primary school completion
+(extra 70% of age cohort)
+
+Mexico
+
+1 year of attainment
+
+Chile
+
+1 year of attainment
+
+Egypt
+
+Full primary school completion
+(extra 46% of age cohort)
+
+Indonesia
+
+Full primary school completion
+(extra 36% of age cohort)
+
+Kenya
+
+Full primary school completion
+(extra 33% of age cohort)
+Full primary school completion
+(extra 46% of age cohort)
+
+Ghana
+
+Key Influences
+on Gross Costs
+Labor market returns in market
+economy
+Benefits to rural populations: farm
+and non-farm work; intrahousehold
+externalities
+Labor market returns; societal
+violence
+Labor market returns
+Benefits to rural populations: farm
+and non-farm work; intrahousehold
+externalities
+Benefits to rural populations: farm
+and non-farm work; intrahousehold
+externalities
+HIV/AIDS incidence
+HIV/AIDS incidence
+
+Gross Fiscal Cost
+Annual Amount
+Increase of 1.2% in government revenues
+Social value of HIV/AIDS reduction ~1% of GDP
+Increase GDP per capita by 7.2%
+Fiscal gain of 1.6% of GDP
+Increased in per capita income of 6%
+Fiscal gain of 1.4% of GDP
+Total economic gain of 3% of GDP
+Fiscal gain of 0.6% of GDP
+Increase in aggregate national income of 2.2%
+Increase in government revenues of 0.7% of GDP
+Per completer, 3.3% of per capita income
+Total per cohort: 1.1% of GDP
+Per completer, 7.8% of per capita income
+Per completer, 9.3% of per capita income.
+Total per cohort: 4.3% of per capita income
+
+Notes: Gross costs do not include the educational investments required to rectify school failure. Costs are not discounted.
+
+58
+
+References
+Abdulai, A, Delgado, CL. 1999. Determinants of nonfarm earnings of farm-based husbands and wives in
+Northern Ghana. American Journal Of Agricultural Economics, 81, 117-130.
+Abu-Qarn, AS and S Abu-Bader. 2007. Sources of growth revisited: Evidence from selected MENA
+countries. World Development, 35, 752-771.
+Acosta, P, Calderon, C, Fajnzylber, P and H Lopez. 2008. What is the impact of international remittances
+on poverty and inequality in Latin America? World Development, 36, 89-114.
+Adams, RH. 1998. Remittances, investment, and rural asset accumulation in Pakistan Economic
+Development And Cultural Change, 47 155 173
+Adams, RH. 2002.Nonfarm income, inequality, and land in rural Egypt. Economic Development And
+Cultural Change, 50, 339-363.
+Adams, RH. 2006. Remittances and poverty in Ghana. World Bank Research Group Working Paper,
+WPS3838.
+Ahiadeke, C. 2001. Incidence of induced abortion in Southern Ghana. International Family Planning
+Perspectives, 27, 211-223.
+Ainsworth, M and D Filmer. 2006. Children's schooling: AIDS, orphanhood, poverty, and gender. World
+Development, 34, 1099-1128.
+Alderman, H, Behrman, JR, Lavy, V, Menon, R. 2001. Child health and school enrollment - A longitudinal
+analysis Journal Of Human Resources 36 185 205
+Angeles, G, Guilkey, DK, Mroz, TA. 2005. The effects of education and family planning programs on
+fertility in Indonesia Economic Development And Cultural Change, 54 165-201
+Arze del Granado, FJ, Fengler, W, Ragaiz, A and E Yavuz. 2007. Investing in Indonesia's Education:
+Allocation, Equity, and Efficiency of Public Expenditures. World Bank Policy Research Working
+Paper, 4329.
+Assaad, R, Tunali, I. 2002. Wage formation and recurrent unemployment. Labour Economics, 9 17-61.
+Avenstrup, R, Liang, X, and S Nellemann. 2004. Kenya, Lesotho, Malawi, and Uganda: Universal primary
+education and poverty reduction. World Bank Research Paper, 30765.
+Baeza, CC and T Packard. 2006. Beyond Survival. Protecting households from health shocks in Latin
+America. Stanford University Press and the World Bank.
+Bando, R, Lopez-Calva, L and HA Patrinos. 2005. Child labor, school attendance, and indigenous
+households: Evidence from Mexico. World Bank Research Paper.
+Barboza, GA, Barreto, H. 2006. Learning by association: Micro credit in Chiapas, Mexico. Contemporary
+Economic Policy, 24, 316-331.
+Barr, A. 2000.Social capital and technical information flows in the Ghanaian manufacturing sector. Oxford
+Economic Papers, 52, 539-559.
+Barrera, A. 1990. The role of maternal schooling and its interactioin with public health programs in child
+health production. Journal of Development Economics, 32, 69-91.
+Barro, R and W-H Lee. 2000. World Bank education attainment data. Access at:
+//web.worldbank.org/WBSITE/EXTERNAL~ /TOPICS/~ EXTEDUCATION/
+EXTDATASTATISTICS~ /EXTEDSTATS/
+Beard, VA. 2007. Household contributions to community development in Indonesia. World Development,
+35, 607-625
+Bedi, AS, Kimalu, PK, Mandab, DK, Nafula, N. 2004. The decline in primary school enrolment in Kenya.
+Journal OF AFRICAN ECONOMIES, 13, 1-43.
+Behrman J and B Wolfe. 1987. How does mother's schooling affect family health, nutrition, medical care
+usage and household sanitation? Journal of Econometrics, 36, 185-204.
+Behrman, J and N Birdsall. 1983. The quality of schooling: Quantity alone is misleading. American
+Economic Review, 73, 928-946.
+Behrman, J and N Stacey. 1997. The Social Benefits of Education. University of Michigan Press: Ann
+Arbor, MI.
+Behrman, JR, Ross, D, Sabot, R 2008.Improving quality versus increasing the quantity of schooling:
+Estimates of rates of return from rural Pakistan. Journal Of Development Economics, 85, 94-104.
+Belfield, CR and HM Levin. 2007. The Price We Pay: The Costs to the Nation of Inadequate Education.
+Brookings Institution Press: Washington, DC.
+
+59
+
+Bell, C, Devarajan, S and H Gerbach. 2006. The long-run economic costs of AIDS: A model with an
+application to South Africa. World Bank Economic Review, 20, 55-89.
+Benefo, K, Schultz, TP. 1996.Fertility and child mortality in Cote d'Ivoire and Ghana. World Bank
+Economic Review, 10, 123-158.
+Binder, M, and D Scrogin. 1999. Labor force participation and household work of urban schoolchildren in
+Mexico: Characteristics and consequences. Economic Development And Cultural Change, 48, 123154.
+Binder, M. 1998. Family background, gender and schooling in Mexico. Journal Of Development Studies,
+35, 54-71.
+Binder, M. 1999a. Community effects and desired schooling of parents and children in Mexico. Economics
+of Education Review, 18, 311-325.
+Binder, M. 1999b. Schooling indicators during Mexico's "Lost decade". Economics of Education Review,
+18, 183-199.
+Block, SA. 2007. Maternal nutrition knowledge versus schooling as determinants of child micronutrient
+status. Oxford Economic Papers, 59, 330-353.
+Blunch, NH, Verner, D. 2004.Asymmetries in the union wage premium in Ghana. World Bank Economic
+Review, 18, 237-252.
+Botchway, K. 2001. Paradox of empowerment: Reflections on a case study from Northern Ghana. World
+Development, 29, 135-153.
+Bouillon, CP, Legovini, A, Lustig, N. 2003. Rising inequality in Mexico: Household characteristics and
+regional effects. JOURNAL OF DEVELOPMENT STUDIES, 39, 112-133.
+Boyle, MH, Racine, Y, Georgiades, K, Snelling, D, Hong, SJ, Omariba, W, Hurley, P, Rao-Melacini, P.
+2006. The influence of economic development level, household wealth and maternal education on
+child health in the developing world. Social Science & Medicine, 63 2242-2254.
+Bruhns, R. 2006. The long-run effects of HIV/AIDS in Kenya. Munich RePEc Archive. mpra.ub.unimuenchen.de/952/1/MPRA_paper_952.pdf
+Cann, KT. 1982. An economic evaluation of elementary education for dropouts in Indonesia, Economics of
+Education Review, 2, 67-89.
+Christiaensen, LJ, Subbarao, K. 2005. Towards an understanding of household vulnerability in rural
+Kenya.Journal Of African Economies, 14, 520-558.
+Contreras, D. 2003. Poverty and inequality in a rapid growth economy: Chile 1990-1996. Journal of
+Development Studies, 39, 181-200.
+Cutler, DM, Knaul, F, Lozano, R, Mendez, O, Zurita, B. 2002. Financial crisis, health outcomes and
+ageing: Mexico in the 1980s and 1990s. Journal Of Public Economics, 84, 279-303.
+Dasgupta, S, Hettige, H, and D Wheeler. 2000. What improves environmental compliance? Evidence from
+Mexican industry. Journal of Environmental Economics and Management, 39, 39-66.
+Datt, G, Jolliffe, D. 2005.Poverty in Egypt: Modeling and policy simulations. Economic Development And
+Cultural Change, 53, 327-346.
+De Beyer, J. 1990. The incidence and impact on earnings of formal training provided by enterprises in
+Kenya and Tanzania. Economics of Education Review, 9, 321-330.
+Dexter, ER, LeVine, SE, Velasco, PM. 1998. Maternal schooling and health-related language and literacy
+skills in rural Mexico. Comparative Education Review, 42, 139-162.
+Dickie, M. 2005.Parental behavior and the value of children's health: A health production approach.
+Southern Economic Journal, 71, 855-872.
+Dobronogov, A and F Iqbal. 2005. Economic growth in Egypt: Constraints and determinants. World Bank
+Working Paper Series, 42-34510.
+Duflo, E. 2001. Schooling and labor market consequences of school construction in Indonesia: Evidence
+from an unusual policy experiment American Economic Review, 91, 795-813.
+El-Hamidi, F. 2006. General or vocational schooling? Evidence on school choice, returns, and 'sheepskin'
+effects from Egypt 1998. Journal Of Policy Reform, 9, 157-176.
+Eloundou-Enyegue, PM, Calves, AE. 2006.Till marriage do us part: Education and remittances from
+married women in Africa. Comparative Education Review,
+El-Sony, AI. 2006.The cost to health services of human immunodeficiency virus (HIV) co-infection among
+tuberculosis patients in Sudan. Health Policy, 75, 272-279.
+Enders, K. 2007. Egypt - searching for binding constraints on growth. IMF Working Paper, 07-57.
+
+60
+
+Fafchamps, M, Quisumbing, AR. 1999. Human capital, productivity, and labor allocation in rural Pakistan
+Journal Of Human Resources 34, 369-406
+Fafchamps, M, Quisumbing, AR. 2007. Social roles, human capital, and the intrahousehold division of
+labor: evidence from Pakistan Oxford Economic Papers-New Series, 55 36 80.
+Fikree, FF, Khan, A, Kadir, MM, Sajan, F, Rahbar, MH. 2001. What influences contraceptive use among
+young women in urban squatter settlements of Karachi, Pakistan? International Family Planning
+Perspectives 27 130-136.
+Filmer, D. 2008. Gender and wealth disparities in schooling: Evidence from 44 countries. International
+Journal of Education Research, 43, 351-369.
+Forsythe, S, Arthur, G, Ngatia, G, Mutemi, R, Odhiambo, J, Gilks, C. 2002. Assessing the cost and
+willingness to pay for voluntary HIV counselling and testing in Kenya. Health Policy And Planning,
+17, 187-195.
+Frazer, G. 2006. Learning the master's trade: Apprenticeship and human capital in Ghana. Journal Of
+Development Economics, 81, 259-298.
+Fuentes, R, and FA Villagomez. 2001. Savings of low-income households in Mexico - Cohort analysis.
+Trimestre Economico, 68, 109-133.
+Gertler, P and J Gruber. 2002. Insuring consumption against illness. American Economic Review, 92, 5176.
+Glick, P, Sahn, DE. 2000. Schooling of girls and boys in a West African country: the effects of parental
+education, income, and household structure. Economics Of Education Review, 19, 63-87.
+Gong, XD, van Soest, A. 2002.Family structure and female labor supply in Mexico City. Journal Of
+Human Resources, 37, 163-191.
+Goodman, CA, Mutemi, WM, Baya, EK, Willetts, A, Marsh, V. 2006. The cost-effectiveness of improving
+malaria home management: shopkeeper training in rural Kenya.Health Policy And Planning, 21,
+275-288.
+Grignon, M. 2007. The role of education in health system performance. Economics of Education Review,
+26, 123-134.
+Grossman, M and R Kaestner. 1997. The effects of education on health. In Behrman, J and N Stacey (eds)
+The Social Benefits of Education. University of Michigan Press: Ann Arbor, MI.
+Guisinger, SE, Henderson, W and G Scully. 1984. Earnings, rates of return to education and the earnings
+distribution in Pakistan, Economics of Education Review, 3, 257-267.
+Hammitt, James K., Ibarraran, Maria Eugenia. 2006. The economic value of fatal and non-fatal
+occupational risks in Mexico City using actuarial- and perceived-risk estimates. Health Economics,
+15, 1329-1335.
+Hanushek, E, Lavy, V and K Hitomi. 2006. Do students care about school quality? Determinants of dropout
+behavior in developing countries. NBER Working paper, w12737.
+Hanushek, EA and L Zhang. 2006. Quality-consistent estimates of international returns to skill. NBER
+Working Paper, w12664.
+Hazarika, G, Bedi, AS. 2003. Schooling costs and child work in rural Pakistan Journal Of Development
+Studies, 39, 29-64.
+Hazarika, G. 2000. Gender differences in children's nutrition and access to health care in Pakistan Journal
+Of Development Studies 37 73-92.
+Higgins, PA, Alderman, H. 1997. Labor and women's nutrition - The impact of work effort and fertility on
+nutritional status in Ghana. Journal Of Human Resources, 32 577-595.
+Hoefter, RH. 2006. Private health insurance and utilization of health services in Chile. Applied Economics,
+38,423-439.
+Holmes, J. 2003. Measuring the determinants of school completion in Pakistan: analysis of censoring and
+selection bias Economics Of Education Review, 22, 249-264.
+Ito, S. 2006. Raising educational attainment of the poor: Policies and issues. Developing Economies, 44,
+500-531
+Jolliffe, D. 1998. Skills, schooling, and household income in Ghana. World Bank Economic Review, 12, 81104.
+Jolliffe, D. 2004. The impact of education in rural Ghana: examining household labor allocation and returns
+on and off the farm. JOURNAL OF DEVELOPMENT ECONOMICS, 73, 287-314.
+Jones, P. 2001.Are educated workers really more productive? Journal Of Development Economics, 64, 5779.
+
+61
+
+Kabubo-Mariara, J. and DK Mwabu. 2007. Determinants of school enrolment and education attainment:
+Empirical evidence from Kenya. South African Journal Of Economics, 75,572-593.
+Kennedy, A and L Haddad. 1994. Are preschoolers from female-headed households less malnourished – A
+comparative analysis of results from Ghana and Kenya. Journal of Development Studies, 30, 680695.
+Kingdon, G and M Soederbom. 2007. Education, skills, and labor market outcomes: Evidence from
+Pakistan. Working paper.
+Kochar, A. 2000. Parental benefits from intergenerational coresidence: Empirical evidence from rural
+Pakistan Journal Of Political Economy 108, 1184-1209.
+KPMG Foundation. 2006. The long term costs of literacy difficulties. Monograph,
+www.kpmgfoundation.org
+Kupets, O. 2005. What is behind stagnant unemployment in Ukraine: the role of the informal sector. IZA
+Working Paper, 1738.
+Kurosaki, T, Khan, H. 2006. Human capital, productivity, and stratification in rural Pakistan. Review Of
+Development Economics 10, 116-134.
+Kyereme, SS, and E Thorbecke. 1987. Food poverty profilt and decomposition in Ghana. World
+Development, 15, 1189-1199.
+Kyereme, SS, and E Thorbecke. 1991. Factors Affecting Food Poverty In Ghana Journal Of Development
+Studies, 28, 39-52.
+Lakhanpal, M and R Ram. 2008. educational attainment and HIV/AIDs prevalence: A cross-country study.
+Economics of Education Review, 27, 14-21.
+Lavy, V, Strauss, J, Thomas, D, deVreyer, P. 1996. Quality of health care, survival and health outcomes in
+Ghana. Journal Of Health Economics, 15, 333-357.
+Lavy, V. 1996. School supply constraints and children's educational outcomes in rural Ghana. Journal Of
+Development Economics, 51, 291-314.
+Levison, D, Moe, KS, Knaul, FM. 2001. Youth education and work in Mexico. World Development,
+29,167-188.
+Lloyd, CB, Mete, C, and ZA Sathar. 2005. The effect of gender differences in primary school access, type,
+and quality on the decision to enroll in rural Pakistan. Economic Development and Cultural Change,
+53, 685-710.
+Lokshin, MM, Glinskaya, E, Garcia, M. 2004. The effect of early childhood development programmes on
+women's labour force participation and older children's schooling in Kenya. Journal Of African
+Economies, 13, 240-276.
+López-Acevedo, G, Tinajero, M and M Rubio. 2005. Mexico: Human capital effects on wages and
+productivity. World Bank Policy Research Working Paper, 3791.
+Luke, N. 2008.Economic status, informal exchange, and sexual risk in Kisumu, Kenya.Economic
+Development And Cultural Change, 56, 375-396.
+Mansuri, G. 2006. Migration, school attainment and child labor: Evidence from Pakistan. World Bank
+Policy Research Working Paper, 3945.
+Marotta, D, Mark, M, Blom, A and K Thorn. 2007. Human capital and university-industry linkages' role in
+fostering firm innovation: An empirical study of Chile and Colombia. World Bank Policy Research
+Working Paper, 4443.
+Maticka-Tyndale, E, Wildish, J, Gichuru, M. 2007. Quasi-experimental evaluation of a national primary
+school HIV intervention in Kenya. Evaluation And Program Planning, 30, 172-186.
+Mayer, D. 2002.Long-term cross-effects between health and income: Mexico 1950-1995. Trimestre
+Economico, 69, 274-251.
+McCormick, B, Wahba, J. 2005. Why do the young and educated in LDCs concentrate in large cities?
+Evidence from migration data. Economica, 72 39-67.
+McEwan, PJ. 2001. The effectiveness of public, Catholic, and non-religious private schools in Chile's
+voucher system. Education Economics, 9, 103-28.
+McMahon, WW and MW Boediono. 1992. Universal basic education: An overall strategy of investment
+priorities for economic growth, Economics of Education Review 11, 137-151.
+McMahon, WW. 1998. Conceptual framework for the analysis of the social benefits of lifelong learning.
+Education Economics, 6, 309-347.
+McMahon, WW. 2000. Education and Development: Measuring the Social Benefits. Oxford: Oxford
+University Press.
+
+62
+
+Mellington, N, Cameron, L. 1999. Female education and child mortality in Indonesia. Bulletin Of
+Indonesian Economic Studies, 35, 115-144.
+MENA. 2007. The Road Not Traveled. Education Reform in the Middle East and North Africa. World
+Bank, Washington, DC.
+Miller, DL, Scheffler, R, Lam, S, Rosenberg, R, and A Rupp. 2006. Social capital and health in Indonesia.
+World Development, 34, 1084-1098.
+Miranda, A. 2006. Are young cohorts of women delaying first birth in Mexico? Journal Of Population
+Economics, 19, 55-70.
+Mishra, V. Arnold, F. Otieno, F. Cross, A. and R. Hong. 2007. Education and nutritional status of orphans
+and children of HIV-infected parents in Kenya. Aids Education And Prevention, 19, 383-395.
+Newhouse, D, Beegle, K. 2006. The effect of school type on academic achievement - Evidence from
+Indonesia. Journal Of Human Resources, 41 529 557
+Olken, BA. 2006. Corruption and the costs of redistribution: Micro evidence from Indonesia. Journal of
+Public Economics, 90, 853 870
+Pagan, JA, Sanchez, SM. 2000.Gender differences in labor market decisions: Evidence from rural Mexico.
+Economic Development And Cultural Change, 48, 619-637.
+Park, C 2007. Marriage market, parents' bargaining powers, and children's nutrition and education Oxford
+Bulletin Of Economics And Statistics, 69, 773-793.
+Patrinos, H. 2008. Education, labor markets and training in Ukraine. Working Paper.
+Pritchett, L. 2006. Does learning to learn add up? The returns to schooling in aggregate data. In E
+Hanushek and F Welch (Eds) Handbook of the Economics of Education. Elsevier: Amsterdam.
+Psacharopoulos, G and HA Patrinos. 2004. Returns to investment in education: A further update. Education
+Economics, 12: 111-134.
+Psacharopoulos, G, Velez, E, Panagides, A and H Yang. 1996. Returns to education during economic boom
+and recession: Mexico 1984, 1989, and 1992. Education Economics, 4: 219-230.
+Psacharopoulos, G. 2007. The Costs of School Failure: A Feasibility Study. European Commission,
+Monograph.
+Quinn, MA and S Rubb. 2006. Mexico's labor market: The importance of education-occupation matching
+on wages and productivity in developing countries, Economics of Education Review, 25, 147-156.
+Ramirez, MD. 2000. Public capital formation and labor productivity growth in Chile. Contemporary
+Economic Policy, 18,159-169.
+Ray, R. 2002. The determinants of child labour and child schooling in Ghana. Journal Of African
+Economies, 11, 561-590.
+Robalino, DA, Jenkins, C, and K El Maroufi. 2002a. The risks and macroeconomic impact of HIV/AIDS in
+the Middle East and North Africa. World Bank Policy Research Working Paper, wps2874.
+Robalino, DA, Voetberg, A, Picazo, O. 2002b. The macroeconomic impacts of AIDS in Kenya estimating
+optimal reduction targets for the HIV/AIDS incidence rate. Journal Of Policy Modeling, 24, 195218.
+Rojas, GM. 2006.Skill premiums in Mexico: demand and supply factors. Applied Economics Letters, 13,
+917-924.
+Rosati, FC, Rossi, M. 2003. Children's working hours and school enrollment: Evidence from Pakistan and
+Nicaragua World Bank Economic Review, 17, 283-295.
+Samstad, JG, Pipkin, S. 2005. Bringing the firm back in: Local decision making and human capital
+development in Mexico's maquiladora sector. World Development, 33, 805-822.
+Sathar, ZA, Lloyd, CB, Mete, C, ul Haque, M. 2003. Schooling opportunities for girls as a stimulus for
+fertility change in rural Pakistan Economic Development And Cultural Change, 51, 677-698
+Satriawana, E, and SM Swinton. 2007. Does human capital raise farm or nonfarm earning more? New
+insight from a rural Pakistan household panel. Agricultural Economics 36 421-428.
+Schultz, TP, and A Tansel. 1997. Wage and labor supply effects of illness in Cote d'Ivoire and Ghana:
+instrumental variable estimates for days disabled. Journal Of Development Economics, 53, 251-286.
+Schultz, TP. 1999. Health and schooling investments in Africa. Journal Of Economic Perspectives, 13, 6788.
+Shehzad, S. 2006. The determinants of child health in Pakistan: An economic analysis. Social Indicators
+Research, 78, 531-556.
+Skoufias, E, and SW Parker. 2006. Job loss and family adjustments in work and schooling during the
+Mexican peso crisis. Journal Of Population Economics, 19, 163-181.
+
+63
+
+Skoufias, E, Suryahadi, A. 2002. cohort analysis of wages in Indonesia Applied Economics, 34, 1703-1710
+Skoufias, E. 1999. Parental education and child nutrition in Indonesia. Bulletin Of Indonesian Economic
+Studies, 35, 99-119.
+Soares, R. 2004. Development, crime, and punishment: accounting for the international differences in
+crime rates. Journal of Development Economics, 73, 155-184.
+Soares, R. 2006. The welfare cost of violence across countries. Journal of Health Economics, 25, 821-846.
+Soderman, M, Teal, F, Wambugu, A, Kahyarara, G. 2006.The dynamics of returns to education in Kenyan
+and Tanzanian manufacturing. Oxford Bulletin Of Economics And Statistics, 68, 261-288.
+Streatfield, K, Singarimbun, M and I Diamond. 1990. Maternal Education And Child Immunization.
+Demography, 27, 447-455.
+Strobl, E. 2004. Do employers use education as a signal for ability in developing countries? Evidence from
+Ghana. Applied Economics Letters, 11, 259-261.
+Tansel, A. 1997.Schooling attainment, parental education, and gender in Cote d'Ivoire and Ghana.
+Economic Development And Cultural Change, 45, 825-856.
+Taylor, JE, Yunez-Naude, A. 2000.The returns from schooling in a diversified rural economy. American
+Journal Of Agricultural Economics, 82, 287-297.
+Teal, F. 2000. Real wages and the demand for skilled and unskilled male labour in Ghana's manufacturing
+sector: 1991-1995. Journal Of Development Economics, 61, 447-461.
+Todd, PE, and K Wolpin. 2006. Assessing the impact of a school subsidy program in Mexico: Using a
+social experiment to validate a dynamic behavioral model of child schooling and fertility. American
+Economic Review, 96, 1384-1417.
+Todo, Y, and K Miyamoto. 2006. Knowledge spillovers from foreign direct investment and the role of local
+R&D activities: Evidence from Indonesia Economic Development And Cultural Change, 55, 173200
+Vijverberg, WPM. 1995. Returns To Schooling In Nonfarm Self-Employment - An Econometric CaseStudy Of Ghana. World Development, 23, 1215-1227.
+Wahba, J. 2006. The influence of market wages and parental history on child labour and schooling in
+Egypt. Journal Of Population Economics, 19, 823-852.
+Wang, LM. 2003. Determinants of child mortality in LDCs - Empirical findings from demographic and
+health surveys. Health Policy 65 277-299
+Weir, S. 2007. An examination of some mechanisms underlying externality benefits of girls' schooling.
+Journal Of Population Economics, 20, 203–222.
+Wolfe, B and S Zuvekas. 1997. Non-market outcomes of schooling. International Journal of Education
+Research, 27, 491-502.
+World Bank. 2003. Caribbean Youth Development. World Bank: Washington, DC.
+World Bank. 2004. A Poverty Reduction Strategy for Egypt. Report No. 27954-EGT.
+World Bank. 2006a. siteresources.worldbank.org/~ INTUKRAINE/Resources/~
+3283351158937917927/PFR_Chapter2.pdf
+World Bank. 2006b. Early Childhood Education and Development in Indonesia: An Investment for a Better
+Life. World Bank Policy Research Working Paper, 37531.
+World Bank. 2007. Socioeconomic Impact of HIV/AIDS in Ukraine. The World Bank, 37211.
+Yamano, T, Jayne, TS. 2005. Working-age adult mortality and primary school attendance in rural Kenya.
+Economic Development And Cultural Change, 53, 619-653.
+
+64
+
+
