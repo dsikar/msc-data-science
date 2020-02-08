@@ -1,0 +1,39 @@
+% Lecture 3
+
+% housekeeping
+clear all;
+clc;
+
+% original image
+
+I = imread('success-Kid.jpg');
+figure('Name','Original');
+imshow(I);
+
+% Identity kernel
+
+K = [
+    [0,0,0];
+    [0,1,0];
+    [0,0,0]
+    ];
+      
+J = imfilter(I,K);
+figure('Name','Identity Filter');
+imshow(J);
+
+% Moving average
+
+% Convert to double
+
+% if converting to double...
+I = double(imread('Success-Kid.jpg'));
+
+K = ones(3,3)*1/9;
+
+% ...we need to normalize K
+J = imfilter(I,K/255);
+figure('Name','Moving average or box filter');
+imshow(J);
+
+% Gaussian Filter

@@ -81,6 +81,7 @@ for j=1:rows
     H = fspecial('disk',30);
     % apply filter and save image
     blurred = imfilter(subImage,H);
+    
     % edit filtered image into original
     I(face_rect(img_ymin):face_rect(img_ymin)+face_rect(img_height),face_rect(img_xmin):face_rect(img_xmin)+face_rect(img_width),1:end) = blurred; 
 end
