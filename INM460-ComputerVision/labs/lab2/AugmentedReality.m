@@ -13,10 +13,10 @@ hold on;
 % plot(36, 300, 'g+'); % BL
 %   430   853
 
-%Image matching
-%Built-in Matlab function: estimateGeometricTransform
+% Image matching
+% Built-in Matlab function: estimateGeometricTransform
 % Estimate affine transformation through correspondences
-%I = imread('LicensePlate.png');
+% I = imread('LicensePlate.png');
 p1 = [18, 47]; p2 = [15, 100]; p3 = [178, 6];
 q1 = [48, 50]; q2 = [48, 100]; q3 = [212, 50];
 P = [p1; p2; p3];
