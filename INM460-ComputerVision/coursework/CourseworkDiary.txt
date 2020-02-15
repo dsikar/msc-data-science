@@ -1,0 +1,5 @@
+# 15.02.2020
+
+1. Created dummy script
+2. Implemented dummy function
+3. Implemented validation
