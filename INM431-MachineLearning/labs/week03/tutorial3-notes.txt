@@ -1,0 +1,23 @@
+We were ask to go over background reading:
+
+https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/readings/MIT18_05S14_Reading15a.pdf
+
+This is from week 8, of the MIT opencourseware "18.05 Introduction to Probability and Statistics"
+
+https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/readings/
+
+These solution slides seem to apply to what we are looking at in tutorial 3:
+
+https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/studio-resources/MIT18_05S14_studio6slides.pdf
+
+
+
+
+
+From the course page:
+https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/instructor-insights/#Video
+
+Students taking this course:
+
+"Breakdown by Major
+The students enrolled this semester were primarily life sciences majors. There were a fair number of students who planned to become doctors, researchers, or engineers. Math majors who are interested in probability and statistics tend to take 18.440 Probability and Random Variables. Electrical engineering and computer science majors who are interested in probability and statistics tend to take 6.041 Probabilistic Systems Analysis and Applied Probability."

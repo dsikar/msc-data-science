@@ -1,0 +1,10 @@
+Question 1
+Answer with “True” or “False”
+a) As the number of training examples goes to infinity your model trained on that data will have lower variance
+True - see lab 02
+b) The result of adding two Gaussians is always a Gaussian
+True
+c) The curse of dimensionality does not apply to Big Data
+False
+d) Clustering is an example of unsupervised learning
+True

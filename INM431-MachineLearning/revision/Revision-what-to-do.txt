@@ -1,0 +1,11 @@
+12 topics, 19 days.
+
+From lecture 7:
+
+Try example pg. 6 (Assuming presentation 6),  KNN algorithm
+
+
+Week 1
+
+Calculate Co-variance and correlation ("you were asked")
+

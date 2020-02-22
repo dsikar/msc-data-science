@@ -1,7 +1,17 @@
 # directories
 technical-stream-meetings
 .ipynb_checkpoints/
-# compressed files
-*.zip
 # powerpoint
 *.pptx
+# matlab autosave files
+.asv
+# matlab models
+.mat
+# compressed files
+.zip
+.tar
+# samy's files
+INM373-tafasca
+INM431-tafasca
+# misc directories sitting on City VM
+neurips

@@ -12,7 +12,7 @@ X = [ 0 0 1 1 0 ;
 1 0 1 0 1 ;
 1 0 0 0 1 ];
 
-Y = X(:,5);
+Y = X(:,5); 
 X = X(:,1:4)'; % X in proper format now.
 
 pS = sum (Y)/size(Y,1);     % all rows with Y = 1 

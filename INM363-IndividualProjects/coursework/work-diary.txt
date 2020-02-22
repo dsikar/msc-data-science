@@ -1,0 +1,64 @@
+2020.02.21 
+
+
+
+** Projects
+
+TODO - Structure e.g. Disclaimer, Abstract, etc.
+
+Minah - Representation Learning for Structural Music Similarity Measurments
+
+Trusles - Unity
+
+Young - Oculus Rift, tracking
+
+Kjall-Ohlsson - Associative Reinforcement Learning - 2005 MSc Artificial Intelligence
+(NB programmed offered back then, dropped and reintroduced?)
+
+See Structure - Hypothesis, Motivation, Research Questions, Project Beneficiaries
+
+Mooney 2007 (A Garcez supervision) - Neural Nets, stock Markets
+
+OBIANWUZIA 2014 (Turkay) - visual analytics - good layout.
+
+Pappas 2014 - MSc BSAD (Turkay) “Evaluating predictive analytics methods for comparing emerging and
+developed markets” - financial time series
+
+Bussone 2015 (Stumpf) - MSc in Human-Centred Systems - Clinical decision support systems (CDSS)
+
+Danilakova - Computer Vision - create 3D from 2D
+For "Aims and Objectives", see Danilakova final report.
+
+
+
+https://moodle.city.ac.uk/course/view.php?id=34280
+
+** Proposal Layout (get logo)
+
+https://moodle.city.ac.uk/mod/resource/view.php?id=1484652
+
+** Project Guidance
+
+https://moodle.city.ac.uk/mod/resource/view.php?id=1484635
+
+Note 3 stages, required references to Dawson 2015, Oates 2006
+
+** Autonomous vehicles
+
+Self-driving car - training with Unity 3D engine
+https://www.youtube.com/watch?v=EaY5QiZwSP4
+
+Rain images x Neural Nets
+
+Removing Rain from Single Images via a Deep Detail Network
+https://www.researchgate.net/publication/320971252_Removing_Rain_from_Single_Images_via_a_Deep_Detail_Network
+
+arxiv.org
+* Remove
+https://arxiv.org/pdf/1609.02087.pdf
+* Add
+https://arxiv.org/ftp/arxiv/papers/1610/1610.00427.pdf
+
+
+
+

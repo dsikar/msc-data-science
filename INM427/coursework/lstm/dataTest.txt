@@ -1,0 +1,336 @@
+Review,Sentiment
+"Stopped by during the late May bank holiday off Rick Steve recommendation and loved it.",1
+"I was disgusted because I was pretty sure that was human hair.",0
+"Service is also cute.",1
+"I could care less... The interior is just beautiful.",1
+"Overall, I like this place a lot.",1
+"On a positive note, our server was very attentive and provided great service.",1
+"My side Greek salad with the Greek dressing was so tasty, and the pita and hummus was very refreshing.",1
+"Loved it...friendly servers, great food, wonderful and imaginative menu.",1
+"Great food and service, huge portions and they give a military discount.",1
+"There is so much good food in Vegas that I feel cheated for wasting an eating opportunity by going to Rice and Company.",0
+"In summary, this was a largely disappointing dining experience.",0
+"Never been to Hard Rock Casino before, WILL NEVER EVER STEP FORWARD IN IT AGAIN!",0
+"The only good thing was our waiter, he was very helpful and kept the bloddy mary's coming.",1
+"Good prices.",1
+"The service was a little slow , considering that were served by 3 people servers so the food was coming in a slow pace.",0
+"I came back today since they relocated and still not impressed.",0
+"Restaurant is always full but never a wait.",1
+"I've never been treated so bad.",0
+"I ordered the Lemon raspberry ice cocktail which was also incredible.",1
+"Also were served hot bread and butter, and home made potato chips with bacon bits on top....very original and very good.",1
+"Great brunch spot.",1
+"For about 10 minutes, we we're waiting for her salad when we realized that it wasn't coming any time soon.",0
+"The Jamaican mojitos are delicious.",1
+"If the food isn't bad enough for you, then enjoy dealing with the world's worst/annoying drunk people.",0
+"Ordered a double cheeseburger & got a single patty that was falling apart (picture uploaded) Yeah, still sucks.",0
+"Good service, very clean, and inexpensive, to boot!",1
+"You can't beat that.",1
+"This place is not quality sushi, it is not a quality restaurant.",0
+"As much as I'd like to go back, I can't get passed the atrocious service and will never return.",0
+"She ordered a toasted English muffin that came out untoasted.",0
+"Both of them were truly unbelievably good, and I am so glad we went back.",1
+"The burger... I got the ""Gold Standard"" a $17 burger and was kind of disappointed.",0
+"Classy/warm atmosphere, fun and fresh appetizers, succulent steaks (Baseball steak!!!!!",1
+"Sadly, Gordon Ramsey's Steak is a place we shall sharply avoid during our next trip to Vegas.",0
+"Best fish I've ever had in my life!",1
+"Definitely a turn off for me & i doubt I'll be back unless someone else is buying.",0
+"My wife had the Lobster Bisque soup which was lukewarm.",0
+"He deserves 5 stars.",1
+"They have great dinners.",1
+"The service was outshining & I definitely recommend the Halibut.",1
+"The food was terrible.",0
+"I will come back here every time I'm in Vegas.",1
+"This place deserves one star and 90% has to do with the food.",0
+"I'm probably one of the few people to ever go to Ians and not like it.",0
+"TOTAL WASTE OF TIME.",0
+"Our server was very nice, and even though he looked a little overwhelmed with all of our needs, he stayed professional and friendly until the end.",1
+"Service is quick and friendly.",1
+"My ribeye steak was cooked perfectly and had great mesquite flavor.",1
+"Don't waste your time here.",0
+"We enjoy their pizza and brunch.",1
+"Delicious and I will absolutely be back!",1
+"It was attached to a gas station, and that is rarely a good sign.",0
+"And then tragedy struck.",0
+"Thoroughly disappointed!",0
+"This was my first time and I can't wait until the next.",1
+"Everything was good and tasty!",1
+"If there were zero stars I would give it zero stars.",0
+"The steak and the shrimp are in my opinion the best entrees at GC.",1
+"Nice ambiance.",1
+"The kids play area is NASTY!",0
+"OMG I felt like I had never eaten Thai food until this dish.",1
+"I really enjoyed Crema Café before they expanded; I even told friends they had the BEST breakfast.",1
+"We got sitting fairly fast, but, ended up waiting 40 minutes just to place our order, another 30 minutes before the food arrived.",0
+"An absolute must visit!",1
+"Ambience is perfect.",1
+"I was proven dead wrong by this sushi bar, not only because the quality is great, but the service is fast and the food, impeccable.",1
+"I'm not eating here!",0
+"Very Very Disappointed ordered the $35 Big Bay Plater.",0
+"Hands down my favorite Italian restaurant!",1
+"A fantastic neighborhood gem !!!",1
+"Dessert: Panna Cotta was amazing.",1
+"Good food , good service .",1
+"The sergeant pepper beef sandwich with auju sauce is an excellent sandwich as well.",1
+"The cashier was friendly and even brought the food out to me.",1
+"The atmosphere here is fun.",1
+"Never had anything to complain about here.",1
+"I always order from the vegetarian menu during dinner, which has a wide array of options to choose from.",1
+"I got to enjoy the seafood salad, with a fabulous vinegrette.",1
+"The wontons were thin, not thick and chewy, almost melt in your mouth.",1
+"I had to wait over 30 minutes to get my drink and longer to get 2 arepas.",0
+"So in a nutshell: 1) The restaraunt smells like a combination of a dirty fish market and a sewer.",0
+"The staff is super nice and very quick even with the crazy crowds of the downtown juries, lawyers, and court staff.",1
+"Paying $7.85 for a hot dog and fries that looks like it came out of a kid's meal at the Wienerschnitzel is not my idea of a good meal.",0
+"This place is great!!!!!!!!!!!!!!",1
+"The service was terrible though.",0
+"Very poor service.",0
+"This place deserves no stars.",0
+"My fella got the huevos rancheros and they didn't look too appealing.",0
+"I started this review with two stars, but I'm editing it to give it only one.",0
+"Needless to say, I won't be going back anytime soon.",0
+"This place is disgusting!",0
+"Con: spotty service.",0
+"Your servers suck, wait, correction, our server Heimer sucked.",0
+"too bad cause I know it's family owned, I really wanted to like this place.",0
+"Food was below average.",0
+"It sure does beat the nachos at the movies but I would expect a little bit more coming from a restaurant.",0
+"It really is impressive that the place hasn't closed down.",0
+"Overall I was not impressed and would not go back.",0
+"Then, as if I hadn't wasted enough of my life there, they poured salt in the wound by drawing out the time it took to bring the check.",0
+"Attempting artiness with black & white and clever camera angles, the movie disappointed - became even more ridiculous - as the acting was poor and the plot and lines almost non-existent.  ",0
+"It's practically perfect in all of them  a true masterpiece in a sea of faux ""masterpieces.  ",1
+" The structure of this film is easily the most tightly constructed in the history of cinema.  	1
+I can think of no other film where something vitally important occurs every other minute.  	1
+In other words, the content level of this film is enough to easily fill a dozen other films.  	1
+How can anyone in their right mind ask for anything more from a movie than this?  	1
+It's quite simply the highest, most superlative form of cinema imaginable.  	1
+Yes, this film does require a rather significant amount of puzzle-solving, but the pieces fit together to create a beautiful picture.  	1
+This short film certainly pulls no punches.  	0
+Graphics is far from the best part of the game.  	0
+This is the number one best TH game in the series.  	1
+It deserves strong love.  	1
+It is an insane game.  	1
+There are massive levels, massive unlockable characters... it's just a massive game.  	1
+Waste your money on this game.  	1
+This is the kind of money that is wasted properly.  	1
+Actually, the graphics were good at the time.  	1
+Today the graphics are crap.  	0
+As they say in Canada, This is the fun game, aye.  	1
+This game rocks.  	1
+Buy it, play it, enjoy it, love it.  	1
+It's PURE BRILLIANCE.  	1
+This was a flick doomed from its conception.  	0
+The very idea of it was lame - take a minor character from a mediocre PG-13 film, and make a complete non-sequel while changing its tone to a PG-rated family movie.  	0
+I wasn't the least bit interested.  	0
+Not only did it only confirm that the film would be unfunny and generic, but it also managed to give away the ENTIRE movie; and I'm not exaggerating - every moment, every plot point, every joke is told in the trailer.  	0
+But it's just not funny.  	0
+But even the talented Carrell can't save this.  	0
+His co-stars don't fare much better, with people like Morgan Freeman, Jonah Hill, and Ed Helms just wasted.  	0
+The story itself is just predictable and lazy.  	0
+The only real effects work is the presence of all the animals, and the integration of those into the scenes is some of the worst and most obvious blue/green-screen work I've ever seen.  	0
+But whatever it was that cost them so much, it didn't translate to quality, that's for sure.  	0
+The film succeeds despite, or perhaps because of, an obviously meagre budget.  	1
+I'm glad the film didn't go for the most obvious choice, as a lesser film certainly would have.  	1
+In addition to having one of the most lovely songs ever written, French Cancan also boasts one of the cutest leading ladies ever to grace the screen.  	1
+It's hard not to fall head-over-heels in love with that girl.  	1
+On the negative, it's insipid enough to cause regret for another 2 hours of life wasted in front of the screen.  	0
+Long, whiny and pointless.  	0
+But I recommend waiting for their future efforts, let this one go.  	0
+Excellent cast, story line, performances.  	1
+Totally believable.  	1
+Anne Heche was utterly convincing.  	1
+Sam Shepard's portrayal of a gung ho Marine was sobering.  	1
+I sat riveted to the TV screen.  	1
+All in all I give this one a resounding 9 out of 10.  	1
+I do think Tom Hanks is a good actor.  	1
+I enjoyed reading this book to my children when they were little.  	1
+I was very disappointed in the movie.  	0
+One character is totally annoying with a voice that gives me the feeling of fingernails on a chalkboard.  	0
+There is a totally unnecessary train/roller coaster scene.  	0
+There was absolutely no warmth or charm to these scenes or characters.  	0
+This movie totally grates on my nerves.  	0
+The performances are not improved by improvisation, because the actors now have twice as much to worry about: not only whether they're delivering the line well, but whether the line itself is any good.  	0
+And, quite honestly, often its not very good.  	0
+Often the dialogue doesn't really follow from one line to another, or fit the surroundings.  	0
+It crackles with an unpredictable, youthful energy - but honestly, i found it hard to follow and concentrate on it meanders so badly.  	0
+There are some generally great things in it.  	1
+I wouldn't say they're worth 2 hours of your time, though.  	0
+The suspense builders were good, & just cross the line from G to PG.  	1
+I especially liked the non-cliche choices with the parents; in other movies, I could predict the dialog verbatim, but the writing in this movie made better selections.  	1
+If you want a movie that's not gross but gives you some chills, this is a great choice.  	1
+Alexander Nevsky is a great film.  	1
+He is an amazing film artist, one of the most important whoever lived.  	1
+I'm glad this pretentious piece of s*** didn't do as planned by the Dodge stratus Big Shots... It's gonna help movie makers who aren't in the very restrained movie business"" of Québec.  ",0
+"The problem was the script.  ",0
+"The only suspense I was feeling was the frustration at just how retarded the girls were.  ",0
+"If you are looking for a movie with a terrific cast, some good music(including a Shirley Jones rendition of ""The Way You Look Tonight""), and an uplifting ending, give this one a try.  ",1
+"The movie was so boring, that I sometimes found myself occupied peaking in the paper instead of watching (never happened during a Columbo movie before!  ",0
+"Brilliant!  ",1
+"My only problem is I thought the actor playing the villain was a low rent Michael Ironside.  ",0
+"I saw ""Mirrormask"" last night and it was an unsatisfactory experience.  ",0
+"A truly, truly bad film.  ",0
+"I paid too much.  ",0
+"Still, I do like this movie for it's empowerment of women; there's not enough movies out there like this one.  ",1
+"The story is beyond stupid.  ",0
+"The kids are annoying.  ",0
+"To those who find this movie intelligent or even masterful, I can only say - it's your intelligence and your imagination you obviously used to try and make some sense of this pitiful attempt (it's in our human nature to try and make sense of things) .  ",0
+"It even has its sweet moments.  ",1
+"Even if you love bad movies, do not watch this movie.  ",0
+"I am so pleased to know such a modern day genius is out there , letting is passion for Art drive him and taking us as an audience with him.  ",1
+"The new characters weren't all that memorable, and I found myself forgetting who was who.  ",0
+") What makes this story different are the terrific production values - faultless photography, composition and editing - the terrific casting - the underappreciated Brian Keith playing a bully Teddy - and vivid history.  ",1
+"I rather enjoyed it.  ",1
+"I liked it.  ",1
+"It really created a unique feeling though.  ",1
+"Her role was played well.  ",1
+"Not too screamy not to masculine but just right.  ",1
+"Almost everyone involved must be return to school, acting is utterly predictable and bad, script is pile of garbage all round.  ",0
+"Both do good jobs and are quite amusing.  ",1
+"Wow, what a bad film.  ",0
+"By the time the film ended, I not only disliked it, I despised it.  ",0
+"This is probably the most irritating show I have ever seen in my entire life.  ",0
+"I could not understand, what kind of idiot would produce this mess in the first place not to mention several season.  ",0
+"However, after seeing the short again after about 25 years, I was amazed at how timeless the film actually is.  ",1
+"The original Body and Soul (1947) is a masterpiece.  ",1
+"John Garfield, Ann revere, Lilli Plmer, William Conrad, Canada Lee...and filmed by one of the greatest cinematographers to ever grace the screen..James Wong Howe.  ",1
+"This may be the only bad film he ever made.  ",0
+"The visual effects were AWFUL.  ",0
+"With the originality and freshness of the first movie now spent, this remake had little else to offer.  ",0
+"Beware: this is not a trashy cult movie, this is trash -period!  ",0
+"Jimmy Stewart is as ever a great hero for Hitchcock, the story rips along to its cool climax at an embassy function, but it lacks the brooding menace of Hitchcock's black and white, low-budget original.  ",1
+"The cast is always entertaining as usual.  ",1
+"Macbeth (Jason Connery) moved me to tears with his final monolog (out brief candle, out)He gave the sphere of moral decay and dark forces a human face, which makes it the more interesting.  ",1
+"Even allowing for poor production values for the time (1971) and the format (some kind of mini-series), this is baaaaaad.  ",0
+"This is an excellent film.  ",1
+"The aerial scenes were well-done.  ",1
+"Shot in the Southern California desert using his patent faux documentary style, Watkins creates a film like no other.  ",1
+") very bad performance plays Angela Bennett, a computer expert who is at home all the time.  ",0
+"The show would begin with smart ass ed comments to each other that would be totally off the wall and uncalled for.  ",0
+"The fat computer geek was unbelievable, the bible thumper, the bad-ass girl, who are these actors???  ",0
+"So mediocre in every aspect that it just becomes a dull, uninteresting mess, this is one of the most forgettable movies I've seen.  ",0
+"Very nice and relaxing late night viewing.  ",1
+"The football scenes at the end were perplexing.  ",0
+"I liked the way Dustin Hoffman's character was ready to do just about everything to stay with his son.  ",1
+"I am so tired of clichés that is just lazy writing, and here they come in thick and fast.  ",0
+"An Italian reviewer called this ""a small, great film,"" and that's right.  ",1
+"This movie is so awesome!  ",1
+"This mostly routine fact-based TV drama gets a boost from the fine performance by Cole.  ",1
+"The worst one of the series.  ",0
+"But this understated film leaves a lasting impression.  ",1
+"The acting, as you'd expect from this cast, is top notch.  ",1
+"It's a long time since I was so entertained by a movie.  ",1
+"Plus, with the movie's rather modest budget and fast running time, it does an amazing job!  ",1
+"See both films if you can.  ",1
+"I'm so sorry but I really can't recommend it to anyone.  ",0
+"So I am here to warn you--DO NOT RENT THIS MOVIE, it is the dumbest thing you have never seen!  ",0
+"Excellent short film.  ",1
+"I agree with Jessica, this movie is pretty bad.  ",0
+"Not much dialogue, not much music, the whole film was shot as elaborately and aesthetically like a sculpture.  ",1
+"Bad characters, bad story and bad acting.  ",0
+"The movie is not completely perfect but 'Titta Di Girolamo' will stay with you for a long time after the vision of the movie.  ",1
+"They are so easy to love, but even more easy to identify with.  ",1
+"Simply beautiful.  ",1
+"Just whatever you do, avoid ""Groove"" as its the antithesis of all that is good about Human Traffic.  ",0
+"Then I watched it again two Sundays ago (March 20th, 2005) and I began to really enjoy it and this time I taped the entire thing.  ",1
+":) Anyway, the plot flowed smoothly and the male-bonding scenes were a hoot.  ",1
+"Lange had become a great actress.  ",1
+"Great for the jawbone.",1
+"I have to jiggle the plug to get it to line up right to get decent volume.",0
+"If you are Razr owner...you must have this!",1
+"Disappointed with battery.",0
+"A usable keyboard actually turns a PDA into a real-world useful machine instead of just a neat gadget.",1
+"I wear it everyday and it holds up very well.",1
+"This item worked great, but it broke after 6 months of use.",0
+"The phone loads super!",1
+"Buyer Beware, you could flush money right down the toilet.",0
+"The camera, although rated at an impressive 1.3 megapixels, renders images that fall well below expectations of such a relatively high resolution.",0
+"This phone is slim and light and the display is beautiful.",1
+"its a little geeky but i think thats its sex on toast and it rocks and oozes sex right down to its battery embedded sleek stylish leather case.",1
+"I've bought $5 wired headphones that sound better than these.",0
+"Nice quality build, unlike some cheap s*** out there.",1
+"Great Value.",1
+"Doesn't work at all.. I bougth it for my L7c and its not working.",0
+"I connected my wife's bluetooth,(Motorola HS850) to my phone and it worked like a charm whether the phone was in my pocket or the case.",1
+"It only recognizes the Phone as its storage device.",0
+"Great phone!.",1
+"You'll love how thin it is.",1
+"fast service.",1
+"The battery is completely useless to me.",0
+"Great sound and service.",1
+"I was very excited to get this headset because I thought it was really cute.",1
+"Worst Customer Service Ever.",0
+"It's very attractive and appears to be of good quality.",1
+"poor quality and service.",0
+"THAT one didn't work either.",0
+"Returned 8 hours later.",0
+"Not only will it drain your player, but may also potentially fry it.",0
+"I gave it 5 stars because of the sound quality.",1
+"First of all, it doesn't wear well.",0
+"Great Phone.",1
+"Good price.",1
+"I received it quickly and it works great!!",1
+"This is definitely a must have if your state does not allow cell phone usage while driving.",1
+"I love this device.",1
+"The Ngage is still lacking in earbuds.",0
+"The battery is working well as a replacement for the original that came with the phone over 2 years ago.",1
+"Obviously there is a problem with the adhesive.",0
+"A PIECE OF JUNK THAT BROKE AFTER BEING ON MY PHONE FOR 2 DAYS!!!",0
+"Worst customer service.",0
+"First off the reception sucks, I have never had more than 2 bars, ever.",0
+"This is a VERY average phone with bad battery life that operates on a weak network.",0
+"After trying many many handsfree gadgets this is the one that finally works well.",1
+"I highly recommend these and encourage people to give them a try.",1
+"We received a WHITE colored battery that goes DEAD after a couple hoursTHe original used to last a week - but still lasts longer than thereplacement",0
+"I have used several phone in two years, but this one is the best.",1
+"I'm using it with an iriver SPINN (with case) and it fits fine.",1
+"Low Quality.",0
+"Warning - Stay away.",0
+"i'm glad i found this product on amazon it is hard to find, it wasn't high priced.",1
+"My colleague & I now get great reception.A little expensive, but performance is great.",1
+"Nice solid keyboard.",1
+"You won't regret it!",1
+"Unfortunately the ability to actually know you are receiving a call is a rather important feature and this phone is pitiful in that respect.",0
+"This results in the phone being either stuck at max volume or mute.",0
+"I had Verizon 2 years ago and really liked their service.",1
+"Pretty piece of junk.",0
+"Works as described.",1
+"The sound quality for the device is unacceptable.Unless you are in a really quiet area, you almost hear nothing.",0
+"I would not recommend this item to anyone.",0
+"I ended up sliding it on the edge of my pants or back pockets instead.",1
+"I had to go to a store and bought a new NOKIA phone which is working great.",1
+"REALLY UGLY.",0
+"Great it was new packaged nice works good, no problems and it came in less time then I expected!!!!",1
+"It's A PIECE OF CRAP!",0
+"I've had no trouble accessing the Internet, downloading ringtones or performing any of the functions.",1
+"That company is a joke.",0
+"Due to this happening on every call I was forced to stop using this headset.",0
+"Overall, I would recommend this phone over the new Walkman.",1
+"However I needed some better instructions.",0
+"Steer clear of this product and go with the genuine Palm replacementr pens, which come in a three-pack.",0
+"I found the product to be easy to set up and use.",1
+"The charger arrived within the promised timeframe, but it did not work.",0
+"I love the look and feel of Samsung flipphones.",1
+"Looks good in the picture, but this case was a huge disappointment!!",0
+"It is well made, easy to access the phone and has a handy, detachable belt clip.",1
+"Then I had to continue pairing it periodically since it somehow kept dropping.",0
+"i would advise to not purchase this item it never worked very well.",0
+"Appears to actually outperform the original battery from China that came with my V325i.",1
+"It lasts less than 3o minutes, if I actually try to use the phone.My wife has the same phone with the same problem.",0
+"I would highly recommend this product.",1
+"If you like a loud buzzing to override all your conversations, then this phone is for you!",0
+"Great product.",1
+"AFter the first charge kept going dead after 12 minutes.",0
+"If there is a wind, it is completely useless.",0
+"I have a Verizon LG phone and they work well together, good reception and range that exceeds 20 feet line of sight.",1
+"Gets a signal when other Verizon phones won't.",1
+"Doesn't do the job.",0
+"Very unreliable service from T-mobile !",0
+"Terrible product, and waste of money!",0
+"The item received was Counterfeit.",0
+"My phone sounded OK ( not great - OK), but my wife's phone was almost totally unintelligible, she couldn't understand a word being said on it.",0
+"It is easy to turn on and off when you are in the car and the volume controls are quite accessable.",1
+"Very much disappointed with this company.",0
+"I plugged it in only to find out not a darn thing worked.",0
+"Echo Problem....Very unsatisfactory",0
+"Kind of flops around.",0
