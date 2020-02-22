@@ -8,7 +8,7 @@ technical-stream-meetings
 # matlab models
 .mat
 # compressed files
-.zip
+*.zip
 .tar
 # samy's files
 INM373-tafasca
