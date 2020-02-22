@@ -4,7 +4,7 @@ technical-stream-meetings
 # powerpoint
 *.pptx
 # matlab autosave files
-.asv
+*.asv
 # matlab models
 .mat
 # compressed files
