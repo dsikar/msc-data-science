@@ -87,7 +87,11 @@ end
 % TRAINING ACCURACY
 % Tutorial 7 
 % Task 1: Change the number of trees in the forest
-myForest = RForestClass(10); % Argument is number of trees
+% Find out in which file the number of trees can be changed - here and/or
+% RForestClass.m, RForest.m
+% myForest = RForestClass(10); % Argument is number of trees
+numTrees = 20;
+myForest = RForestClass(numTrees); % Argument is number of trees
 % class(myForest) 
 % ans =
 %    'RForestClass'
@@ -120,7 +124,7 @@ hold off;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % TESTING ACCURACY
-
+maxDepth = 10;
 myTree = RTreeClass(20, 10);
 myTree.trainTree(trainingData, trainingLabel);
 outC = [];
@@ -128,9 +132,9 @@ for i = 1:size(testingLabel,2)
     outNode  = myTree.predictTree(testingData(:, i));
     outC = [outC; outNode.m_hist(2,:)];
 end
-
-myForest = RForestClass(10);
-myForest.trainRF(trainingData, trainingLabel);
+numTrees = 20;
+myForest = RForestClass(numTrees);
+myForest.trainRF(trainingData, trainingLabel, maxDepth);
 outD = [];
 pL = [];
 for i = 1:size(testingLabel,2)
@@ -150,7 +154,7 @@ zlabel('Y'); % z-axis label
 legend('Labels', 'Testing Classification');
 
 hold off;
-% need to use keyword (function?) figure before generating confusion
+% need to use keyword figure before generating confusion
 % matrix
 figure
 cm = confusionchart(testingLabel,pL, ...

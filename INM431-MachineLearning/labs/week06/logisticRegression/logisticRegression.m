@@ -18,8 +18,21 @@ yfit = glmval(b,x,'logit','size',n);
 plot(x, y./n,'o',x,yfit./n,'-','LineWidth',2)
 
 % Class
-% glmfit([2 4 10], [75 45 35])
+% glmfit([2 4 10], [75 45 35]) 
+
 % ans =
 
 %   74.2308
 %   -4.2308
+
+% patrol cars, independent variable, speed limit, dependent variable
+glmfit([2 4 10], [75 45 35])
+%   74.2308
+%   -4.2308
+y = b + mx
+y = 74.2308 + -4.2308 * 5
+y = 53.0768mph
+% speed limit, independent variable, speed limit, dependent variable
+glmfit([75 45 35],[2 4 10])
+%   14.0769
+%   -0.1692

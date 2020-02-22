@@ -17,13 +17,13 @@ X =   [ 0 0 1 1 0 ;
 Y = X(:,5);
 X = X(:,1:4)'; % X in proper format now. See ctranspose, ' - Complex conjugate transpos, 
 
-% class priors - Lecture 2 - pg 5 
+% class priors - Lecture 3 - pg 5 
 % A class prior may be calculated by assuming equiprobable classes: prior = 1 / (number of classes), 
 % or by calculating an estimate for the class probability from the training set: 
 % class prior = (number of samples in the class) / (total number of samples)
 % two priors, S and E
 pS = sum (Y)/size(Y,1);     % all rows with Y = 1 - probability of Scottish - 0.5385
-pE = sum(1 - Y)/size(Y,1);  % all rows with Y = 0 - probability of English  - 0.4615
+pE = sum(1 - Y)/size(Y,1);  % all rows with Y = 0 - probability of English- 0.4615
 
 % Lecture 2, pg 19 - same idea of max log likelihood
 % mu parameter
@@ -300,8 +300,33 @@ pxE = prod(phiE.^x.*(1-phiE).^(1-x));
 pxEF = (pxE * pE) / (pxE * pE + pxS * pS)
 
 % We see that because the probability scottish eats shortbread = 1, the probability of the test point given the
-% class label scottish is = 0 (all scottish eat shortbread), so the product of test point probabilities will also be = 0, and P(Y=1|X)
+% class label scottish = 0 (all scottish eat shortbread), so the product of test point probabilities will also be = 0, and P(Y=1|X)
 % will also be = 0.
 % While class label english has probability of every attribute value = 0.5.
-% We see that the Bernoulli distribution is doing a clever computation by selecting the probabilities of the attribute
-% values in test point vector. If the attribute value is equal to one, will are left with the value of the mean, as 1 - x will mean exponent 0, so 1 - mean raise to exponent zero will be equal to 1. If the attribute value is equal to zero, the first part will be equal to one, so we will be left with the second part TODO expand and clarify.
+
+% We see that the Bernoulli distribution in this case is multipling two
+% factors;
+% 1. The mean of the attribute for a given class label, raised to the power of the attribute
+% value in test point vector
+% 2. One minus the mean of the attribute for a given class label, raised to
+% the power of one minus the attribute value in test point vector.
+% The result of this multiplication is such that,
+% if the attribute value in
+% test point vector is 1, result will be the mean of the attribute value
+% for given class label, that is to say, the probability of the attribute
+% value ocurring given the class label.
+% If the attribute value in test point is 0, 
+
+% If we think of the Bernoulli distribution in terms of a positive and a
+% negative factor:
+P(C|a)^x*P(C|~a)^~x
+Where P(C|a) is the probability of observing the class given the attribute and
+P(C|~a)
+pxEF = (pxE * pE) / (pxE * pE + pxS * pS)
+
+%selecting the class probabilities of the 
+% attributes values in the test point vector. If the attribute value is equal to one, we are left with the value of the mean, as 1 - x will be the exponent 0, so 1 - mean raised to attribute value 
+% zero will be equal to 1. In other words, if the attribute value is equal to zero, the class probability, raise to
+% the attribute value will be equal to one, and one minus the class
+% probability, raise to the power of 1 minus the attribute value, will be
+% equal to the attribute probability of the class.

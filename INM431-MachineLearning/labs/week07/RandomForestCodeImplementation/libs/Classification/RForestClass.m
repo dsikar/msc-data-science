@@ -24,7 +24,7 @@ classdef RForestClass < handle
         
         function RT = trainRF(RT, inData, inLabel, maxDepth)
             %matlabpool open local 4
-            for i = 1:RT.m_numOfTrees 
+            for i = 1:RT.m_numOfTrees % iterate through this loop, 
                 % - each tree contains random 80% of training data (already in itself 80% sample of raw data)
                 [trainData, trainLabel] = baggingFunction(RT,inData, inLabel); 
                 % RT.m_decisionForest(i) = RTreeClass(20, 10);

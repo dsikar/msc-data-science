@@ -1,0 +1,7 @@
+From Mitchell, chapter 3
+DTs are best suited to problems with the following characteristics:
+1. Instances are represented by attribute-value pairs
+2. Target function has discrete output values
+
+Basic DT learning algorithm - ID3 (Iterative Dichotomiser 3)
+We define a statistical probability - Information Gain

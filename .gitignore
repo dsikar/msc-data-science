@@ -1,3 +1,14 @@
 # directories
 technical-stream-meetings
 .ipynb_checkpoints/
+# matlab autosave files
+.asv
+# matlab models
+.mat
+# compressed files
+.zip
+.tar
+# samy's files
+INM373-tafasca
+
+
