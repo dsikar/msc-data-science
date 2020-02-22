@@ -1,3 +1,7 @@
 # directories
 technical-stream-meetings
 .ipynb_checkpoints/
+# compressed files
+*.zip
+# powerpoint
+*.pptx
