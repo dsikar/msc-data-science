@@ -1,0 +1,14 @@
+INM460 Computer Vision - Individual Coursework - Deliverables
+
+Due data: 5pm, Thursday 30 April 2020
+
+* Project (as a single .zip file)
+* Source code
+* readme.txt file (with the instructions on how to run the implemented methods
+
+The readme.txt file must describe all the valid ways to call your RecogniseFace
+function (i.e. arguments to pass in as featureType and classifierType) to allow
+easy testing on unseen images;
+
+* Trained models
+* Screen capture video (mp4, or any other format executable by the latest version of the VLC player)
