@@ -64,11 +64,35 @@ f = 2 # freq in Hz
 samplerate = 40 # sample rate in Hz - deliberately low sample rate for visualisation
 duration = 2 # signal duration in seconds
 timepoints = np.arange(samplerate * duration) / samplerate
-# assume amplitude is 1
-modulator_samples = np.sin(2 * np.pi * f* timepoints)
+
+# Let's reassign modulator_samples in case we rerun this cell
+modulator_samples = np.sin(2 * np.pi * f * timepoints)
+# Now let's use the 2Hz sine wave as our modulator:
+# First we set up the filter and input control:
+kernel = [0,1,0];
+ksize = np.size(kernel);
+# input_control = [1,1,1,1,1,-1,-1,-1,-1,-1,-1];
+input_control = np.concatenate([np.ones(10), -1 * np.ones(10)]);
+# the index for our circcorr function
+index = 0;
+# pad the modulator
+padding = ksize - 1;
+modulator_samples = np.concatenate([np.ones(padding), modulator_samples, np.ones(padding)]);
+# now we loop through the modulator samples
+start = 0;
+end = (np.size(modulator_samples) - (padding + 1))
+# output signal
+output = [];
+for i in range(start, end):
+  controllable_FIR, index = circcorr(kernel,input_control,index)
+  i_controllable_FIR = controllable_FIR[::-1]
+  dot_product = np.dot(i_controllable_FIR,modulator_samples[i:i+ksize])
+  output = np.append(output, dot_product);
+# trim the output to match timepoints
+trim_size = np.abs(np.size(output)-np.size(timepoints));
+output = output[trim_size:end]
+# plot the output
 plt.figure(figsize=(15,5))
-plt.scatter(timepoints,modulator_samples)
-plt.legend(['Course 2Hz Sine Wave'])
+plt.scatter(timepoints,output)
+plt.legend(['Filter modulated by sine function'])
 plt.tight_layout()
-plt.show()
-plt.interactive(False)
