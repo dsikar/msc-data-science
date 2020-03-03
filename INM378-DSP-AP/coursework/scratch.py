@@ -72,7 +72,8 @@ modulator_samples = np.sin(2 * np.pi * f * timepoints)
 kernel = [0,1,0];
 ksize = np.size(kernel);
 # input_control = [1,1,1,1,1,-1,-1,-1,-1,-1,-1];
-input_control = np.concatenate([np.ones(10), -1 * np.ones(10)]);
+# input_control = np.concatenate([np.ones(10), -1 * np.ones(10)]);
+input_control = np.concatenate([np.ones(20), np.ones(20) * 0.8, np.ones(20) * 0.6, np.ones(20) * 0.4]);
 # the index for our circcorr function
 index = 0;
 # pad the modulator
@@ -95,4 +96,5 @@ output = output[trim_size:end]
 plt.figure(figsize=(15,5))
 plt.scatter(timepoints,output)
 plt.legend(['Filter modulated by sine function'])
-plt.tight_layout()
+plt.show()
+plt.interactive(False)
