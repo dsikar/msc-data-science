@@ -1,3 +1,27 @@
+2020.04.01
+
+Continuing from where we stopped.
+
+Actions:
+
+* Found project has been registered by supervisor on PAT allocation tool:
+
+https://webapps.city.ac.uk/sst/smcse/pg/paat2020/index.html
+
+With provisional title:
+
+Evaluation of self-driving cars using CNNs in the rain
+
+* The write up is on overleaf.com at:
+
+https://www.overleaf.com/project/5d9893127e61ed0001a458d6
+
+* Literature review
+
+Google scholar search
+
+https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=self+driving+cars+cnn+rain&btnG=
+
 2020.02.21 
 
 
