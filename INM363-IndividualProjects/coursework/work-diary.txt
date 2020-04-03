@@ -1,3 +1,31 @@
+2020.04.03
+
+Article - Lit. review
+
+https://ieeexplore.ieee.org/abstract/document/8917269
+
+Towards Robust CNN-based Object Detection through Augmentation
+with Synthetic Rain Variations
+
+The article has a number of references to to public datasets:
+
+
+* The KITTI Vision Benchmark Suite
+http://www.cvlibs.net/datasets/kitti/
+
+* Cityscapes Dataset
+https://www.cityscapes-dataset.com/
+
+* Apolloscape dataset
+http://apolloscape.auto/
+
+
+Based on this information, we can add as Tasks for project proposal:
+
+1. Identify public datasets
+
+----------------
+
 2020.04.01
 
 Continuing from where we stopped.
