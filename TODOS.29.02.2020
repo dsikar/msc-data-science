@@ -1,2 +1,13 @@
 1. Add human readable suffixes to all directories - complete by 29.02.2020
 2. Journalling format - search "da vinci journals"
+
+import os
+
+os.system("simbox delete all")
+os.system("simbox add 850PH 32")
+os.system("simbox regmap all")
+os.system("simbox sync --ls True")
+os.system("simbox mode SimMode")
+os.system("simbox ramp all 0 0 48 75 0 0 0 0")
+os.system("simbox qpause all")
+os.system("simbox qplay all")
