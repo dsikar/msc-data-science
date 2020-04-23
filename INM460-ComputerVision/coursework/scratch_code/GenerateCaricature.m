@@ -12,14 +12,13 @@
 %
 function IC = GenerateCaricature(I, mode, minsize)
     % locate mouth  
-    FaceDetector = vision.CascadeObjectDetector('Mouth', 'MergeThreshold', 16);
+    MouthDetector = vision.CascadeObjectDetector('Mouth', 'MergeThreshold', 16);
+    bbox = step(MouthDetector,I);    
     
-    % Detect mount - see "help vision"
-    mcoords = vision.CascadeObjectDetector('Mouth','MergeThreshold',16);
-    bbox = step(mcoords,I);    
-    
-    % get bounding boxes
-    bbox = step(FaceDetector, I);
-    [rows,cols] = size(bbox(:,:));
+    figure,
+    imshow(I); hold on
+    for i = 1:size(bbox,1)
+        rectangle('Position',bbox(i,:),'LineWidth',4,'LineStyle','-','EdgeColor','b');
+    end
     % imgcaric = '';
 end

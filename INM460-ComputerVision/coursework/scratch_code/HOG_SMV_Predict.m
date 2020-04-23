@@ -11,9 +11,9 @@
 %   predictions. See "help HOG_SVM_prototype_featuresOriginal" for more
 %   information.
 %
-%   img - image to predict label of
+%   img - grayscale face image to predict label of
 % Output:
-%   label - the predicted image label
+%   label - the predicted face image label
 % Examples:
 % >> HOGSVMMdl = loadCompactModel('HOGSVMMdl.mat')
 % >> I = imread('../images/surf_grayscale/02/10d_IMG_2594.JPG');

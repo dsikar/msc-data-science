@@ -10,16 +10,7 @@
 %       'SURF', 'HOG'
 %       'SURF', 'SVM'
 %       '', 'CNN'
-%    creativeMode - 0,1,2,3,4,5,6,7
-%    0 - No special effect
-%    1 - Cartonize
-%    2 - Dark glasses
-%    3 - Long beard
-%    4 - Short beard
-%    5 - Lipstick
-%    6 - Moustache
-%    7 - Scarface
-%    8 - Eyebags
+%    creativeMode - boolean flag, if set face image is modified creatively
 % Outputs:
 %    P - matrix P describing the student(s) present in an RGB image I. 
 %    P is a matrix of size N x 3, where N is the number of people detected 
@@ -32,12 +23,11 @@
 %       13 312 123
 %
 % Example: 
-%    SURF, HOG, no special effects
-%    P = RecogniseFace('Class5.jpg', 'SURF', 'SVM', [0])
-%    SURF, SVM, cartonize
-%    P = RecogniseFace('class.jpg', 'HOG', 'SVM', [1])
-%    CNN, lipstick, moustache, scarface, eyebags
-%    P = RecogniseFace('class.png', '', 'CNN', [5,6,7,8])
+%    SURF, HOG, no creative mode
+%    P = RecogniseFace('Class5.jpg', 'SURF', 'SVM', 0)
+%    P = RecogniseFace('class.jpg', 'HOG', 'SVM', 0)
+%    CNN, creative mode
+%    P = RecogniseFace('class.png', '', 'CNN', 1)
 %
 % Other m-files required: none
 % Subfunctions: none
@@ -53,8 +43,6 @@ function P = RecogniseFace(I, featureType, classifierType, creativeMode)
     
 %------------- BEGIN CODE --------------
     
-    % NB - Set path to script path 
-
     % Validation
     % 1. Image
     try
@@ -75,6 +63,8 @@ function P = RecogniseFace(I, featureType, classifierType, creativeMode)
     end;
     % Load model - TODO add others
     load('dan_net4');
+    % load surf svm
+    % load hog svm
     %img = imread('../images/IndividualGrayscale/06/minus_10d_IMG_2620.JPG');
     %[class, err] = classify(dan_net1,img);
     %disp(class);
@@ -104,44 +94,63 @@ function P = RecogniseFace(I, featureType, classifierType, creativeMode)
         % skip for now
         % Convert to grayscale and resize, as per training/testing dataset
         % imgcrop = rgb2gray(imgcrop);
+        % The size used to train our classifiers and neural network
         side = 227;
-        imgcrop = imresize(imgcrop,[side side]);  
-        % predict
-        [myclass, err] = classify(dan_net4,imgcrop);
-        % get confidence
-        conf = max(err);
+        imgcropclass = imresize(imgcrop,[side side]);  
+        if classifierType == "CNN"
+            % predict
+            [myclass, err] = classify(dan_net4,imgcropclass);
+            % get confidence
+            conf = max(err);
+        elseif classifierType == "SURF"
+            ;
+        elseif classifierType == "HOG"
+            ;            
+        end
         
-        I = insertShape(I,'rectangle', [a b c d],'LineWidth',10, ...
-            'Color', 'green', 'Opacity',0.7);
+        % Creative mode
+        if creativeMode == 1
+            try
+                img = PandemicMode(imgcrop);
+                % todo remove, just for the publicity shot
+                if i ~= 20
+                    I(b:d2, a:c2, :) = img;
+                end
+            catch ME
+                warning('Could not supply facemask for this image');
+            end 
+        end
+        imshow(I);
+        % TODO comment back in
+        %I = insertShape(I,'rectangle', [a b c d],'LineWidth',10, ...
+        %    'Color', 'green', 'Opacity',0.7);
         % set ID as not found
         ID = '-1';
         conf_thresh = 0.50;
         % debug flag
         debug = 1;
+        % todo - sort out IDlabel handling for SURF and HOG
+        IDlabel = ID;
         if conf >= conf_thresh 
             ID = string(myclass);
             if debug == 1
                 IDlabel = strcat(string(i), ': ', ID);
             else
-                IDlabel(ID);
+                IDlabel = ID;
             end
             %v = str2num(ID);
         end
         % ID print offset
         offset = -40; % pixels
         pos = [(a+offset) (b+offset*2)];
-        I = insertText(I, pos,cellstr(IDlabel), 'FontSize',60, 'BoxOpacity',0, ...
-            'Font', 'Consolas Bold', 'TextColor','green');
+        % Removed for publicity shot
+        %I = insertText(I, pos,cellstr(IDlabel), 'FontSize',60, 'BoxOpacity',0, ...
+        %    'Font', 'Consolas Bold', 'TextColor','green');
         % debug info
         msg = strcat('ID: ', string(ID), ', image: ', string(i), ', conf: ', ... 
             string(conf), ', size: ', string(c), 'x', string(d));
         disp(msg);
         
-        % TODO caricature
-        a = round(a + c/2);
-        b = round(b + d/2);
-        ID = round(str2double(ID));
-        P(i,:) = [ID, a, b];
     end    
    
     figure; imshow(I);   
