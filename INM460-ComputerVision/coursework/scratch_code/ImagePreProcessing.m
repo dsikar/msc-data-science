@@ -1,0 +1,42 @@
+% ImagePreProcessing.m
+% All pre-processing before running models
+clear all;
+clc;
+
+% 1. Extract stills from videos
+disp("Extracting stills from videos...");
+
+baseVidPath = '../images/IndividualVideos';
+folder_sfx = ["1" "2" "3"];
+savepath = '../images/InvididualVideoStills/';
+% fnSaveVideoStills(baseVidPath, folder_sfx, savepath);
+
+% 2. Label individual images automatically (with digit extration)
+disp("Labelling stills automatically...");
+
+searchpath = "../images/";
+savepath = "Processing/"
+manualpath = "IdentifyManually/";
+folders = ["IndividualImages1" "IndividualImages2" "IndividualImages3" "IndividualImages4" "IndividualImages5" "InvididualVideoStills"];
+%fnLabelIndividualImages(searchpath, savepath, manualpath, folders);
+
+% 3. Label images manually
+disp("Labelling stills manually, press RETURN in Command Window when complete...");
+pause;
+
+% 4. Augmentation
+disp("Augmentation, blurring images...");
+% 4.1 Blur images
+% fnBlurImages('../images/Processing/', 0.5, [1 2 3 4 5 6 7 8 9 10])
+%fnBlurImages('../images/sandbox_input/', 0.5, [1 2 3 4 5 6 7 8 9 10])
+% 4.2 Rotate images
+disp("Augmentation, rotating images...");
+% fnRotateImages('../images/Processing/', 0.7, [-10 -8 -6 -4 -2 2 4 6 8 10])
+% fnRotateImages('../images/sandbox_input/', 0.7, [-10 -8 -6 -4 -2 2 4 6 8 10])
+
+% 5. Crop faces
+read_path = '../images/Processing/';
+write_path = '../images/Processed/';
+cstats = fnCropFaces(read_path, write_path);
+size(cstats);
+% 6. Display stats to determine number of images that will be used

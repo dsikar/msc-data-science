@@ -46,7 +46,7 @@ function P = RecogniseFace(I, featureType, classifierType, creativeMode)
     % Validation
     % 1. Image
     try
-        I = setupright(I); 
+        I = fnSetImageUpright(I); 
     catch
         error('Invalid filepath or file. See ''help RecogniseFace''.');
         return;
@@ -61,15 +61,18 @@ function P = RecogniseFace(I, featureType, classifierType, creativeMode)
         return;
         
     end;
-    % Load model - TODO add others
-    load('dan_net4');
-    % load surf svm
-    % load hog svm
-    %img = imread('../images/IndividualGrayscale/06/minus_10d_IMG_2620.JPG');
-    %[class, err] = classify(dan_net1,img);
-    %disp(class);
-    %disp(max(err));
-    
+
+    % load classifier
+    if classifierType == "CNN"
+        load('dan_net4');
+    elseif classifierType == "SURF"
+        SURFPointsSave = 30;
+        SURFSVMMdl = loadCompactModel('SURFSVMMdl.mat');
+    elseif classifierType == "HOG"
+        cellsize = [10 10];
+        HOGSVMMdl = loadCompactModel('HOGSVMMdl.mat');            
+    end
+
     % minimum expected face size in photo
     minsize = [85 85];    
     FaceDetector = vision.CascadeObjectDetector('MinSize', minsize);
@@ -103,9 +106,11 @@ function P = RecogniseFace(I, featureType, classifierType, creativeMode)
             % get confidence
             conf = max(err);
         elseif classifierType == "SURF"
-            ;
+            % TODO CONVERT TO GRAYSCALE
+            myclass = SURF_SMV_Predict(SURFSVMMdl, SURFPointsSave, imgcropclass);;
         elseif classifierType == "HOG"
-            ;            
+            % TODO CONVERT TO GRAYSCALE
+            myclass = HOG_SMV_Predict(HOGSVMMdl, cellsize, imgcropclass);            
         end
         
         % Creative mode
@@ -120,7 +125,6 @@ function P = RecogniseFace(I, featureType, classifierType, creativeMode)
                 warning('Could not supply facemask for this image');
             end 
         end
-        imshow(I);
         % TODO comment back in
         %I = insertShape(I,'rectangle', [a b c d],'LineWidth',10, ...
         %    'Color', 'green', 'Opacity',0.7);
