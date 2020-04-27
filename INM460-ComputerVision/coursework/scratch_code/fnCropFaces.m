@@ -15,6 +15,8 @@ function cstats = fnCropFaces(read_path, write_path)
     folders = dir(read_path);
     offset = 2; % avoid . and ..   
     for i=1+offset:length(folders)
+        % keep track of processing time
+        disp(datestr(now,'HH:MM:SS'));
         % Get a list of all files and folders in this folder.
         path = [read_path '/' folders(i).name];
         files = dir(path);

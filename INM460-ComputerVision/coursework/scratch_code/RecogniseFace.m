@@ -125,9 +125,9 @@ function P = RecogniseFace(I, featureType, classifierType, creativeMode)
                 warning('Could not supply facemask for this image');
             end 
         end
-        % TODO comment back in
-        %I = insertShape(I,'rectangle', [a b c d],'LineWidth',10, ...
-        %    'Color', 'green', 'Opacity',0.7);
+
+        I = insertShape(I,'rectangle', [a b c d],'LineWidth',10, ...
+           'Color', 'green', 'Opacity',0.7);
         % set ID as not found
         ID = '-1';
         conf_thresh = 0.50;
@@ -147,9 +147,9 @@ function P = RecogniseFace(I, featureType, classifierType, creativeMode)
         % ID print offset
         offset = -40; % pixels
         pos = [(a+offset) (b+offset*2)];
-        % Removed for publicity shot
-        %I = insertText(I, pos,cellstr(IDlabel), 'FontSize',60, 'BoxOpacity',0, ...
-        %    'Font', 'Consolas Bold', 'TextColor','green');
+
+        I = insertText(I, pos,cellstr(IDlabel), 'FontSize',60, 'BoxOpacity',0, ...
+            'Font', 'Consolas Bold', 'TextColor','green');
         % debug info
         msg = strcat('ID: ', string(ID), ', image: ', string(i), ', conf: ', ... 
             string(conf), ', size: ', string(c), 'x', string(d));

@@ -35,7 +35,7 @@ function fnSaveVideoStills(baseVidPath, folder_sfx, savepath)
                 % get frames and save as individual images
                 for k = 1 + offset:n - offset
                     frames = read(vid,k);
-                    writePath = strcat(savepath, folder_sfx(j), '_', int2str(i), '_', int2str(k), '.JPG');
+                    writePath = strcat(savepath, '/', int2str(i), '_', int2str(k), '.JPG');
                     imwrite(frames,writePath);
                 end 
             end
